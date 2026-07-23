@@ -179,3 +179,16 @@ def test_hypotheses_deterministic_rebuild():
     B.build_all()
     after = _hashes()
     assert before == after, "재실행 시 산출 JSON 바이트 불일치(결정성 위반)"
+
+
+def test_geojson_district_match():
+    # AC-5': 서울 GeoJSON 25개 구 ↔ 데이터 시군구 100% 매칭 (소스 교체·표기 변경 회귀 방지)
+    geo_path = os.path.join(os.path.dirname(__file__), "..", "web", "public", "geo", "seoul.json")
+    with open(geo_path, encoding="utf-8") as f:
+        geo = json.load(f)
+    features = geo["features"]
+    assert len(features) == 25
+    geo_names = {ft["properties"]["name"] for ft in features}
+    assert geo_names == set(B.DISTRICTS)
+    ds = load("district")
+    assert geo_names == {row["district"] for row in ds["by_district"]}
