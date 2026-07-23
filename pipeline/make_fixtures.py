@@ -118,21 +118,26 @@ def exposure():
                 "rain_ratio": round(rain_rate / clear_rate, 3),
                 "snow_ratio": (round(snow_rate / clear_rate, 3) if snow_rate else None),
             })
-    pooled = {"rain_rate": 5.2341, "snow_rate": 3.1122, "clear_rate": 3.9012,
-              "rain_ratio": 1.342, "snow_ratio": 0.798,
-              "rain_acc_total": 16762, "snow_acc_total": 1306, "clear_acc_total": 205155,
-              "rain_days_total": 2400, "snow_days_total": 300, "clear_days_total": 4530}
+    pooled = {"rain_rate": 7.9141, "snow_rate": 2.6708, "clear_rate": 47.3626,
+              "rain_ratio": 0.167, "snow_ratio": 0.056, "rain_repr": 0.246, "snow_repr": 0.083,
+              "rain_acc_total": 16762, "snow_acc_total": 1306, "clear_acc_total": 205222,
+              "rain_days_total": 2118, "snow_days_total": 489, "clear_days_total": 4333,
+              "total_acc": 223290, "total_days": 6940}
     by_calendar_month = [{"month": m, "rain_rate": round(R.uniform(3, 7), 4),
                           "snow_rate": (round(R.uniform(2, 5), 4) if m in (12, 1, 2, 3, 11) else None),
-                          "clear_rate": round(R.uniform(3, 5), 4),
-                          "rain_ratio": round(R.uniform(1.1, 1.6), 3),
-                          "snow_ratio": (round(R.uniform(0.6, 1.3), 3) if m in (12, 1, 2, 3, 11) else None)}
+                          "clear_rate": round(R.uniform(30, 60), 4),
+                          "rain_ratio": round(R.uniform(0.1, 0.4), 3),
+                          "snow_ratio": (round(R.uniform(0.02, 0.2), 3) if m in (12, 1, 2, 3, 11) else None),
+                          "rain_repr": round(R.uniform(0.15, 0.5), 3),
+                          "snow_repr": (round(R.uniform(0.05, 0.3), 3) if m in (12, 1, 2, 3, 11) else None)}
                          for m in MONTHS]
     return {"monthly": monthly, "pooled": pooled, "by_calendar_month": by_calendar_month,
-            "definitions": {"rain_rate": "비 사고건수 ÷ 강수일수", "snow_rate": "눈 사고건수 ÷ 적설일수(관측월만)",
-                            "clear_rate": "맑음군({맑음,흐림,기타}) 사고건수 ÷ (월일수 − 강수일수)",
-                            "ratio": "각 사고율 ÷ 맑음군 사고율", "caveat": "월단위·카테고리 근사, 상관(인과 아님)"},
-            "snow_subset_verified": True}
+            "definitions": {"rain_rate": "비 사고건수 ÷ 강수일수", "snow_rate": "눈 사고건수 ÷ 눈일수(관측월만)",
+                            "clear_rate": "맑음군({맑음,흐림,기타}) 사고건수 ÷ max(1, 월일수 − 강수일수 − 눈일수)",
+                            "ratio": "각 사고율 ÷ 맑음군 사고율 (기술적 per-day 배율; 라벨 편향 有)",
+                            "repr": "노출 보정 대표비 = (조건 사고 점유율) ÷ (조건 일수 점유율); H2 판정에 사용",
+                            "caveat": "월단위·카테고리 근사, 상관(인과 아님)"},
+            "snow_subset_verified": False}
 
 
 def district():
@@ -186,11 +191,11 @@ def hypotheses():
                           {"label": "월 peak/trough(10월/2월)", "value": 1.33, "unit": "배"}],
              "caveat": "월 단위·상관 관계, 인과 아님"},
             {"id": "H2", "title": "비·눈 오는 날은 맑은 날보다 하루당 사고율이 높다", "screen": "기상 분석",
-             "metric_name": "max(비 배율, 눈 배율)", "metric_value": 1.34,
-             "thresholds": {"supported_min": 1.50, "partial_min": 1.00}, "verdict": "partial",
-             "evidence": [{"label": "비 배율", "value": 1.34, "unit": "배"},
-                          {"label": "눈 배율", "value": 0.80, "unit": "배"}],
-             "caveat": "노출 보정·월단위 근사, 인과 아님 (MOCK 값)"},
+             "metric_name": "노출 보정 대표비 max(비, 눈) = 사고점유율÷일수점유율", "metric_value": 0.246,
+             "thresholds": {"supported_min": 1.20, "partial_min": 0.90}, "verdict": "rejected",
+             "evidence": [{"label": "비 대표비(노출보정)", "value": 0.246, "unit": "배"},
+                          {"label": "눈 대표비(노출보정)", "value": 0.083, "unit": "배"}],
+             "caveat": "노출 보정·월단위 근사, 인과 아님. 대표비<1: 심각사고 한정 데이터에서 강수·적설일 통행 감소 (MOCK 값)"},
             {"id": "H3", "title": "날씨의 영향은 자치구별로 다르게 나타난다", "screen": "지도",
              "metric_name": "구별 비-사고비율 최대/최소", "metric_value": 1.42,
              "thresholds": {"supported_min": 1.50, "partial_min": 1.20}, "verdict": "partial",

@@ -1,0 +1,4 @@
+# Phase 1 pipeline deps (pinned to verified environment: Python 3.14, user site)
+pandas==3.0.3
+openpyxl==3.1.5
+pytest==8.3.5

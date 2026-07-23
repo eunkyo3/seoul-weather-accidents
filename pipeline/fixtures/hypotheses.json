@@ -31,29 +31,29 @@
    "verdict": "partial"
   },
   {
-   "caveat": "노출 보정·월단위 근사, 인과 아님 (MOCK 값)",
+   "caveat": "노출 보정·월단위 근사, 인과 아님. 대표비<1: 심각사고 한정 데이터에서 강수·적설일 통행 감소 (MOCK 값)",
    "evidence": [
     {
-     "label": "비 배율",
+     "label": "비 대표비(노출보정)",
      "unit": "배",
-     "value": 1.34
+     "value": 0.246
     },
     {
-     "label": "눈 배율",
+     "label": "눈 대표비(노출보정)",
      "unit": "배",
-     "value": 0.8
+     "value": 0.083
     }
    ],
    "id": "H2",
-   "metric_name": "max(비 배율, 눈 배율)",
-   "metric_value": 1.34,
+   "metric_name": "노출 보정 대표비 max(비, 눈) = 사고점유율÷일수점유율",
+   "metric_value": 0.246,
    "screen": "기상 분석",
    "thresholds": {
-    "partial_min": 1.0,
-    "supported_min": 1.5
+    "partial_min": 0.9,
+    "supported_min": 1.2
    },
    "title": "비·눈 오는 날은 맑은 날보다 하루당 사고율이 높다",
-   "verdict": "partial"
+   "verdict": "rejected"
   },
   {
    "caveat": "MOCK 값",

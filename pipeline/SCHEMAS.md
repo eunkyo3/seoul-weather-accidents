@@ -101,20 +101,26 @@ WEATHER_GROUP: 맑음군 = {맑음,흐림,기타}, 비, 눈
       "rain_acc":<int>,"snow_acc":<int>,"clear_acc":<int>,         // 그 달 기상상태 그룹별 사고 건수
       "clear_denom_days":<int>,                                     // = max(1, 월일수 - 강수일수 - 눈일수) [union 정의, 눈⊄강수 실측 반영]
       "rain_rate":<4자리>,"snow_rate":<4자리|null>,"clear_rate":<4자리>,
-      "rain_ratio":<3자리>,"snow_ratio":<3자리|null>              // vs 맑음군 사고율
+      "rain_ratio":<3자리>,"snow_ratio":<3자리|null>              // per-day 배율(=사고율÷맑음군사고율). 기술적 표시용, 라벨 편향 有
   } ],  // 228행, 정렬키:(year,month)
   "pooled": { "rain_rate":<4>,"snow_rate":<4>,"clear_rate":<4>,"rain_ratio":<3>,"snow_ratio":<3>,
+              "rain_repr":<3>,"snow_repr":<3>,                    // ★노출 보정 대표비(=사고점유율÷일수점유율). H2 판정·헤드라인에 사용
               "rain_acc_total":<int>,"snow_acc_total":<int>,"clear_acc_total":<int>,
-              "rain_days_total":<int>,"snow_days_total":<int>,"clear_days_total":<int> },  // 풀링(총건수÷총일수)
+              "rain_days_total":<int>,"snow_days_total":<int>,"clear_days_total":<int>,
+              "total_acc":<int>,"total_days":<int> },  // 풀링(총건수÷총일수)
   "by_calendar_month": [ {"month":<int 1-12>,
-      "rain_rate":<4>,"snow_rate":<4|null>,"clear_rate":<4>,"rain_ratio":<3>,"snow_ratio":<3|null> } ], // 12행. 위젯: 현재 월 조회
+      "rain_rate":<4>,"snow_rate":<4|null>,"clear_rate":<4>,"rain_ratio":<3>,"snow_ratio":<3|null>,
+      "rain_repr":<3>,"snow_repr":<3|null> } ], // 12행. 위젯: 현재 월 rain_repr/snow_repr 조회
   "definitions": {"rain_rate":"비 사고건수 ÷ 강수일수","snow_rate":"눈 사고건수 ÷ 눈일수(관측월만)",
                   "clear_rate":"맑음군({맑음,흐림,기타}) 사고건수 ÷ max(1, 월일수 − 강수일수 − 눈일수)",
-                  "ratio":"각 사고율 ÷ 맑음군 사고율","caveat":"월단위·카테고리 근사, 상관(인과 아님)"},
+                  "ratio":"각 사고율 ÷ 맑음군 사고율 (per-day, 라벨 편향)",
+                  "repr":"노출 보정 대표비 = 조건 사고 점유율 ÷ 조건 일수 점유율 (>1 과대표집=더 위험)",
+                  "caveat":"월단위·카테고리 근사, 상관(인과 아님)"},
   "snow_subset_verified": false   // 실측: 눈일수 ⊄ 강수일수 (25개월 위반) → union 정의(강수·눈 모두 차감). profile §7
 }
 ```
-- **오늘의 위험도 위젯**: Open-Meteo로 현재 날씨→{맑음군/비/눈} 매핑 후, `by_calendar_month[현재월]`의 `rain_ratio`(비) 또는 `snow_ratio`(눈)를 "과거 통계상 오늘 같은 날씨 사고 위험 ×N배"로 표기. 맑음군이면 배율 1.0 기준. **"예측" 문구 금지, "과거 통계 조회"**.
+- **⚠️ 지표 2종 구분**: `rain_ratio`(per-day 배율)는 맑음이 지배 라벨(85%)이라 clear_rate가 구조적으로 과대 → 편향(참고·기술 표시용). **H2 판정·"×N배" 헤드라인은 노출 보정 `rain_repr`/`snow_repr`(대표비) 사용** — 일수로 정규화되어 방어 가능. 상세 profile_report §5·§7.
+- **오늘의 위험도 위젯**: Open-Meteo로 현재 날씨→{맑음군/비/눈} 매핑 후, `by_calendar_month[현재월]`의 `rain_repr`(비) 또는 `snow_repr`(눈)를 "과거 통계상 오늘 같은 날씨 사고 위험 ×N배"로 표기. 맑음군이면 1.0 기준. **"예측" 문구 금지, "과거 통계 조회"**.
 
 ### 3.5 `district.json`  (H3 / 지도)
 ```jsonc
@@ -168,10 +174,10 @@ WEATHER_GROUP: 맑음군 = {맑음,흐림,기타}, 비, 눈
 }
 ```
 판정 지표·임계값(profile_report.md §6 확정):
-- **H1** metric=계절 건수 최대/최소 비율; supported_min=1.30, partial_min=1.12. (실측 1.18→partial)
-- **H2** metric=max(비 배율, 눈 배율); supported_min=1.50, partial_min=1.00. (Task 2 산출)
-- **H3** metric=구별 비-사고비율 최대/최소 비율; supported_min=1.50, partial_min=1.20. (Task 2 산출)
-- **H4** metric=축 하위그룹 비-사고비율 최대/최소 배율의 최댓값; supported_min=1.50, partial_min=1.20. (Task 2 산출)
+- **H1** metric=계절 건수 최대/최소 비율; supported_min=1.30, partial_min=1.12. → 실측 **1.183 = partial**
+- **H2** metric=노출 보정 대표비 max(비 repr, 눈 repr); supported_min=1.20, partial_min=0.90. → 실측 **0.246 = rejected** (강수·적설일 심각사고 과소표집; per-day 배율 아님)
+- **H3** metric=구별 비-사고비율 최대/최소 비율; supported_min=1.50, partial_min=1.20. → 실측 **1.404 = partial** (종로 0.087 / 성동 0.062)
+- **H4** metric=축 하위그룹 비-사고비율 최대/최소 배율의 최댓값(표본 ≥1000); supported_min=1.50, partial_min=1.20. → 실측 **3.132 = supported** (차종: 승용 0.081 / 자전거 0.026)
 - verdict는 파이프라인이 metric_value와 thresholds로 **결정적 계산**(수동 금지). pytest로 재실행 동일성 검증.
 
 ## 4. 산출 경로

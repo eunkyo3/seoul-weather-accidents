@@ -34,7 +34,11 @@ export function EChart({
   const elRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<ECharts | null>(null);
   const eventsRef = useRef(onEvents);
-  eventsRef.current = onEvents;
+
+  // 최신 핸들러를 ref에 동기화 (렌더 중 접근 회피)
+  useEffect(() => {
+    eventsRef.current = onEvents;
+  });
 
   // 인스턴스 생성 / 해제
   useEffect(() => {

@@ -1,108 +1,133 @@
 {
  "by_calendar_month": [
   {
-   "clear_rate": 3.2755,
+   "clear_rate": 34.1331,
    "month": 1,
    "rain_rate": 6.9509,
-   "rain_ratio": 1.496,
+   "rain_ratio": 0.338,
+   "rain_repr": 0.26,
    "snow_rate": 3.8913,
-   "snow_ratio": 0.813
+   "snow_ratio": 0.075,
+   "snow_repr": 0.22
   },
   {
-   "clear_rate": 4.4655,
+   "clear_rate": 53.6757,
    "month": 2,
-   "rain_rate": 4.2537,
-   "rain_ratio": 1.237,
-   "snow_rate": 4.0341,
-   "snow_ratio": 1.152
+   "rain_rate": 5.931,
+   "rain_ratio": 0.197,
+   "rain_repr": 0.463,
+   "snow_rate": 2.8212,
+   "snow_ratio": 0.15,
+   "snow_repr": 0.148
   },
   {
-   "clear_rate": 4.7878,
+   "clear_rate": 53.2791,
    "month": 3,
-   "rain_rate": 4.2873,
-   "rain_ratio": 1.297,
-   "snow_rate": 4.1643,
-   "snow_ratio": 0.699
+   "rain_rate": 3.5673,
+   "rain_ratio": 0.202,
+   "rain_repr": 0.381,
+   "snow_rate": 3.4799,
+   "snow_ratio": 0.138,
+   "snow_repr": 0.196
   },
   {
-   "clear_rate": 4.5519,
+   "clear_rate": 52.3505,
    "month": 4,
-   "rain_rate": 4.9733,
-   "rain_ratio": 1.271,
-   "snow_rate": null,
-   "snow_ratio": null
-  },
-  {
-   "clear_rate": 4.318,
-   "month": 5,
-   "rain_rate": 5.6231,
-   "rain_ratio": 1.392,
-   "snow_rate": null,
-   "snow_ratio": null
-  },
-  {
-   "clear_rate": 4.49,
-   "month": 6,
    "rain_rate": 6.1525,
-   "rain_ratio": 1.565,
+   "rain_ratio": 0.379,
+   "rain_repr": 0.394,
    "snow_rate": null,
-   "snow_ratio": null
+   "snow_ratio": null,
+   "snow_repr": null
   },
   {
-   "clear_rate": 3.915,
+   "clear_rate": 38.6383,
+   "month": 5,
+   "rain_rate": 4.83,
+   "rain_ratio": 0.175,
+   "rain_repr": 0.177,
+   "snow_rate": null,
+   "snow_ratio": null,
+   "snow_repr": null
+  },
+  {
+   "clear_rate": 38.5195,
+   "month": 6,
+   "rain_rate": 3.7623,
+   "rain_ratio": 0.222,
+   "rain_repr": 0.497,
+   "snow_rate": null,
+   "snow_ratio": null,
+   "snow_repr": null
+  },
+  {
+   "clear_rate": 34.8652,
    "month": 7,
-   "rain_rate": 5.7926,
-   "rain_ratio": 1.244,
-   "snow_rate": null,
-   "snow_ratio": null
-  },
-  {
-   "clear_rate": 3.1563,
-   "month": 8,
-   "rain_rate": 4.0024,
-   "rain_ratio": 1.195,
-   "snow_rate": null,
-   "snow_ratio": null
-  },
-  {
-   "clear_rate": 3.811,
-   "month": 9,
-   "rain_rate": 4.1359,
-   "rain_ratio": 1.596,
-   "snow_rate": null,
-   "snow_ratio": null
-  },
-  {
-   "clear_rate": 3.3243,
-   "month": 10,
    "rain_rate": 3.2864,
-   "rain_ratio": 1.526,
+   "rain_ratio": 0.356,
+   "rain_repr": 0.187,
    "snow_rate": null,
-   "snow_ratio": null
+   "snow_ratio": null,
+   "snow_repr": null
   },
   {
-   "clear_rate": 4.1311,
-   "month": 11,
-   "rain_rate": 3.4278,
-   "rain_ratio": 1.29,
-   "snow_rate": 3.7527,
-   "snow_ratio": 1.286
+   "clear_rate": 46.9667,
+   "month": 8,
+   "rain_rate": 5.3369,
+   "rain_ratio": 0.214,
+   "rain_repr": 0.493,
+   "snow_rate": null,
+   "snow_ratio": null,
+   "snow_repr": null
   },
   {
-   "clear_rate": 4.8423,
-   "month": 12,
+   "clear_rate": 30.1916,
+   "month": 9,
    "rain_rate": 6.8845,
-   "rain_ratio": 1.509,
-   "snow_rate": 2.0192,
-   "snow_ratio": 0.625
+   "rain_ratio": 0.376,
+   "rain_repr": 0.436,
+   "snow_rate": null,
+   "snow_ratio": null,
+   "snow_repr": null
+  },
+  {
+   "clear_rate": 57.7051,
+   "month": 10,
+   "rain_rate": 3.1442,
+   "rain_ratio": 0.337,
+   "rain_repr": 0.22,
+   "snow_rate": null,
+   "snow_ratio": null,
+   "snow_repr": null
+  },
+  {
+   "clear_rate": 50.1925,
+   "month": 11,
+   "rain_rate": 6.6413,
+   "rain_ratio": 0.173,
+   "rain_repr": 0.343,
+   "snow_rate": 2.5084,
+   "snow_ratio": 0.131,
+   "snow_repr": 0.3
+  },
+  {
+   "clear_rate": 58.752,
+   "month": 12,
+   "rain_rate": 4.7822,
+   "rain_ratio": 0.367,
+   "rain_repr": 0.172,
+   "snow_rate": 3.1599,
+   "snow_ratio": 0.131,
+   "snow_repr": 0.262
   }
  ],
  "definitions": {
   "caveat": "월단위·카테고리 근사, 상관(인과 아님)",
-  "clear_rate": "맑음군({맑음,흐림,기타}) 사고건수 ÷ (월일수 − 강수일수)",
+  "clear_rate": "맑음군({맑음,흐림,기타}) 사고건수 ÷ max(1, 월일수 − 강수일수 − 눈일수)",
   "rain_rate": "비 사고건수 ÷ 강수일수",
-  "ratio": "각 사고율 ÷ 맑음군 사고율",
-  "snow_rate": "눈 사고건수 ÷ 적설일수(관측월만)"
+  "ratio": "각 사고율 ÷ 맑음군 사고율 (기술적 per-day 배율; 라벨 편향 有)",
+  "repr": "노출 보정 대표비 = (조건 사고 점유율) ÷ (조건 일수 점유율); H2 판정에 사용",
+  "snow_rate": "눈 사고건수 ÷ 눈일수(관측월만)"
  },
  "monthly": [
   {
@@ -3983,17 +4008,21 @@
   }
  ],
  "pooled": {
-  "clear_acc_total": 205155,
-  "clear_days_total": 4530,
-  "clear_rate": 3.9012,
+  "clear_acc_total": 205222,
+  "clear_days_total": 4333,
+  "clear_rate": 47.3626,
   "rain_acc_total": 16762,
-  "rain_days_total": 2400,
-  "rain_rate": 5.2341,
-  "rain_ratio": 1.342,
+  "rain_days_total": 2118,
+  "rain_rate": 7.9141,
+  "rain_ratio": 0.167,
+  "rain_repr": 0.246,
   "snow_acc_total": 1306,
-  "snow_days_total": 300,
-  "snow_rate": 3.1122,
-  "snow_ratio": 0.798
+  "snow_days_total": 489,
+  "snow_rate": 2.6708,
+  "snow_ratio": 0.056,
+  "snow_repr": 0.083,
+  "total_acc": 223290,
+  "total_days": 6940
  },
- "snow_subset_verified": true
+ "snow_subset_verified": false
 }
