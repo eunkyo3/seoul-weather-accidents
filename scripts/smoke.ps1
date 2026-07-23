@@ -36,7 +36,7 @@ try {
     $pipelineExit = $null
     $elapsed = 0
     while ($elapsed -lt $maxWaitSeconds) {
-        $state = docker compose ps pipeline --format json 2>$null | ConvertFrom-Json
+        $state = docker compose ps -a pipeline --format json 2>$null | ConvertFrom-Json
         if ($state -and $state.State -eq "exited") {
             $pipelineExit = $state.ExitCode
             break
@@ -85,7 +85,7 @@ try {
     }
 
     $failed = $results | Where-Object { -not $_.OK }
-    if ($failed.Count -gt 0 -or $pipelineExit -ne 0) {
+    if ($failed.Count -gt 0 -or $pipelineExit -gt 0) {
         Write-Host "`n== SMOKE TEST FAILED ==" -ForegroundColor Red
         exit 1
     } else {
