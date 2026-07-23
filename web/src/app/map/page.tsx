@@ -49,7 +49,7 @@ export default function MapPage() {
     [district],
   );
 
-  // 필터 반영 구별 값
+  // 필터 반영 구별 값. 필터 결과가 0건이면 전기간·전기상 값으로 폴백(isFallback).
   const values = useMemo(() => {
     if (district.status !== "ready") return null;
     const m = new Map<string, number>();
@@ -58,11 +58,11 @@ export default function MapPage() {
       if (f.weathers.length && !f.weathers.includes(weatherGroup(r.weather))) continue;
       m.set(r.district, (m.get(r.district) ?? 0) + r.count);
     }
-    // 필터로 비면 by_district.count 폴백(전기간)
     if (m.size === 0) {
       for (const d of district.data.by_district) m.set(d.district, d.count);
+      return { map: m, isFallback: true };
     }
-    return m;
+    return { map: m, isFallback: false };
   }, [district, f.yearRange, f.weathers]);
 
   const selectedDetail = useMemo(() => {
@@ -75,7 +75,7 @@ export default function MapPage() {
   const mapOption = useMemo<EChartsCoreOption | null>(() => {
     if (!values) return null;
     const c = CHROME[mode];
-    const entries = [...values.entries()];
+    const entries = [...values.map.entries()];
     const max = Math.max(1, ...entries.map(([, v]) => v));
     const ramp = singleWeather ? SEQ_BY_WEATHER[mode][singleWeather] : null;
     const rangeColors = ramp
@@ -160,11 +160,19 @@ export default function MapPage() {
           <SectionTitle
             title="자치구 단계구분도"
             hint={
-              singleWeather
-                ? `${WEATHER_LABEL[singleWeather]} 조건 · ${f.yearRange[0]}–${f.yearRange[1]}`
-                : `전체 기상 · ${f.yearRange[0]}–${f.yearRange[1]}`
+              values?.isFallback
+                ? "선택한 조건에 데이터가 없어 전체 기간·전체 기상 기준으로 표시 중"
+                : singleWeather
+                  ? `${WEATHER_LABEL[singleWeather]} 조건 · ${f.yearRange[0]}–${f.yearRange[1]}`
+                  : `전체 기상 · ${f.yearRange[0]}–${f.yearRange[1]}`
             }
-            right={singleWeather ? <Badge tone="accent">{WEATHER_LABEL[singleWeather]} 기준</Badge> : undefined}
+            right={
+              values?.isFallback ? (
+                <Badge tone="warning">폴백</Badge>
+              ) : singleWeather ? (
+                <Badge tone="accent">{WEATHER_LABEL[singleWeather]} 기준</Badge>
+              ) : undefined
+            }
           />
           {mapErr ? (
             <div className="grid h-[460px] place-items-center text-[13px] text-critical">
