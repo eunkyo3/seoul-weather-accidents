@@ -1,3 +1,5 @@
+name: seoul-weather-accidents
+
 services:
   pipeline:
     build:

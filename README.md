@@ -41,7 +41,7 @@ docker compose up
 ## 프로젝트 구조
 
 ```
-D:\nujino
+seoul-weather-accidents/
 ├── data/                      # 원본 엑셀 19개(2007~2025, 불변) + weather/ 기상청 월별 CSV
 ├── pipeline/                  # Python 집계 파이프라인
 │   ├── build_aggregates.py    # xlsx + 기상 CSV -> pipeline/output/*.json (결정적)
