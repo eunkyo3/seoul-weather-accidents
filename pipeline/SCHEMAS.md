@@ -99,7 +99,7 @@ WEATHER_GROUP: 맑음군 = {맑음,흐림,기타}, 비, 눈
   "monthly": [ {"year":<int>,"month":<int>,
       "rain_days":<int>,"snow_days":<int>,"precip_mm":<1자리|null>,"temp_avg":<1자리|null>,
       "rain_acc":<int>,"snow_acc":<int>,"clear_acc":<int>,         // 그 달 기상상태 그룹별 사고 건수
-      "clear_denom_days":<int>,                                     // = 월일수 - 강수일수
+      "clear_denom_days":<int>,                                     // = max(1, 월일수 - 강수일수 - 눈일수) [union 정의, 눈⊄강수 실측 반영]
       "rain_rate":<4자리>,"snow_rate":<4자리|null>,"clear_rate":<4자리>,
       "rain_ratio":<3자리>,"snow_ratio":<3자리|null>              // vs 맑음군 사고율
   } ],  // 228행, 정렬키:(year,month)
@@ -108,10 +108,10 @@ WEATHER_GROUP: 맑음군 = {맑음,흐림,기타}, 비, 눈
               "rain_days_total":<int>,"snow_days_total":<int>,"clear_days_total":<int> },  // 풀링(총건수÷총일수)
   "by_calendar_month": [ {"month":<int 1-12>,
       "rain_rate":<4>,"snow_rate":<4|null>,"clear_rate":<4>,"rain_ratio":<3>,"snow_ratio":<3|null> } ], // 12행. 위젯: 현재 월 조회
-  "definitions": {"rain_rate":"비 사고건수 ÷ 강수일수","snow_rate":"눈 사고건수 ÷ 적설일수(관측월만)",
-                  "clear_rate":"맑음군({맑음,흐림,기타}) 사고건수 ÷ (월일수 − 강수일수)",
+  "definitions": {"rain_rate":"비 사고건수 ÷ 강수일수","snow_rate":"눈 사고건수 ÷ 눈일수(관측월만)",
+                  "clear_rate":"맑음군({맑음,흐림,기타}) 사고건수 ÷ max(1, 월일수 − 강수일수 − 눈일수)",
                   "ratio":"각 사고율 ÷ 맑음군 사고율","caveat":"월단위·카테고리 근사, 상관(인과 아님)"},
-  "snow_subset_verified": <bool>   // 눈일수 ≤ 강수일수 전월 검증 결과. false면 union 정의 전환 기록
+  "snow_subset_verified": false   // 실측: 눈일수 ⊄ 강수일수 (25개월 위반) → union 정의(강수·눈 모두 차감). profile §7
 }
 ```
 - **오늘의 위험도 위젯**: Open-Meteo로 현재 날씨→{맑음군/비/눈} 매핑 후, `by_calendar_month[현재월]`의 `rain_ratio`(비) 또는 `snow_ratio`(눈)를 "과거 통계상 오늘 같은 날씨 사고 위험 ×N배"로 표기. 맑음군이면 배율 1.0 기준. **"예측" 문구 금지, "과거 통계 조회"**.
