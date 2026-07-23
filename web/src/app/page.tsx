@@ -105,9 +105,9 @@ export default function OverviewPage() {
         <DataState state={exposure} height={104}>
           {(e) => (
             <Kpi
-              label="비 올 때 사고 위험"
-              value={mult(e.pooled.rain_repr)}
-              unit="노출 보정 · 맑은 날 대비"
+              label="비 오는 날 심각사고"
+              value={mult(e.pooled.rain_repr, 2)}
+              unit={e.pooled.rain_repr < 1 ? "일수 대비 · 예상과 반대" : "일수 대비 · 맑은 날 기준"}
               tone="rain"
             />
           )}

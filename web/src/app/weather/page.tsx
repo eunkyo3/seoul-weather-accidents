@@ -244,6 +244,21 @@ export default function WeatherPage() {
           <DataState state={exposure} height={330}>
             {() => rateOption && <EChart option={rateOption} height={330} notMerge aria-label="노출 보정 대표비" />}
           </DataState>
+          {rates && (
+            <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 border-t border-border pt-2.5 text-[11px] text-muted">
+              <span className="font-semibold text-secondary">보조 · 하루당 사고율(건/일)</span>
+              <span>
+                맑음군 <b className="text-primary tnum">{dec(rates.clear.rate, 2)}</b>
+              </span>
+              <span>
+                비 <b className="text-primary tnum">{dec(rates.rain.rate, 2)}</b>
+              </span>
+              <span>
+                눈 <b className="text-primary tnum">{dec(rates.snow.rate, 2)}</b>
+              </span>
+              <span className="text-muted">— 라벨 편향으로 판정엔 대표비 사용</span>
+            </div>
+          )}
         </Card>
         <Card className="lg:col-span-2">
           <SectionTitle title="노면상태 × 심각도" hint="노면 상태별 중상·사망 사고 (누적 막대)" />
