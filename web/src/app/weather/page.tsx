@@ -28,16 +28,16 @@ export default function WeatherPage() {
   const wc = WEATHER_COLORS[mode];
 
   // 노출 보정 지표. 전체 연도면 권위 있는 pooled 사용(정의와 일치),
-  // 부분 범위면 monthly 재집계(총건수÷총일수). 실데이터에선 전체 범위에서 둘이 동일.
+  // 부분 범위면 monthly 재집계. 대표비(repr)=사고 점유율÷일수 점유율이 정본 지표.
   const rates = useMemo(() => {
     if (exposure.status !== "ready") return null;
     const fullRange = f.yearRange[0] === 2007 && f.yearRange[1] === 2025;
     if (fullRange) {
       const p = exposure.data.pooled;
       return {
-        clear: { rate: p.clear_rate, ratio: 1 },
-        rain: { rate: p.rain_rate, ratio: p.rain_ratio },
-        snow: { rate: p.snow_rate, ratio: p.snow_ratio },
+        clear: { rate: p.clear_rate, repr: 1 },
+        rain: { rate: p.rain_rate, repr: p.rain_repr },
+        snow: { rate: p.snow_rate, repr: p.snow_repr },
       };
     }
     let ra = 0,
@@ -58,10 +58,15 @@ export default function WeatherPage() {
     const clearRate = cd ? ca / cd : 0;
     const rainRate = rd ? ra / rd : 0;
     const snowRate = sd ? sa / sd : 0;
+    // 대표비 = (조건 사고/전체 사고) ÷ (조건 일수/전체 일수). 전체 일수 ≈ Σ(강수+눈+맑음군 분모일수)
+    const totalAcc = ra + sa + ca;
+    const totalDays = rd + sd + cd;
+    const repr = (acc: number, days: number) =>
+      totalAcc && days && totalDays ? acc / totalAcc / (days / totalDays) : 0;
     return {
-      clear: { rate: clearRate, ratio: 1 },
-      rain: { rate: rainRate, ratio: clearRate ? rainRate / clearRate : 0 },
-      snow: { rate: snowRate, ratio: clearRate ? snowRate / clearRate : 0 },
+      clear: { rate: clearRate, repr: 1 },
+      rain: { rate: rainRate, repr: repr(ra, rd) },
+      snow: { rate: snowRate, repr: repr(sa, sd) },
     };
   }, [exposure, f.yearRange]);
 
@@ -114,19 +119,28 @@ export default function WeatherPage() {
 
   const rateOption = useMemo<EChartsCoreOption | null>(() => {
     if (!rates) return null;
-    const data = GROUPS.map((g) => rates[g.key].rate);
+    const c = CHROME[mode];
+    const data = GROUPS.map((g) => rates[g.key].repr);
     return {
       ...baseOption(mode),
       tooltip: {
         ...(baseOption(mode).tooltip as object),
         trigger: "axis",
         axisPointer: { type: "shadow" },
-        valueFormatter: (v: number) => `${dec(v, 2)} 건/일`,
+        formatter: (params: Array<{ dataIndex: number }>) => {
+          const g = GROUPS[params[0].dataIndex];
+          return `${g.label}<br/>노출 보정 대표비 <b>${mult(rates[g.key].repr)}</b><br/><span style="color:${c.muted}">하루당 사고율 ${dec(rates[g.key].rate, 2)} 건/일</span>`;
+        },
       },
       legend: { show: false },
-      grid: { left: 8, right: 24, top: 24, bottom: 8, containLabel: true },
+      grid: { left: 8, right: 24, top: 28, bottom: 8, containLabel: true },
       xAxis: { type: "category", data: GROUPS.map((g) => g.label), ...catAxis(mode) },
-      yAxis: { type: "value", ...valAxis(mode), name: "하루당 사고", nameTextStyle: { color: CHROME[mode].muted, fontSize: 10 } },
+      yAxis: {
+        type: "value",
+        ...valAxis(mode),
+        name: "대표비 (맑음군=1.0)",
+        nameTextStyle: { color: c.muted, fontSize: 10 },
+      },
       series: [
         {
           type: "bar",
@@ -135,15 +149,22 @@ export default function WeatherPage() {
             borderRadius: [6, 6, 0, 0],
             color: (p: { dataIndex: number }) => wc[GROUPS[p.dataIndex].key],
           },
+          markLine: {
+            symbol: "none",
+            silent: true,
+            lineStyle: { color: c.muted, type: "dashed", width: 1 },
+            label: { formatter: "1.0 (맑음군)", color: c.muted, fontSize: 10, position: "insideEndTop" },
+            data: [{ yAxis: 1 }],
+          },
           label: {
             show: true,
             position: "top",
             fontSize: 12,
             fontWeight: "bold",
-            color: CHROME[mode].textPrimary,
+            color: c.textPrimary,
             formatter: (p: { dataIndex: number }) => {
               const g = GROUPS[p.dataIndex];
-              return g.key === "clear" ? "기준 1.0배" : mult(rates[g.key].ratio);
+              return g.key === "clear" ? "기준 1.0배" : mult(rates[g.key].repr);
             },
           },
           data,

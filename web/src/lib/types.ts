@@ -102,14 +102,20 @@ export interface ExposurePooled {
   rain_rate: number;
   snow_rate: number;
   clear_rate: number;
+  /** per-day 배율(=사고율÷맑음군사고율). 맑음 지배 라벨로 편향 — 참고·기술 표시용 */
   rain_ratio: number;
   snow_ratio: number;
+  /** ★노출 보정 대표비(=사고 점유율÷일수 점유율). >1=과대표집(더 위험). H2 판정·헤드라인 정본 */
+  rain_repr: number;
+  snow_repr: number;
   rain_acc_total: number;
   snow_acc_total: number;
   clear_acc_total: number;
   rain_days_total: number;
   snow_days_total: number;
   clear_days_total: number;
+  total_acc: number;
+  total_days: number;
 }
 export interface ExposureCalMonth {
   month: number;
@@ -118,6 +124,9 @@ export interface ExposureCalMonth {
   clear_rate: number;
   rain_ratio: number;
   snow_ratio: number | null;
+  /** 위젯이 조회하는 노출 보정 대표비 */
+  rain_repr: number;
+  snow_repr: number | null;
 }
 export interface ExposureData {
   monthly: ExposureMonthly[];

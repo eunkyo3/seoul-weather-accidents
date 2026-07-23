@@ -23,3 +23,6 @@ Thumbs.db
 
 # session artifacts
 .omc/sessions/
+
+# pipeline caches
+pipeline/_profile_cache/
