@@ -1,5 +1,7 @@
 # 날씨와 서울시 교통사고 인터랙티브 대시보드
 
+**seoul-weather-accidents** — Does rain really cause more traffic accidents? An interactive dashboard analyzing 19 years (223K records) of severe traffic accidents in Seoul against weather data. Spoiler: the data says otherwise.
+
 서울시 중상·사망 교통사고(2007~2025, 19개년, 약 20만 건)와 기상청 월별 통계를 결합해
 **"날씨가 사고에 어떤 영향을 미치는가"**를 검증하는 인터랙티브 대시보드입니다.
 빅데이터 기획 PBL 과제 산출물로, 차트 모음이 아니라 4개의 가설(H1~H4)을 데이터로
