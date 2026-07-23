@@ -1,122 +1,190 @@
 /**
- * 파이프라인 산출 JSON 타입.
- *
- * ⚠️ 잠정(provisional) — pipeline/SCHEMAS.md 가 동결되면 Stage B에서 정본으로 교체한다.
- * 필드명/카테고리 순서는 계획서(weather-accident-dashboard-plan.md) Phase 1 step 3
- * 의 JSON 설명을 근거로 추정했다. 모든 소비 컴포넌트는 이 파일만 참조하므로
- * 스키마 확정 시 한 곳만 고치면 된다.
+ * 파이프라인 산출 JSON 타입 — pipeline/SCHEMAS.md (FROZEN 2026-07-24) 정본.
+ * 모든 소비 컴포넌트는 이 파일만 참조한다.
  */
-import type { Season } from "./palette";
 
 export type HypothesisId = "H1" | "H2" | "H3" | "H4";
 export type Verdict = "supported" | "partial" | "rejected";
 
-/** meta.json */
+/** 정본 카테고리 (SCHEMAS §1) */
+export const WEATHER_ORDER = ["맑음", "흐림", "비", "눈", "기타"] as const;
+export const SEASON_ORDER = ["봄", "여름", "가을", "겨울"] as const;
+export const DAYNIGHT_ORDER = ["주간", "야간"] as const;
+export const CONTENT_ORDER = ["중상사고", "사망사고"] as const;
+export type WeatherRaw = (typeof WEATHER_ORDER)[number];
+export type SeasonName = (typeof SEASON_ORDER)[number];
+export type ContentName = (typeof CONTENT_ORDER)[number];
+
+/** 3.1 meta.json */
 export interface Meta {
-  period: { start: string; end: string }; // "2007-01" ~ "2025-12"
-  yearMin: number;
-  yearMax: number;
-  totalAccidents: number;
-  totalDeaths: number;
-  totalSeriousInjuries: number;
-  builtAt?: string;
-  note?: string;
+  period: { start: string; end: string; months: number; year_min: number; year_max: number };
+  totals: {
+    accidents: number;
+    deaths: number;
+    serious: number;
+    minor: number;
+    fatal_accidents: number;
+    serious_accidents: number;
+  };
+  scope: { severity: string[]; note: string; resolution: string; has_coords: boolean };
+  categories: {
+    weather: string[];
+    season: string[];
+    districts: string[];
+    daynight: string[];
+    content: string[];
+    road: string[];
+    vehicle: string[];
+    age: string[];
+    surface: string[];
+  };
+  cleaning_notes: Record<string, unknown>;
+  build: { pipeline_version: string; source_files: number; deterministic: boolean };
 }
 
-/** trend.json — 연×월×사고내용 */
-export interface TrendRow {
+/** 3.2 trend.json */
+export interface TrendMonthly {
   year: number;
   month: number;
-  season: Season;
+  season: SeasonName;
+  content: ContentName;
   count: number;
   deaths: number;
-  seriousInjuries?: number;
+  serious: number;
 }
 export interface TrendData {
-  rows: TrendRow[];
+  monthly: TrendMonthly[];
+  by_year: { year: number; count: number; deaths: number }[];
+  by_season: { season: SeasonName; count: number; deaths: number; share: number }[];
+  monthly_profile: { month: number; count: number; share: number; avg_per_year: number }[];
 }
 
-/** weather.json — 연×월×기상상태 */
-export interface WeatherRow {
-  year: number;
-  month: number;
-  weather: string; // 원본 기상상태(맑음/비/흐림/눈/기타)
-  count: number;
-  deaths: number;
-  seriousInjuries: number;
-}
+/** 3.3 weather.json */
 export interface WeatherData {
-  rows: WeatherRow[];
+  by_weather: {
+    weather: WeatherRaw;
+    count: number;
+    deaths: number;
+    serious: number;
+    share: number;
+  }[];
+  monthly: {
+    year: number;
+    month: number;
+    weather: WeatherRaw;
+    count: number;
+    deaths: number;
+    serious: number;
+  }[];
+  weather_by_severity: { weather: WeatherRaw; content: ContentName; count: number }[];
+  surface_by_severity: { surface: string; content: ContentName; count: number }[];
 }
 
-/** exposure.json — 노출 보정 사고율 */
-export interface ExposureMonthRow {
+/** 3.4 exposure.json */
+export interface ExposureMonthly {
   year: number;
   month: number;
-  rainDays: number; // 강수일수
-  snowDays: number | null; // 적설일수(관측 있는 월만)
-  precip?: number | null; // 강수량(보조)
-  avgTemp?: number | null; // 평균기온(보조)
-  clearDays: number; // 잔여일수 = 월 일수 − 강수일수
-  rainRate: number | null; // 비 사고율 = 비 사고 ÷ 강수일수
-  snowRate: number | null; // 눈 사고율 = 눈 사고 ÷ 적설일수
-  clearRate: number | null; // 맑음군 사고율
-  rainMultiple: number | null; // 비/맑음 배율
-  snowMultiple: number | null; // 눈/맑음 배율
+  rain_days: number;
+  snow_days: number;
+  precip_mm: number | null;
+  temp_avg: number | null;
+  rain_acc: number;
+  snow_acc: number;
+  clear_acc: number;
+  clear_denom_days: number;
+  rain_rate: number;
+  snow_rate: number | null;
+  clear_rate: number;
+  rain_ratio: number;
+  snow_ratio: number | null;
+}
+export interface ExposurePooled {
+  rain_rate: number;
+  snow_rate: number;
+  clear_rate: number;
+  rain_ratio: number;
+  snow_ratio: number;
+  rain_acc_total: number;
+  snow_acc_total: number;
+  clear_acc_total: number;
+  rain_days_total: number;
+  snow_days_total: number;
+  clear_days_total: number;
+}
+export interface ExposureCalMonth {
+  month: number;
+  rain_rate: number;
+  snow_rate: number | null;
+  clear_rate: number;
+  rain_ratio: number;
+  snow_ratio: number | null;
 }
 export interface ExposureData {
-  rows: ExposureMonthRow[];
-  /** 조건×월 평균 배율 조회 (오늘의 위험도 위젯) — month(1-12) 기준 집계 */
-  byConditionMonth?: {
-    rain: (number | null)[]; // index 0..11 = 1월..12월 배율
-    snow: (number | null)[];
-  };
-  /** 전체 평균 배율 (헤드라인 KPI) */
-  overall?: { rainMultiple: number | null; snowMultiple: number | null };
+  monthly: ExposureMonthly[];
+  pooled: ExposurePooled;
+  by_calendar_month: ExposureCalMonth[];
+  definitions: Record<string, string>;
+  snow_subset_verified: boolean;
 }
 
-/** district.json — 구×연×기상상태 */
-export interface DistrictRow {
-  district: string; // "강동구" (접두사 없음, geojson name과 일치)
-  year: number;
-  weather: string;
-  count: number;
-  deaths?: number;
-}
-export interface DistrictData {
-  rows: DistrictRow[];
-}
-
-/** facts.json — 그룹화 팩트 테이블 (크로스 분석) */
-export interface FactRow {
-  weather: string; // 기상상태 원본
+/** 3.5 district.json */
+export interface DistrictAgg {
   district: string;
-  year: number;
-  month: number;
-  season: Season;
-  daynight: string; // 주야
-  road: string; // 도로형태
-  vehicle: string; // 가해차종
-  age: string; // 가해연령대
   count: number;
   deaths: number;
+  rain_count: number;
+  snow_count: number;
+  clear_count: number;
+  rain_share: number;
 }
-export type FactsData = FactRow[];
+export interface DistrictYearWeather {
+  district: string;
+  year: number;
+  weather: WeatherRaw;
+  count: number;
+}
+export interface DistrictData {
+  by_district: DistrictAgg[];
+  district_year_weather: DistrictYearWeather[];
+}
 
-/** hypotheses.json — H1~H4 판정 */
-export interface HypothesisResult {
+/** 3.6 facts.json — columnar */
+export interface FactsData {
+  axes: string[];
+  columns: {
+    weather: string[];
+    district: string[];
+    ym: string[];
+    daynight: string[];
+    road: string[];
+    vehicle: string[];
+    age: string[];
+    cnt: number[];
+    deaths: number[];
+  };
+  nrows: number;
+}
+
+/** 3.7 hypotheses.json */
+export interface HypothesisEvidence {
+  label: string;
+  value: number;
+  unit: string | null;
+}
+export interface Hypothesis {
   id: HypothesisId;
-  title: string; // 가설 문장
+  title: string;
+  screen: string;
+  metric_name: string;
+  metric_value: number;
+  thresholds: { supported_min: number; partial_min: number };
   verdict: Verdict;
-  /** 핵심 근거 수치 표시용 */
-  keyMetric: { label: string; value: string };
-  /** 판정 근거 설명 */
-  rationale: string;
-  /** 판정 규칙(임계값) 요약 */
-  rule?: string;
+  evidence: HypothesisEvidence[];
+  caveat: string;
 }
 export interface HypothesesData {
-  results: HypothesisResult[];
+  verdict_labels: Record<Verdict, string>;
+  hypotheses: Hypothesis[];
 }
 
 export const VERDICT_META: Record<

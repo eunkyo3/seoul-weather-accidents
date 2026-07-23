@@ -170,6 +170,12 @@ body::before {
   .tnum {
     font-variant-numeric: tabular-nums;
   }
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 /* 진입 애니메이션 */
