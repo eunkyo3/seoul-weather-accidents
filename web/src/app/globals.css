@@ -1,0 +1,215 @@
+@import "tailwindcss";
+
+/* 클래스 기반 다크모드: <html class="dark"> 일 때 dark: 유틸 적용 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+  디자인 토큰 — 다크 네이비/슬레이트 기본.
+  값은 src/lib/palette.ts(CHROME)와 동기화. 오프라인 원칙: 외부 폰트/CDN 없음.
+*/
+:root {
+  /* 서피스 */
+  --page: #f4f6f9;
+  --surface: #ffffff;
+  --surface-2: #f9fafb;
+  --surface-3: #eef1f6;
+  /* 잉크 */
+  --text-primary: #0f1729;
+  --text-secondary: #475069;
+  --text-muted: #8a93a6;
+  /* 선 */
+  --border: rgba(15, 23, 41, 0.1);
+  --border-strong: rgba(15, 23, 41, 0.16);
+  --grid: #e6e9ef;
+  /* 액센트 (weather/water 테마) */
+  --accent: #2a78d6;
+  --accent-soft: rgba(42, 120, 214, 0.12);
+  --accent-contrast: #ffffff;
+  /* 날씨 카테고리 */
+  --w-clear: #eda100;
+  --w-rain: #2a78d6;
+  --w-snow: #1baf7a;
+  /* 심각도 */
+  --sev-fatal: #d03b3b;
+  --sev-serious: #eb6834;
+  /* 상태 */
+  --good: #0ca30c;
+  --warning: #d98a00;
+  --serious: #ec835a;
+  --critical: #d03b3b;
+
+  --shadow-card: 0 1px 2px rgba(15, 23, 41, 0.04), 0 8px 24px rgba(15, 23, 41, 0.06);
+  --radius: 14px;
+
+  color-scheme: light;
+}
+
+.dark {
+  --page: #0b0e14;
+  --surface: #12161f;
+  --surface-2: #171c27;
+  --surface-3: #1e2431;
+  --text-primary: #f1f4f9;
+  --text-secondary: #a8b3c4;
+  --text-muted: #6b7688;
+  --border: rgba(255, 255, 255, 0.09);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --grid: #232a37;
+  --accent: #3987e5;
+  --accent-soft: rgba(57, 135, 229, 0.16);
+  --accent-contrast: #0b0e14;
+  --w-clear: #c98500;
+  --w-rain: #3987e5;
+  --w-snow: #199e70;
+  --sev-fatal: #e66767;
+  --sev-serious: #d95926;
+  --good: #0ca30c;
+  --warning: #fab219;
+  --serious: #ec835a;
+  --critical: #e66767;
+
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px rgba(0, 0, 0, 0.36);
+
+  color-scheme: dark;
+}
+
+/* Tailwind 토큰 연결 — bg-surface, text-primary 등 유틸로 사용 */
+@theme inline {
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-primary: var(--text-primary);
+  --color-secondary: var(--text-secondary);
+  --color-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-grid: var(--grid);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-w-clear: var(--w-clear);
+  --color-w-rain: var(--w-rain);
+  --color-w-snow: var(--w-snow);
+  --color-sev-fatal: var(--sev-fatal);
+  --color-sev-serious: var(--sev-serious);
+  --color-good: var(--good);
+  --color-warning: var(--warning);
+  --color-serious: var(--serious);
+  --color-critical: var(--critical);
+  --radius-card: var(--radius);
+  --font-sans:
+    "Pretendard", "Pretendard Variable", -apple-system, BlinkMacSystemFont, system-ui,
+    "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "Noto Sans KR", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Code", "Consolas", monospace;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: var(--page);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-feature-settings: "tnum" 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 은은한 배경 그라디언트 — 발표 완성도 */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(1200px 600px at 78% -8%, var(--accent-soft), transparent 60%),
+    radial-gradient(900px 500px at -6% 12%, rgba(27, 175, 122, 0.06), transparent 55%);
+}
+
+::selection {
+  background: var(--accent-soft);
+}
+
+/* 스크롤바 */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+  background-clip: padding-box;
+}
+
+/* 공용 컴포넌트 클래스 */
+@layer components {
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-card);
+  }
+  .tnum {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* 진입 애니메이션 */
+@keyframes fade-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-rise {
+  animation: fade-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -800px 0;
+  }
+  100% {
+    background-position: 800px 0;
+  }
+}
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--surface-2) 25%,
+    var(--surface-3) 37%,
+    var(--surface-2) 63%
+  );
+  background-size: 800px 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+  border-radius: 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise,
+  .skeleton {
+    animation: none;
+  }
+}

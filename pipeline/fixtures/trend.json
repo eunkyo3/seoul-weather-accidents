@@ -1,0 +1,4305 @@
+{
+ "by_season": [
+  {
+   "count": 56938,
+   "deaths": 1552,
+   "season": "봄",
+   "share": 0.255
+  },
+  {
+   "count": 56938,
+   "deaths": 1487,
+   "season": "여름",
+   "share": 0.255
+  },
+  {
+   "count": 59395,
+   "deaths": 1718,
+   "season": "가을",
+   "share": 0.266
+  },
+  {
+   "count": 50240,
+   "deaths": 1632,
+   "season": "겨울",
+   "share": 0.225
+  }
+ ],
+ "by_year": [
+  {
+   "count": 8088,
+   "deaths": 226,
+   "year": 2007
+  },
+  {
+   "count": 8050,
+   "deaths": 227,
+   "year": 2008
+  },
+  {
+   "count": 11878,
+   "deaths": 371,
+   "year": 2009
+  },
+  {
+   "count": 16414,
+   "deaths": 363,
+   "year": 2010
+  },
+  {
+   "count": 7837,
+   "deaths": 210,
+   "year": 2011
+  },
+  {
+   "count": 13743,
+   "deaths": 272,
+   "year": 2012
+  },
+  {
+   "count": 9127,
+   "deaths": 207,
+   "year": 2013
+  },
+  {
+   "count": 10360,
+   "deaths": 399,
+   "year": 2014
+  },
+  {
+   "count": 12779,
+   "deaths": 366,
+   "year": 2015
+  },
+  {
+   "count": 8999,
+   "deaths": 222,
+   "year": 2016
+  },
+  {
+   "count": 9229,
+   "deaths": 267,
+   "year": 2017
+  },
+  {
+   "count": 12221,
+   "deaths": 356,
+   "year": 2018
+  },
+  {
+   "count": 8715,
+   "deaths": 367,
+   "year": 2019
+  },
+  {
+   "count": 11774,
+   "deaths": 375,
+   "year": 2020
+  },
+  {
+   "count": 7561,
+   "deaths": 400,
+   "year": 2021
+  },
+  {
+   "count": 12087,
+   "deaths": 233,
+   "year": 2022
+  },
+  {
+   "count": 11019,
+   "deaths": 373,
+   "year": 2023
+  },
+  {
+   "count": 7810,
+   "deaths": 236,
+   "year": 2024
+  },
+  {
+   "count": 7251,
+   "deaths": 343,
+   "year": 2025
+  }
+ ],
+ "monthly": [
+  {
+   "content": "중상사고",
+   "count": 771,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 771,
+   "year": 2007
+  },
+  {
+   "content": "사망사고",
+   "count": 40,
+   "deaths": 2,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2007
+  },
+  {
+   "content": "중상사고",
+   "count": 686,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 686,
+   "year": 2007
+  },
+  {
+   "content": "사망사고",
+   "count": 32,
+   "deaths": 12,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2007
+  },
+  {
+   "content": "중상사고",
+   "count": 772,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 772,
+   "year": 2007
+  },
+  {
+   "content": "사망사고",
+   "count": 19,
+   "deaths": 18,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2007
+  },
+  {
+   "content": "중상사고",
+   "count": 613,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 613,
+   "year": 2007
+  },
+  {
+   "content": "사망사고",
+   "count": 6,
+   "deaths": 2,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2007
+  },
+  {
+   "content": "중상사고",
+   "count": 652,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 652,
+   "year": 2007
+  },
+  {
+   "content": "사망사고",
+   "count": 26,
+   "deaths": 7,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2007
+  },
+  {
+   "content": "중상사고",
+   "count": 681,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 681,
+   "year": 2007
+  },
+  {
+   "content": "사망사고",
+   "count": 15,
+   "deaths": 15,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2007
+  },
+  {
+   "content": "중상사고",
+   "count": 530,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 530,
+   "year": 2007
+  },
+  {
+   "content": "사망사고",
+   "count": 32,
+   "deaths": 18,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2007
+  },
+  {
+   "content": "중상사고",
+   "count": 857,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 857,
+   "year": 2007
+  },
+  {
+   "content": "사망사고",
+   "count": 14,
+   "deaths": 5,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2007
+  },
+  {
+   "content": "중상사고",
+   "count": 475,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 475,
+   "year": 2007
+  },
+  {
+   "content": "사망사고",
+   "count": 11,
+   "deaths": 11,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2007
+  },
+  {
+   "content": "중상사고",
+   "count": 820,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 820,
+   "year": 2007
+  },
+  {
+   "content": "사망사고",
+   "count": 7,
+   "deaths": 7,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2007
+  },
+  {
+   "content": "중상사고",
+   "count": 573,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 573,
+   "year": 2007
+  },
+  {
+   "content": "사망사고",
+   "count": 24,
+   "deaths": 15,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2007
+  },
+  {
+   "content": "중상사고",
+   "count": 712,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 712,
+   "year": 2007
+  },
+  {
+   "content": "사망사고",
+   "count": 8,
+   "deaths": 2,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2007
+  },
+  {
+   "content": "중상사고",
+   "count": 672,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 672,
+   "year": 2008
+  },
+  {
+   "content": "사망사고",
+   "count": 37,
+   "deaths": 26,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2008
+  },
+  {
+   "content": "중상사고",
+   "count": 890,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 890,
+   "year": 2008
+  },
+  {
+   "content": "사망사고",
+   "count": 11,
+   "deaths": 2,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2008
+  },
+  {
+   "content": "중상사고",
+   "count": 611,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 611,
+   "year": 2008
+  },
+  {
+   "content": "사망사고",
+   "count": 19,
+   "deaths": 10,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2008
+  },
+  {
+   "content": "중상사고",
+   "count": 735,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 735,
+   "year": 2008
+  },
+  {
+   "content": "사망사고",
+   "count": 11,
+   "deaths": 9,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2008
+  },
+  {
+   "content": "중상사고",
+   "count": 473,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 473,
+   "year": 2008
+  },
+  {
+   "content": "사망사고",
+   "count": 5,
+   "deaths": 3,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2008
+  },
+  {
+   "content": "중상사고",
+   "count": 741,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 741,
+   "year": 2008
+  },
+  {
+   "content": "사망사고",
+   "count": 28,
+   "deaths": 18,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2008
+  },
+  {
+   "content": "중상사고",
+   "count": 871,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 871,
+   "year": 2008
+  },
+  {
+   "content": "사망사고",
+   "count": 10,
+   "deaths": 9,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2008
+  },
+  {
+   "content": "중상사고",
+   "count": 317,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 317,
+   "year": 2008
+  },
+  {
+   "content": "사망사고",
+   "count": 25,
+   "deaths": 5,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2008
+  },
+  {
+   "content": "중상사고",
+   "count": 399,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 399,
+   "year": 2008
+  },
+  {
+   "content": "사망사고",
+   "count": 7,
+   "deaths": 7,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2008
+  },
+  {
+   "content": "중상사고",
+   "count": 460,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 460,
+   "year": 2008
+  },
+  {
+   "content": "사망사고",
+   "count": 12,
+   "deaths": 9,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2008
+  },
+  {
+   "content": "중상사고",
+   "count": 644,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 644,
+   "year": 2008
+  },
+  {
+   "content": "사망사고",
+   "count": 8,
+   "deaths": 8,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2008
+  },
+  {
+   "content": "중상사고",
+   "count": 635,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 635,
+   "year": 2008
+  },
+  {
+   "content": "사망사고",
+   "count": 13,
+   "deaths": 13,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2008
+  },
+  {
+   "content": "중상사고",
+   "count": 491,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 491,
+   "year": 2009
+  },
+  {
+   "content": "사망사고",
+   "count": 26,
+   "deaths": 15,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2009
+  },
+  {
+   "content": "중상사고",
+   "count": 304,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 304,
+   "year": 2009
+  },
+  {
+   "content": "사망사고",
+   "count": 35,
+   "deaths": 3,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2009
+  },
+  {
+   "content": "중상사고",
+   "count": 436,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 436,
+   "year": 2009
+  },
+  {
+   "content": "사망사고",
+   "count": 31,
+   "deaths": 27,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2009
+  },
+  {
+   "content": "중상사고",
+   "count": 598,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 598,
+   "year": 2009
+  },
+  {
+   "content": "사망사고",
+   "count": 32,
+   "deaths": 4,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2009
+  },
+  {
+   "content": "중상사고",
+   "count": 560,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 560,
+   "year": 2009
+  },
+  {
+   "content": "사망사고",
+   "count": 9,
+   "deaths": 4,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2009
+  },
+  {
+   "content": "중상사고",
+   "count": 408,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 408,
+   "year": 2009
+  },
+  {
+   "content": "사망사고",
+   "count": 32,
+   "deaths": 22,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2009
+  },
+  {
+   "content": "중상사고",
+   "count": 426,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 426,
+   "year": 2009
+  },
+  {
+   "content": "사망사고",
+   "count": 27,
+   "deaths": 8,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2009
+  },
+  {
+   "content": "중상사고",
+   "count": 641,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 641,
+   "year": 2009
+  },
+  {
+   "content": "사망사고",
+   "count": 17,
+   "deaths": 11,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2009
+  },
+  {
+   "content": "중상사고",
+   "count": 620,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 620,
+   "year": 2009
+  },
+  {
+   "content": "사망사고",
+   "count": 10,
+   "deaths": 6,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2009
+  },
+  {
+   "content": "중상사고",
+   "count": 847,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 847,
+   "year": 2009
+  },
+  {
+   "content": "사망사고",
+   "count": 35,
+   "deaths": 24,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2009
+  },
+  {
+   "content": "중상사고",
+   "count": 861,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 861,
+   "year": 2009
+  },
+  {
+   "content": "사망사고",
+   "count": 15,
+   "deaths": 11,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2009
+  },
+  {
+   "content": "중상사고",
+   "count": 609,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 609,
+   "year": 2009
+  },
+  {
+   "content": "사망사고",
+   "count": 25,
+   "deaths": 19,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2009
+  },
+  {
+   "content": "중상사고",
+   "count": 529,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 529,
+   "year": 2010
+  },
+  {
+   "content": "사망사고",
+   "count": 27,
+   "deaths": 14,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2010
+  },
+  {
+   "content": "중상사고",
+   "count": 595,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 595,
+   "year": 2010
+  },
+  {
+   "content": "사망사고",
+   "count": 30,
+   "deaths": 21,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2010
+  },
+  {
+   "content": "중상사고",
+   "count": 329,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 329,
+   "year": 2010
+  },
+  {
+   "content": "사망사고",
+   "count": 22,
+   "deaths": 5,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2010
+  },
+  {
+   "content": "중상사고",
+   "count": 769,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 769,
+   "year": 2010
+  },
+  {
+   "content": "사망사고",
+   "count": 38,
+   "deaths": 19,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2010
+  },
+  {
+   "content": "중상사고",
+   "count": 376,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 376,
+   "year": 2010
+  },
+  {
+   "content": "사망사고",
+   "count": 38,
+   "deaths": 25,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2010
+  },
+  {
+   "content": "중상사고",
+   "count": 333,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 333,
+   "year": 2010
+  },
+  {
+   "content": "사망사고",
+   "count": 25,
+   "deaths": 1,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2010
+  },
+  {
+   "content": "중상사고",
+   "count": 754,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 754,
+   "year": 2010
+  },
+  {
+   "content": "사망사고",
+   "count": 29,
+   "deaths": 4,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2010
+  },
+  {
+   "content": "중상사고",
+   "count": 721,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 721,
+   "year": 2010
+  },
+  {
+   "content": "사망사고",
+   "count": 38,
+   "deaths": 2,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2010
+  },
+  {
+   "content": "중상사고",
+   "count": 331,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 331,
+   "year": 2010
+  },
+  {
+   "content": "사망사고",
+   "count": 31,
+   "deaths": 15,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2010
+  },
+  {
+   "content": "중상사고",
+   "count": 839,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 839,
+   "year": 2010
+  },
+  {
+   "content": "사망사고",
+   "count": 35,
+   "deaths": 7,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2010
+  },
+  {
+   "content": "중상사고",
+   "count": 463,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 463,
+   "year": 2010
+  },
+  {
+   "content": "사망사고",
+   "count": 32,
+   "deaths": 27,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2010
+  },
+  {
+   "content": "중상사고",
+   "count": 724,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 724,
+   "year": 2010
+  },
+  {
+   "content": "사망사고",
+   "count": 15,
+   "deaths": 5,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2010
+  },
+  {
+   "content": "중상사고",
+   "count": 380,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 380,
+   "year": 2011
+  },
+  {
+   "content": "사망사고",
+   "count": 40,
+   "deaths": 1,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2011
+  },
+  {
+   "content": "중상사고",
+   "count": 301,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 301,
+   "year": 2011
+  },
+  {
+   "content": "사망사고",
+   "count": 20,
+   "deaths": 14,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2011
+  },
+  {
+   "content": "중상사고",
+   "count": 623,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 623,
+   "year": 2011
+  },
+  {
+   "content": "사망사고",
+   "count": 37,
+   "deaths": 36,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2011
+  },
+  {
+   "content": "중상사고",
+   "count": 448,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 448,
+   "year": 2011
+  },
+  {
+   "content": "사망사고",
+   "count": 6,
+   "deaths": 6,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2011
+  },
+  {
+   "content": "중상사고",
+   "count": 356,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 356,
+   "year": 2011
+  },
+  {
+   "content": "사망사고",
+   "count": 10,
+   "deaths": 7,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2011
+  },
+  {
+   "content": "중상사고",
+   "count": 810,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 810,
+   "year": 2011
+  },
+  {
+   "content": "사망사고",
+   "count": 28,
+   "deaths": 18,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2011
+  },
+  {
+   "content": "중상사고",
+   "count": 311,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 311,
+   "year": 2011
+  },
+  {
+   "content": "사망사고",
+   "count": 37,
+   "deaths": 19,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2011
+  },
+  {
+   "content": "중상사고",
+   "count": 690,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 690,
+   "year": 2011
+  },
+  {
+   "content": "사망사고",
+   "count": 16,
+   "deaths": 2,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2011
+  },
+  {
+   "content": "중상사고",
+   "count": 804,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 804,
+   "year": 2011
+  },
+  {
+   "content": "사망사고",
+   "count": 17,
+   "deaths": 4,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2011
+  },
+  {
+   "content": "중상사고",
+   "count": 443,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 443,
+   "year": 2011
+  },
+  {
+   "content": "사망사고",
+   "count": 6,
+   "deaths": 1,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2011
+  },
+  {
+   "content": "중상사고",
+   "count": 791,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 791,
+   "year": 2011
+  },
+  {
+   "content": "사망사고",
+   "count": 34,
+   "deaths": 19,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2011
+  },
+  {
+   "content": "중상사고",
+   "count": 663,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 663,
+   "year": 2011
+  },
+  {
+   "content": "사망사고",
+   "count": 21,
+   "deaths": 16,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2011
+  },
+  {
+   "content": "중상사고",
+   "count": 578,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 578,
+   "year": 2012
+  },
+  {
+   "content": "사망사고",
+   "count": 20,
+   "deaths": 5,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2012
+  },
+  {
+   "content": "중상사고",
+   "count": 483,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 483,
+   "year": 2012
+  },
+  {
+   "content": "사망사고",
+   "count": 39,
+   "deaths": 34,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2012
+  },
+  {
+   "content": "중상사고",
+   "count": 655,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 655,
+   "year": 2012
+  },
+  {
+   "content": "사망사고",
+   "count": 26,
+   "deaths": 18,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2012
+  },
+  {
+   "content": "중상사고",
+   "count": 657,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 657,
+   "year": 2012
+  },
+  {
+   "content": "사망사고",
+   "count": 26,
+   "deaths": 5,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2012
+  },
+  {
+   "content": "중상사고",
+   "count": 563,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 563,
+   "year": 2012
+  },
+  {
+   "content": "사망사고",
+   "count": 27,
+   "deaths": 10,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2012
+  },
+  {
+   "content": "중상사고",
+   "count": 476,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 476,
+   "year": 2012
+  },
+  {
+   "content": "사망사고",
+   "count": 10,
+   "deaths": 2,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2012
+  },
+  {
+   "content": "중상사고",
+   "count": 671,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 671,
+   "year": 2012
+  },
+  {
+   "content": "사망사고",
+   "count": 10,
+   "deaths": 1,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2012
+  },
+  {
+   "content": "중상사고",
+   "count": 524,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 524,
+   "year": 2012
+  },
+  {
+   "content": "사망사고",
+   "count": 21,
+   "deaths": 16,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2012
+  },
+  {
+   "content": "중상사고",
+   "count": 865,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 865,
+   "year": 2012
+  },
+  {
+   "content": "사망사고",
+   "count": 28,
+   "deaths": 19,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2012
+  },
+  {
+   "content": "중상사고",
+   "count": 695,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 695,
+   "year": 2012
+  },
+  {
+   "content": "사망사고",
+   "count": 20,
+   "deaths": 11,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2012
+  },
+  {
+   "content": "중상사고",
+   "count": 721,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 721,
+   "year": 2012
+  },
+  {
+   "content": "사망사고",
+   "count": 21,
+   "deaths": 3,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2012
+  },
+  {
+   "content": "중상사고",
+   "count": 338,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 338,
+   "year": 2012
+  },
+  {
+   "content": "사망사고",
+   "count": 34,
+   "deaths": 22,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2012
+  },
+  {
+   "content": "중상사고",
+   "count": 486,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 486,
+   "year": 2013
+  },
+  {
+   "content": "사망사고",
+   "count": 25,
+   "deaths": 24,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2013
+  },
+  {
+   "content": "중상사고",
+   "count": 771,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 771,
+   "year": 2013
+  },
+  {
+   "content": "사망사고",
+   "count": 27,
+   "deaths": 3,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2013
+  },
+  {
+   "content": "중상사고",
+   "count": 859,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 859,
+   "year": 2013
+  },
+  {
+   "content": "사망사고",
+   "count": 13,
+   "deaths": 6,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2013
+  },
+  {
+   "content": "중상사고",
+   "count": 486,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 486,
+   "year": 2013
+  },
+  {
+   "content": "사망사고",
+   "count": 26,
+   "deaths": 20,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2013
+  },
+  {
+   "content": "중상사고",
+   "count": 883,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 883,
+   "year": 2013
+  },
+  {
+   "content": "사망사고",
+   "count": 5,
+   "deaths": 2,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2013
+  },
+  {
+   "content": "중상사고",
+   "count": 648,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 648,
+   "year": 2013
+  },
+  {
+   "content": "사망사고",
+   "count": 20,
+   "deaths": 9,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2013
+  },
+  {
+   "content": "중상사고",
+   "count": 409,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 409,
+   "year": 2013
+  },
+  {
+   "content": "사망사고",
+   "count": 15,
+   "deaths": 8,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2013
+  },
+  {
+   "content": "중상사고",
+   "count": 475,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 475,
+   "year": 2013
+  },
+  {
+   "content": "사망사고",
+   "count": 24,
+   "deaths": 4,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2013
+  },
+  {
+   "content": "중상사고",
+   "count": 688,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 688,
+   "year": 2013
+  },
+  {
+   "content": "사망사고",
+   "count": 10,
+   "deaths": 3,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2013
+  },
+  {
+   "content": "중상사고",
+   "count": 763,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 763,
+   "year": 2013
+  },
+  {
+   "content": "사망사고",
+   "count": 12,
+   "deaths": 8,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2013
+  },
+  {
+   "content": "중상사고",
+   "count": 491,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 491,
+   "year": 2013
+  },
+  {
+   "content": "사망사고",
+   "count": 36,
+   "deaths": 16,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2013
+  },
+  {
+   "content": "중상사고",
+   "count": 471,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 471,
+   "year": 2013
+  },
+  {
+   "content": "사망사고",
+   "count": 33,
+   "deaths": 15,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2013
+  },
+  {
+   "content": "중상사고",
+   "count": 431,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 431,
+   "year": 2014
+  },
+  {
+   "content": "사망사고",
+   "count": 33,
+   "deaths": 26,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2014
+  },
+  {
+   "content": "중상사고",
+   "count": 781,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 781,
+   "year": 2014
+  },
+  {
+   "content": "사망사고",
+   "count": 9,
+   "deaths": 3,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2014
+  },
+  {
+   "content": "중상사고",
+   "count": 725,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 725,
+   "year": 2014
+  },
+  {
+   "content": "사망사고",
+   "count": 18,
+   "deaths": 9,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2014
+  },
+  {
+   "content": "중상사고",
+   "count": 615,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 615,
+   "year": 2014
+  },
+  {
+   "content": "사망사고",
+   "count": 11,
+   "deaths": 7,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2014
+  },
+  {
+   "content": "중상사고",
+   "count": 841,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 841,
+   "year": 2014
+  },
+  {
+   "content": "사망사고",
+   "count": 17,
+   "deaths": 4,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2014
+  },
+  {
+   "content": "중상사고",
+   "count": 462,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 462,
+   "year": 2014
+  },
+  {
+   "content": "사망사고",
+   "count": 37,
+   "deaths": 13,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2014
+  },
+  {
+   "content": "중상사고",
+   "count": 342,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 342,
+   "year": 2014
+  },
+  {
+   "content": "사망사고",
+   "count": 11,
+   "deaths": 4,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2014
+  },
+  {
+   "content": "중상사고",
+   "count": 614,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 614,
+   "year": 2014
+  },
+  {
+   "content": "사망사고",
+   "count": 35,
+   "deaths": 11,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2014
+  },
+  {
+   "content": "중상사고",
+   "count": 767,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 767,
+   "year": 2014
+  },
+  {
+   "content": "사망사고",
+   "count": 18,
+   "deaths": 14,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2014
+  },
+  {
+   "content": "중상사고",
+   "count": 324,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 324,
+   "year": 2014
+  },
+  {
+   "content": "사망사고",
+   "count": 39,
+   "deaths": 10,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2014
+  },
+  {
+   "content": "중상사고",
+   "count": 880,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 880,
+   "year": 2014
+  },
+  {
+   "content": "사망사고",
+   "count": 37,
+   "deaths": 2,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2014
+  },
+  {
+   "content": "중상사고",
+   "count": 766,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 766,
+   "year": 2014
+  },
+  {
+   "content": "사망사고",
+   "count": 24,
+   "deaths": 6,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2014
+  },
+  {
+   "content": "중상사고",
+   "count": 785,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 785,
+   "year": 2015
+  },
+  {
+   "content": "사망사고",
+   "count": 18,
+   "deaths": 16,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2015
+  },
+  {
+   "content": "중상사고",
+   "count": 633,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 633,
+   "year": 2015
+  },
+  {
+   "content": "사망사고",
+   "count": 26,
+   "deaths": 17,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2015
+  },
+  {
+   "content": "중상사고",
+   "count": 709,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 709,
+   "year": 2015
+  },
+  {
+   "content": "사망사고",
+   "count": 29,
+   "deaths": 28,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2015
+  },
+  {
+   "content": "중상사고",
+   "count": 503,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 503,
+   "year": 2015
+  },
+  {
+   "content": "사망사고",
+   "count": 28,
+   "deaths": 20,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2015
+  },
+  {
+   "content": "중상사고",
+   "count": 884,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 884,
+   "year": 2015
+  },
+  {
+   "content": "사망사고",
+   "count": 13,
+   "deaths": 4,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2015
+  },
+  {
+   "content": "중상사고",
+   "count": 809,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 809,
+   "year": 2015
+  },
+  {
+   "content": "사망사고",
+   "count": 9,
+   "deaths": 7,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2015
+  },
+  {
+   "content": "중상사고",
+   "count": 308,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 308,
+   "year": 2015
+  },
+  {
+   "content": "사망사고",
+   "count": 12,
+   "deaths": 6,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2015
+  },
+  {
+   "content": "중상사고",
+   "count": 894,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 894,
+   "year": 2015
+  },
+  {
+   "content": "사망사고",
+   "count": 15,
+   "deaths": 13,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2015
+  },
+  {
+   "content": "중상사고",
+   "count": 324,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 324,
+   "year": 2015
+  },
+  {
+   "content": "사망사고",
+   "count": 39,
+   "deaths": 28,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2015
+  },
+  {
+   "content": "중상사고",
+   "count": 894,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 894,
+   "year": 2015
+  },
+  {
+   "content": "사망사고",
+   "count": 22,
+   "deaths": 16,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2015
+  },
+  {
+   "content": "중상사고",
+   "count": 351,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 351,
+   "year": 2015
+  },
+  {
+   "content": "사망사고",
+   "count": 32,
+   "deaths": 18,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2015
+  },
+  {
+   "content": "중상사고",
+   "count": 777,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 777,
+   "year": 2015
+  },
+  {
+   "content": "사망사고",
+   "count": 31,
+   "deaths": 7,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2015
+  },
+  {
+   "content": "중상사고",
+   "count": 637,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 637,
+   "year": 2016
+  },
+  {
+   "content": "사망사고",
+   "count": 37,
+   "deaths": 16,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2016
+  },
+  {
+   "content": "중상사고",
+   "count": 510,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 510,
+   "year": 2016
+  },
+  {
+   "content": "사망사고",
+   "count": 10,
+   "deaths": 9,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2016
+  },
+  {
+   "content": "중상사고",
+   "count": 358,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 358,
+   "year": 2016
+  },
+  {
+   "content": "사망사고",
+   "count": 28,
+   "deaths": 6,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2016
+  },
+  {
+   "content": "중상사고",
+   "count": 501,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 501,
+   "year": 2016
+  },
+  {
+   "content": "사망사고",
+   "count": 21,
+   "deaths": 4,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2016
+  },
+  {
+   "content": "중상사고",
+   "count": 884,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 884,
+   "year": 2016
+  },
+  {
+   "content": "사망사고",
+   "count": 12,
+   "deaths": 4,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2016
+  },
+  {
+   "content": "중상사고",
+   "count": 702,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 702,
+   "year": 2016
+  },
+  {
+   "content": "사망사고",
+   "count": 32,
+   "deaths": 24,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2016
+  },
+  {
+   "content": "중상사고",
+   "count": 817,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 817,
+   "year": 2016
+  },
+  {
+   "content": "사망사고",
+   "count": 18,
+   "deaths": 15,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2016
+  },
+  {
+   "content": "중상사고",
+   "count": 613,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 613,
+   "year": 2016
+  },
+  {
+   "content": "사망사고",
+   "count": 25,
+   "deaths": 9,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2016
+  },
+  {
+   "content": "중상사고",
+   "count": 795,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 795,
+   "year": 2016
+  },
+  {
+   "content": "사망사고",
+   "count": 31,
+   "deaths": 20,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2016
+  },
+  {
+   "content": "중상사고",
+   "count": 619,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 619,
+   "year": 2016
+  },
+  {
+   "content": "사망사고",
+   "count": 24,
+   "deaths": 11,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2016
+  },
+  {
+   "content": "중상사고",
+   "count": 788,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 788,
+   "year": 2016
+  },
+  {
+   "content": "사망사고",
+   "count": 14,
+   "deaths": 9,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2016
+  },
+  {
+   "content": "중상사고",
+   "count": 489,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 489,
+   "year": 2016
+  },
+  {
+   "content": "사망사고",
+   "count": 36,
+   "deaths": 33,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2016
+  },
+  {
+   "content": "중상사고",
+   "count": 760,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 760,
+   "year": 2017
+  },
+  {
+   "content": "사망사고",
+   "count": 35,
+   "deaths": 26,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2017
+  },
+  {
+   "content": "중상사고",
+   "count": 430,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 430,
+   "year": 2017
+  },
+  {
+   "content": "사망사고",
+   "count": 5,
+   "deaths": 1,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2017
+  },
+  {
+   "content": "중상사고",
+   "count": 829,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 829,
+   "year": 2017
+  },
+  {
+   "content": "사망사고",
+   "count": 33,
+   "deaths": 29,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2017
+  },
+  {
+   "content": "중상사고",
+   "count": 818,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 818,
+   "year": 2017
+  },
+  {
+   "content": "사망사고",
+   "count": 27,
+   "deaths": 10,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2017
+  },
+  {
+   "content": "중상사고",
+   "count": 524,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 524,
+   "year": 2017
+  },
+  {
+   "content": "사망사고",
+   "count": 19,
+   "deaths": 19,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2017
+  },
+  {
+   "content": "중상사고",
+   "count": 862,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 862,
+   "year": 2017
+  },
+  {
+   "content": "사망사고",
+   "count": 12,
+   "deaths": 8,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2017
+  },
+  {
+   "content": "중상사고",
+   "count": 621,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 621,
+   "year": 2017
+  },
+  {
+   "content": "사망사고",
+   "count": 36,
+   "deaths": 31,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2017
+  },
+  {
+   "content": "중상사고",
+   "count": 402,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 402,
+   "year": 2017
+  },
+  {
+   "content": "사망사고",
+   "count": 39,
+   "deaths": 33,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2017
+  },
+  {
+   "content": "중상사고",
+   "count": 393,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 393,
+   "year": 2017
+  },
+  {
+   "content": "사망사고",
+   "count": 24,
+   "deaths": 12,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2017
+  },
+  {
+   "content": "중상사고",
+   "count": 445,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 445,
+   "year": 2017
+  },
+  {
+   "content": "사망사고",
+   "count": 5,
+   "deaths": 1,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2017
+  },
+  {
+   "content": "중상사고",
+   "count": 662,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 662,
+   "year": 2017
+  },
+  {
+   "content": "사망사고",
+   "count": 16,
+   "deaths": 16,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2017
+  },
+  {
+   "content": "중상사고",
+   "count": 628,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 628,
+   "year": 2017
+  },
+  {
+   "content": "사망사고",
+   "count": 34,
+   "deaths": 26,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2017
+  },
+  {
+   "content": "중상사고",
+   "count": 713,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 713,
+   "year": 2018
+  },
+  {
+   "content": "사망사고",
+   "count": 22,
+   "deaths": 2,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2018
+  },
+  {
+   "content": "중상사고",
+   "count": 629,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 629,
+   "year": 2018
+  },
+  {
+   "content": "사망사고",
+   "count": 13,
+   "deaths": 10,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2018
+  },
+  {
+   "content": "중상사고",
+   "count": 643,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 643,
+   "year": 2018
+  },
+  {
+   "content": "사망사고",
+   "count": 21,
+   "deaths": 11,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2018
+  },
+  {
+   "content": "중상사고",
+   "count": 609,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 609,
+   "year": 2018
+  },
+  {
+   "content": "사망사고",
+   "count": 9,
+   "deaths": 8,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2018
+  },
+  {
+   "content": "중상사고",
+   "count": 321,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 321,
+   "year": 2018
+  },
+  {
+   "content": "사망사고",
+   "count": 24,
+   "deaths": 17,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2018
+  },
+  {
+   "content": "중상사고",
+   "count": 608,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 608,
+   "year": 2018
+  },
+  {
+   "content": "사망사고",
+   "count": 5,
+   "deaths": 1,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2018
+  },
+  {
+   "content": "중상사고",
+   "count": 347,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 347,
+   "year": 2018
+  },
+  {
+   "content": "사망사고",
+   "count": 5,
+   "deaths": 3,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2018
+  },
+  {
+   "content": "중상사고",
+   "count": 336,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 336,
+   "year": 2018
+  },
+  {
+   "content": "사망사고",
+   "count": 25,
+   "deaths": 24,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2018
+  },
+  {
+   "content": "중상사고",
+   "count": 886,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 886,
+   "year": 2018
+  },
+  {
+   "content": "사망사고",
+   "count": 14,
+   "deaths": 9,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2018
+  },
+  {
+   "content": "중상사고",
+   "count": 849,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 849,
+   "year": 2018
+  },
+  {
+   "content": "사망사고",
+   "count": 23,
+   "deaths": 7,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2018
+  },
+  {
+   "content": "중상사고",
+   "count": 484,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 484,
+   "year": 2018
+  },
+  {
+   "content": "사망사고",
+   "count": 29,
+   "deaths": 23,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2018
+  },
+  {
+   "content": "중상사고",
+   "count": 816,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 816,
+   "year": 2018
+  },
+  {
+   "content": "사망사고",
+   "count": 27,
+   "deaths": 15,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2018
+  },
+  {
+   "content": "중상사고",
+   "count": 685,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 685,
+   "year": 2019
+  },
+  {
+   "content": "사망사고",
+   "count": 36,
+   "deaths": 19,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2019
+  },
+  {
+   "content": "중상사고",
+   "count": 306,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 306,
+   "year": 2019
+  },
+  {
+   "content": "사망사고",
+   "count": 16,
+   "deaths": 11,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2019
+  },
+  {
+   "content": "중상사고",
+   "count": 589,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 589,
+   "year": 2019
+  },
+  {
+   "content": "사망사고",
+   "count": 24,
+   "deaths": 11,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2019
+  },
+  {
+   "content": "중상사고",
+   "count": 510,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 510,
+   "year": 2019
+  },
+  {
+   "content": "사망사고",
+   "count": 12,
+   "deaths": 4,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2019
+  },
+  {
+   "content": "중상사고",
+   "count": 443,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 443,
+   "year": 2019
+  },
+  {
+   "content": "사망사고",
+   "count": 27,
+   "deaths": 26,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2019
+  },
+  {
+   "content": "중상사고",
+   "count": 675,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 675,
+   "year": 2019
+  },
+  {
+   "content": "사망사고",
+   "count": 9,
+   "deaths": 8,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2019
+  },
+  {
+   "content": "중상사고",
+   "count": 464,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 464,
+   "year": 2019
+  },
+  {
+   "content": "사망사고",
+   "count": 30,
+   "deaths": 3,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2019
+  },
+  {
+   "content": "중상사고",
+   "count": 361,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 361,
+   "year": 2019
+  },
+  {
+   "content": "사망사고",
+   "count": 21,
+   "deaths": 20,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2019
+  },
+  {
+   "content": "중상사고",
+   "count": 565,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 565,
+   "year": 2019
+  },
+  {
+   "content": "사망사고",
+   "count": 29,
+   "deaths": 5,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2019
+  },
+  {
+   "content": "중상사고",
+   "count": 613,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 613,
+   "year": 2019
+  },
+  {
+   "content": "사망사고",
+   "count": 26,
+   "deaths": 9,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2019
+  },
+  {
+   "content": "중상사고",
+   "count": 847,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 847,
+   "year": 2019
+  },
+  {
+   "content": "사망사고",
+   "count": 23,
+   "deaths": 17,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2019
+  },
+  {
+   "content": "중상사고",
+   "count": 859,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 859,
+   "year": 2019
+  },
+  {
+   "content": "사망사고",
+   "count": 31,
+   "deaths": 11,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2019
+  },
+  {
+   "content": "중상사고",
+   "count": 648,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 648,
+   "year": 2020
+  },
+  {
+   "content": "사망사고",
+   "count": 25,
+   "deaths": 10,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2020
+  },
+  {
+   "content": "중상사고",
+   "count": 684,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 684,
+   "year": 2020
+  },
+  {
+   "content": "사망사고",
+   "count": 35,
+   "deaths": 5,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2020
+  },
+  {
+   "content": "중상사고",
+   "count": 454,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 454,
+   "year": 2020
+  },
+  {
+   "content": "사망사고",
+   "count": 35,
+   "deaths": 10,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2020
+  },
+  {
+   "content": "중상사고",
+   "count": 463,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 463,
+   "year": 2020
+  },
+  {
+   "content": "사망사고",
+   "count": 19,
+   "deaths": 4,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2020
+  },
+  {
+   "content": "중상사고",
+   "count": 393,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 393,
+   "year": 2020
+  },
+  {
+   "content": "사망사고",
+   "count": 33,
+   "deaths": 30,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2020
+  },
+  {
+   "content": "중상사고",
+   "count": 755,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 755,
+   "year": 2020
+  },
+  {
+   "content": "사망사고",
+   "count": 21,
+   "deaths": 4,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2020
+  },
+  {
+   "content": "중상사고",
+   "count": 668,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 668,
+   "year": 2020
+  },
+  {
+   "content": "사망사고",
+   "count": 9,
+   "deaths": 9,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2020
+  },
+  {
+   "content": "중상사고",
+   "count": 608,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 608,
+   "year": 2020
+  },
+  {
+   "content": "사망사고",
+   "count": 16,
+   "deaths": 7,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2020
+  },
+  {
+   "content": "중상사고",
+   "count": 836,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 836,
+   "year": 2020
+  },
+  {
+   "content": "사망사고",
+   "count": 29,
+   "deaths": 28,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2020
+  },
+  {
+   "content": "중상사고",
+   "count": 518,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 518,
+   "year": 2020
+  },
+  {
+   "content": "사망사고",
+   "count": 20,
+   "deaths": 15,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2020
+  },
+  {
+   "content": "중상사고",
+   "count": 456,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 456,
+   "year": 2020
+  },
+  {
+   "content": "사망사고",
+   "count": 36,
+   "deaths": 10,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2020
+  },
+  {
+   "content": "중상사고",
+   "count": 460,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 460,
+   "year": 2020
+  },
+  {
+   "content": "사망사고",
+   "count": 12,
+   "deaths": 12,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2020
+  },
+  {
+   "content": "중상사고",
+   "count": 546,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 546,
+   "year": 2021
+  },
+  {
+   "content": "사망사고",
+   "count": 20,
+   "deaths": 17,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2021
+  },
+  {
+   "content": "중상사고",
+   "count": 521,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 521,
+   "year": 2021
+  },
+  {
+   "content": "사망사고",
+   "count": 13,
+   "deaths": 3,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2021
+  },
+  {
+   "content": "중상사고",
+   "count": 696,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 696,
+   "year": 2021
+  },
+  {
+   "content": "사망사고",
+   "count": 11,
+   "deaths": 3,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2021
+  },
+  {
+   "content": "중상사고",
+   "count": 770,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 770,
+   "year": 2021
+  },
+  {
+   "content": "사망사고",
+   "count": 37,
+   "deaths": 33,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2021
+  },
+  {
+   "content": "중상사고",
+   "count": 685,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 685,
+   "year": 2021
+  },
+  {
+   "content": "사망사고",
+   "count": 10,
+   "deaths": 2,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2021
+  },
+  {
+   "content": "중상사고",
+   "count": 385,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 385,
+   "year": 2021
+  },
+  {
+   "content": "사망사고",
+   "count": 17,
+   "deaths": 9,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2021
+  },
+  {
+   "content": "중상사고",
+   "count": 309,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 309,
+   "year": 2021
+  },
+  {
+   "content": "사망사고",
+   "count": 34,
+   "deaths": 16,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2021
+  },
+  {
+   "content": "중상사고",
+   "count": 524,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 524,
+   "year": 2021
+  },
+  {
+   "content": "사망사고",
+   "count": 8,
+   "deaths": 4,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2021
+  },
+  {
+   "content": "중상사고",
+   "count": 472,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 472,
+   "year": 2021
+  },
+  {
+   "content": "사망사고",
+   "count": 38,
+   "deaths": 2,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2021
+  },
+  {
+   "content": "중상사고",
+   "count": 747,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 747,
+   "year": 2021
+  },
+  {
+   "content": "사망사고",
+   "count": 39,
+   "deaths": 37,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2021
+  },
+  {
+   "content": "중상사고",
+   "count": 887,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 887,
+   "year": 2021
+  },
+  {
+   "content": "사망사고",
+   "count": 26,
+   "deaths": 18,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2021
+  },
+  {
+   "content": "중상사고",
+   "count": 538,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 538,
+   "year": 2021
+  },
+  {
+   "content": "사망사고",
+   "count": 33,
+   "deaths": 2,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2021
+  },
+  {
+   "content": "중상사고",
+   "count": 843,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 843,
+   "year": 2022
+  },
+  {
+   "content": "사망사고",
+   "count": 32,
+   "deaths": 29,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2022
+  },
+  {
+   "content": "중상사고",
+   "count": 314,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 314,
+   "year": 2022
+  },
+  {
+   "content": "사망사고",
+   "count": 32,
+   "deaths": 15,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2022
+  },
+  {
+   "content": "중상사고",
+   "count": 768,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 768,
+   "year": 2022
+  },
+  {
+   "content": "사망사고",
+   "count": 5,
+   "deaths": 2,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2022
+  },
+  {
+   "content": "중상사고",
+   "count": 549,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 549,
+   "year": 2022
+  },
+  {
+   "content": "사망사고",
+   "count": 34,
+   "deaths": 27,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2022
+  },
+  {
+   "content": "중상사고",
+   "count": 787,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 787,
+   "year": 2022
+  },
+  {
+   "content": "사망사고",
+   "count": 36,
+   "deaths": 27,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2022
+  },
+  {
+   "content": "중상사고",
+   "count": 814,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 814,
+   "year": 2022
+  },
+  {
+   "content": "사망사고",
+   "count": 7,
+   "deaths": 2,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2022
+  },
+  {
+   "content": "중상사고",
+   "count": 577,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 577,
+   "year": 2022
+  },
+  {
+   "content": "사망사고",
+   "count": 34,
+   "deaths": 21,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2022
+  },
+  {
+   "content": "중상사고",
+   "count": 590,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 590,
+   "year": 2022
+  },
+  {
+   "content": "사망사고",
+   "count": 8,
+   "deaths": 4,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2022
+  },
+  {
+   "content": "중상사고",
+   "count": 695,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 695,
+   "year": 2022
+  },
+  {
+   "content": "사망사고",
+   "count": 38,
+   "deaths": 7,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2022
+  },
+  {
+   "content": "중상사고",
+   "count": 858,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 858,
+   "year": 2022
+  },
+  {
+   "content": "사망사고",
+   "count": 24,
+   "deaths": 19,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2022
+  },
+  {
+   "content": "중상사고",
+   "count": 804,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 804,
+   "year": 2022
+  },
+  {
+   "content": "사망사고",
+   "count": 27,
+   "deaths": 13,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2022
+  },
+  {
+   "content": "중상사고",
+   "count": 795,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 795,
+   "year": 2022
+  },
+  {
+   "content": "사망사고",
+   "count": 35,
+   "deaths": 22,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2022
+  },
+  {
+   "content": "중상사고",
+   "count": 352,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 352,
+   "year": 2023
+  },
+  {
+   "content": "사망사고",
+   "count": 18,
+   "deaths": 10,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2023
+  },
+  {
+   "content": "중상사고",
+   "count": 309,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 309,
+   "year": 2023
+  },
+  {
+   "content": "사망사고",
+   "count": 11,
+   "deaths": 9,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2023
+  },
+  {
+   "content": "중상사고",
+   "count": 458,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 458,
+   "year": 2023
+  },
+  {
+   "content": "사망사고",
+   "count": 24,
+   "deaths": 1,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2023
+  },
+  {
+   "content": "중상사고",
+   "count": 719,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 719,
+   "year": 2023
+  },
+  {
+   "content": "사망사고",
+   "count": 21,
+   "deaths": 4,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2023
+  },
+  {
+   "content": "중상사고",
+   "count": 695,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 695,
+   "year": 2023
+  },
+  {
+   "content": "사망사고",
+   "count": 26,
+   "deaths": 12,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2023
+  },
+  {
+   "content": "중상사고",
+   "count": 311,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 311,
+   "year": 2023
+  },
+  {
+   "content": "사망사고",
+   "count": 35,
+   "deaths": 2,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2023
+  },
+  {
+   "content": "중상사고",
+   "count": 767,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 767,
+   "year": 2023
+  },
+  {
+   "content": "사망사고",
+   "count": 10,
+   "deaths": 9,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2023
+  },
+  {
+   "content": "중상사고",
+   "count": 403,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 403,
+   "year": 2023
+  },
+  {
+   "content": "사망사고",
+   "count": 15,
+   "deaths": 7,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2023
+  },
+  {
+   "content": "중상사고",
+   "count": 751,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 751,
+   "year": 2023
+  },
+  {
+   "content": "사망사고",
+   "count": 13,
+   "deaths": 13,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2023
+  },
+  {
+   "content": "중상사고",
+   "count": 570,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 570,
+   "year": 2023
+  },
+  {
+   "content": "사망사고",
+   "count": 40,
+   "deaths": 6,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2023
+  },
+  {
+   "content": "중상사고",
+   "count": 576,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 576,
+   "year": 2023
+  },
+  {
+   "content": "사망사고",
+   "count": 35,
+   "deaths": 31,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2023
+  },
+  {
+   "content": "중상사고",
+   "count": 763,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 763,
+   "year": 2023
+  },
+  {
+   "content": "사망사고",
+   "count": 27,
+   "deaths": 12,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2023
+  },
+  {
+   "content": "중상사고",
+   "count": 581,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 581,
+   "year": 2024
+  },
+  {
+   "content": "사망사고",
+   "count": 23,
+   "deaths": 9,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2024
+  },
+  {
+   "content": "중상사고",
+   "count": 696,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 696,
+   "year": 2024
+  },
+  {
+   "content": "사망사고",
+   "count": 15,
+   "deaths": 11,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2024
+  },
+  {
+   "content": "중상사고",
+   "count": 768,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 768,
+   "year": 2024
+  },
+  {
+   "content": "사망사고",
+   "count": 40,
+   "deaths": 11,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2024
+  },
+  {
+   "content": "중상사고",
+   "count": 836,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 836,
+   "year": 2024
+  },
+  {
+   "content": "사망사고",
+   "count": 40,
+   "deaths": 19,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2024
+  },
+  {
+   "content": "중상사고",
+   "count": 812,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 812,
+   "year": 2024
+  },
+  {
+   "content": "사망사고",
+   "count": 38,
+   "deaths": 38,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2024
+  },
+  {
+   "content": "중상사고",
+   "count": 710,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 710,
+   "year": 2024
+  },
+  {
+   "content": "사망사고",
+   "count": 29,
+   "deaths": 10,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2024
+  },
+  {
+   "content": "중상사고",
+   "count": 312,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 312,
+   "year": 2024
+  },
+  {
+   "content": "사망사고",
+   "count": 21,
+   "deaths": 13,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2024
+  },
+  {
+   "content": "중상사고",
+   "count": 742,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 742,
+   "year": 2024
+  },
+  {
+   "content": "사망사고",
+   "count": 14,
+   "deaths": 12,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2024
+  },
+  {
+   "content": "중상사고",
+   "count": 799,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 799,
+   "year": 2024
+  },
+  {
+   "content": "사망사고",
+   "count": 28,
+   "deaths": 5,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2024
+  },
+  {
+   "content": "중상사고",
+   "count": 322,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 322,
+   "year": 2024
+  },
+  {
+   "content": "사망사고",
+   "count": 14,
+   "deaths": 4,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2024
+  },
+  {
+   "content": "중상사고",
+   "count": 453,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 453,
+   "year": 2024
+  },
+  {
+   "content": "사망사고",
+   "count": 6,
+   "deaths": 5,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2024
+  },
+  {
+   "content": "중상사고",
+   "count": 335,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 335,
+   "year": 2024
+  },
+  {
+   "content": "사망사고",
+   "count": 5,
+   "deaths": 2,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2024
+  },
+  {
+   "content": "중상사고",
+   "count": 571,
+   "deaths": 0,
+   "month": 1,
+   "season": "겨울",
+   "serious": 571,
+   "year": 2025
+  },
+  {
+   "content": "사망사고",
+   "count": 40,
+   "deaths": 27,
+   "month": 1,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2025
+  },
+  {
+   "content": "중상사고",
+   "count": 539,
+   "deaths": 0,
+   "month": 2,
+   "season": "겨울",
+   "serious": 539,
+   "year": 2025
+  },
+  {
+   "content": "사망사고",
+   "count": 38,
+   "deaths": 3,
+   "month": 2,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2025
+  },
+  {
+   "content": "중상사고",
+   "count": 402,
+   "deaths": 0,
+   "month": 3,
+   "season": "봄",
+   "serious": 402,
+   "year": 2025
+  },
+  {
+   "content": "사망사고",
+   "count": 21,
+   "deaths": 9,
+   "month": 3,
+   "season": "봄",
+   "serious": 0,
+   "year": 2025
+  },
+  {
+   "content": "중상사고",
+   "count": 527,
+   "deaths": 0,
+   "month": 4,
+   "season": "봄",
+   "serious": 527,
+   "year": 2025
+  },
+  {
+   "content": "사망사고",
+   "count": 40,
+   "deaths": 28,
+   "month": 4,
+   "season": "봄",
+   "serious": 0,
+   "year": 2025
+  },
+  {
+   "content": "중상사고",
+   "count": 508,
+   "deaths": 0,
+   "month": 5,
+   "season": "봄",
+   "serious": 508,
+   "year": 2025
+  },
+  {
+   "content": "사망사고",
+   "count": 31,
+   "deaths": 27,
+   "month": 5,
+   "season": "봄",
+   "serious": 0,
+   "year": 2025
+  },
+  {
+   "content": "중상사고",
+   "count": 521,
+   "deaths": 0,
+   "month": 6,
+   "season": "여름",
+   "serious": 521,
+   "year": 2025
+  },
+  {
+   "content": "사망사고",
+   "count": 17,
+   "deaths": 9,
+   "month": 6,
+   "season": "여름",
+   "serious": 0,
+   "year": 2025
+  },
+  {
+   "content": "중상사고",
+   "count": 687,
+   "deaths": 0,
+   "month": 7,
+   "season": "여름",
+   "serious": 687,
+   "year": 2025
+  },
+  {
+   "content": "사망사고",
+   "count": 8,
+   "deaths": 4,
+   "month": 7,
+   "season": "여름",
+   "serious": 0,
+   "year": 2025
+  },
+  {
+   "content": "중상사고",
+   "count": 682,
+   "deaths": 0,
+   "month": 8,
+   "season": "여름",
+   "serious": 682,
+   "year": 2025
+  },
+  {
+   "content": "사망사고",
+   "count": 11,
+   "deaths": 5,
+   "month": 8,
+   "season": "여름",
+   "serious": 0,
+   "year": 2025
+  },
+  {
+   "content": "중상사고",
+   "count": 733,
+   "deaths": 0,
+   "month": 9,
+   "season": "가을",
+   "serious": 733,
+   "year": 2025
+  },
+  {
+   "content": "사망사고",
+   "count": 40,
+   "deaths": 33,
+   "month": 9,
+   "season": "가을",
+   "serious": 0,
+   "year": 2025
+  },
+  {
+   "content": "중상사고",
+   "count": 370,
+   "deaths": 0,
+   "month": 10,
+   "season": "가을",
+   "serious": 370,
+   "year": 2025
+  },
+  {
+   "content": "사망사고",
+   "count": 17,
+   "deaths": 11,
+   "month": 10,
+   "season": "가을",
+   "serious": 0,
+   "year": 2025
+  },
+  {
+   "content": "중상사고",
+   "count": 307,
+   "deaths": 0,
+   "month": 11,
+   "season": "가을",
+   "serious": 307,
+   "year": 2025
+  },
+  {
+   "content": "사망사고",
+   "count": 28,
+   "deaths": 25,
+   "month": 11,
+   "season": "가을",
+   "serious": 0,
+   "year": 2025
+  },
+  {
+   "content": "중상사고",
+   "count": 771,
+   "deaths": 0,
+   "month": 12,
+   "season": "겨울",
+   "serious": 771,
+   "year": 2025
+  },
+  {
+   "content": "사망사고",
+   "count": 7,
+   "deaths": 3,
+   "month": 12,
+   "season": "겨울",
+   "serious": 0,
+   "year": 2025
+  }
+ ],
+ "monthly_profile": [
+  {
+   "avg_per_year": 885.0,
+   "count": 15404,
+   "month": 1,
+   "share": 0.0737
+  },
+  {
+   "avg_per_year": 893.3,
+   "count": 15886,
+   "month": 2,
+   "share": 0.0745
+  },
+  {
+   "avg_per_year": 830.0,
+   "count": 16209,
+   "month": 3,
+   "share": 0.0793
+  },
+  {
+   "avg_per_year": 983.4,
+   "count": 15570,
+   "month": 4,
+   "share": 0.0792
+  },
+  {
+   "avg_per_year": 821.5,
+   "count": 18371,
+   "month": 5,
+   "share": 0.0828
+  },
+  {
+   "avg_per_year": 1010.5,
+   "count": 19261,
+   "month": 6,
+   "share": 0.0718
+  },
+  {
+   "avg_per_year": 851.1,
+   "count": 15499,
+   "month": 7,
+   "share": 0.0876
+  },
+  {
+   "avg_per_year": 934.2,
+   "count": 19957,
+   "month": 8,
+   "share": 0.0852
+  },
+  {
+   "avg_per_year": 866.4,
+   "count": 15803,
+   "month": 9,
+   "share": 0.0733
+  },
+  {
+   "avg_per_year": 1026.6,
+   "count": 19577,
+   "month": 10,
+   "share": 0.071
+  },
+  {
+   "avg_per_year": 892.2,
+   "count": 19173,
+   "month": 11,
+   "share": 0.0851
+  },
+  {
+   "avg_per_year": 961.9,
+   "count": 16031,
+   "month": 12,
+   "share": 0.087
+  }
+ ]
+}

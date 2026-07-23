@@ -1,0 +1,109 @@
+{
+ "hypotheses": [
+  {
+   "caveat": "월 단위·상관 관계, 인과 아님",
+   "evidence": [
+    {
+     "label": "가을 share",
+     "unit": null,
+     "value": 0.266
+    },
+    {
+     "label": "겨울 share",
+     "unit": null,
+     "value": 0.225
+    },
+    {
+     "label": "월 peak/trough(10월/2월)",
+     "unit": "배",
+     "value": 1.33
+    }
+   ],
+   "id": "H1",
+   "metric_name": "계절 사고건수 최대/최소 비율",
+   "metric_value": 1.18,
+   "screen": "계절·추이",
+   "thresholds": {
+    "partial_min": 1.12,
+    "supported_min": 1.3
+   },
+   "title": "계절에 따라 사고 발생 패턴이 뚜렷이 다르다",
+   "verdict": "partial"
+  },
+  {
+   "caveat": "노출 보정·월단위 근사, 인과 아님 (MOCK 값)",
+   "evidence": [
+    {
+     "label": "비 배율",
+     "unit": "배",
+     "value": 1.34
+    },
+    {
+     "label": "눈 배율",
+     "unit": "배",
+     "value": 0.8
+    }
+   ],
+   "id": "H2",
+   "metric_name": "max(비 배율, 눈 배율)",
+   "metric_value": 1.34,
+   "screen": "기상 분석",
+   "thresholds": {
+    "partial_min": 1.0,
+    "supported_min": 1.5
+   },
+   "title": "비·눈 오는 날은 맑은 날보다 하루당 사고율이 높다",
+   "verdict": "partial"
+  },
+  {
+   "caveat": "MOCK 값",
+   "evidence": [
+    {
+     "label": "최대 구",
+     "unit": null,
+     "value": 0.088
+    },
+    {
+     "label": "최소 구",
+     "unit": null,
+     "value": 0.062
+    }
+   ],
+   "id": "H3",
+   "metric_name": "구별 비-사고비율 최대/최소",
+   "metric_value": 1.42,
+   "screen": "지도",
+   "thresholds": {
+    "partial_min": 1.2,
+    "supported_min": 1.5
+   },
+   "title": "날씨의 영향은 자치구별로 다르게 나타난다",
+   "verdict": "partial"
+  },
+  {
+   "caveat": "MOCK 값",
+   "evidence": [
+    {
+     "label": "최대 증폭 축",
+     "unit": "배",
+     "value": 1.61
+    }
+   ],
+   "id": "H4",
+   "metric_name": "축 하위그룹 비-비율 최대/최소 배율",
+   "metric_value": 1.61,
+   "screen": "크로스 분석",
+   "thresholds": {
+    "partial_min": 1.2,
+    "supported_min": 1.5
+   },
+   "title": "날씨 영향은 주야·도로형태·차종·연령대에 따라 증폭/약화된다",
+   "verdict": "supported"
+  }
+ ],
+ "verdict_labels": {
+  "partial": "부분 지지",
+  "rejected": "기각",
+  "supported": "지지"
+ }
+}

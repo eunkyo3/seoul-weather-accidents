@@ -1,0 +1,9285 @@
+{
+ "by_weather": [
+  {
+   "count": 190466,
+   "deaths": 3261,
+   "serious": 199989,
+   "share": 0.853,
+   "weather": "맑음"
+  },
+  {
+   "count": 12280,
+   "deaths": 1116,
+   "serious": 12894,
+   "share": 0.055,
+   "weather": "흐림"
+  },
+  {
+   "count": 16746,
+   "deaths": 2048,
+   "serious": 17584,
+   "share": 0.075,
+   "weather": "비"
+  },
+  {
+   "count": 1339,
+   "deaths": 363,
+   "serious": 1406,
+   "share": 0.006,
+   "weather": "눈"
+  },
+  {
+   "count": 2456,
+   "deaths": 5438,
+   "serious": 2578,
+   "share": 0.011,
+   "weather": "기타"
+  }
+ ],
+ "monthly": [
+  {
+   "count": 505,
+   "deaths": 1,
+   "month": 1,
+   "serious": 505,
+   "weather": "맑음",
+   "year": 2007
+  },
+  {
+   "count": 43,
+   "deaths": 0,
+   "month": 1,
+   "serious": 43,
+   "weather": "흐림",
+   "year": 2007
+  },
+  {
+   "count": 22,
+   "deaths": 2,
+   "month": 1,
+   "serious": 22,
+   "weather": "비",
+   "year": 2007
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 1,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2007
+  },
+  {
+   "count": 7,
+   "deaths": 2,
+   "month": 1,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2007
+  },
+  {
+   "count": 561,
+   "deaths": 1,
+   "month": 2,
+   "serious": 561,
+   "weather": "맑음",
+   "year": 2007
+  },
+  {
+   "count": 24,
+   "deaths": 1,
+   "month": 2,
+   "serious": 24,
+   "weather": "흐림",
+   "year": 2007
+  },
+  {
+   "count": 61,
+   "deaths": 0,
+   "month": 2,
+   "serious": 61,
+   "weather": "비",
+   "year": 2007
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 2,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2007
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 2,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2007
+  },
+  {
+   "count": 440,
+   "deaths": 0,
+   "month": 3,
+   "serious": 440,
+   "weather": "맑음",
+   "year": 2007
+  },
+  {
+   "count": 25,
+   "deaths": 2,
+   "month": 3,
+   "serious": 25,
+   "weather": "흐림",
+   "year": 2007
+  },
+  {
+   "count": 42,
+   "deaths": 3,
+   "month": 3,
+   "serious": 42,
+   "weather": "비",
+   "year": 2007
+  },
+  {
+   "count": 1,
+   "deaths": 1,
+   "month": 3,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2007
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 3,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2007
+  },
+  {
+   "count": 585,
+   "deaths": 2,
+   "month": 4,
+   "serious": 585,
+   "weather": "맑음",
+   "year": 2007
+  },
+  {
+   "count": 22,
+   "deaths": 1,
+   "month": 4,
+   "serious": 22,
+   "weather": "흐림",
+   "year": 2007
+  },
+  {
+   "count": 62,
+   "deaths": 2,
+   "month": 4,
+   "serious": 62,
+   "weather": "비",
+   "year": 2007
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 4,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2007
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 4,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2007
+  },
+  {
+   "count": 363,
+   "deaths": 1,
+   "month": 5,
+   "serious": 363,
+   "weather": "맑음",
+   "year": 2007
+  },
+  {
+   "count": 44,
+   "deaths": 2,
+   "month": 5,
+   "serious": 44,
+   "weather": "흐림",
+   "year": 2007
+  },
+  {
+   "count": 39,
+   "deaths": 1,
+   "month": 5,
+   "serious": 39,
+   "weather": "비",
+   "year": 2007
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 5,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2007
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 5,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2007
+  },
+  {
+   "count": 379,
+   "deaths": 1,
+   "month": 6,
+   "serious": 379,
+   "weather": "맑음",
+   "year": 2007
+  },
+  {
+   "count": 22,
+   "deaths": 2,
+   "month": 6,
+   "serious": 22,
+   "weather": "흐림",
+   "year": 2007
+  },
+  {
+   "count": 25,
+   "deaths": 1,
+   "month": 6,
+   "serious": 25,
+   "weather": "비",
+   "year": 2007
+  },
+  {
+   "count": 1,
+   "deaths": 1,
+   "month": 6,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2007
+  },
+  {
+   "count": 9,
+   "deaths": 3,
+   "month": 6,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2007
+  },
+  {
+   "count": 506,
+   "deaths": 1,
+   "month": 7,
+   "serious": 506,
+   "weather": "맑음",
+   "year": 2007
+  },
+  {
+   "count": 19,
+   "deaths": 1,
+   "month": 7,
+   "serious": 19,
+   "weather": "흐림",
+   "year": 2007
+  },
+  {
+   "count": 59,
+   "deaths": 2,
+   "month": 7,
+   "serious": 59,
+   "weather": "비",
+   "year": 2007
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 7,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2007
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 7,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2007
+  },
+  {
+   "count": 445,
+   "deaths": 2,
+   "month": 8,
+   "serious": 445,
+   "weather": "맑음",
+   "year": 2007
+  },
+  {
+   "count": 47,
+   "deaths": 3,
+   "month": 8,
+   "serious": 47,
+   "weather": "흐림",
+   "year": 2007
+  },
+  {
+   "count": 52,
+   "deaths": 1,
+   "month": 8,
+   "serious": 52,
+   "weather": "비",
+   "year": 2007
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 8,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2007
+  },
+  {
+   "count": 7,
+   "deaths": 3,
+   "month": 8,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2007
+  },
+  {
+   "count": 602,
+   "deaths": 1,
+   "month": 9,
+   "serious": 602,
+   "weather": "맑음",
+   "year": 2007
+  },
+  {
+   "count": 21,
+   "deaths": 3,
+   "month": 9,
+   "serious": 21,
+   "weather": "흐림",
+   "year": 2007
+  },
+  {
+   "count": 33,
+   "deaths": 3,
+   "month": 9,
+   "serious": 33,
+   "weather": "비",
+   "year": 2007
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 9,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2007
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 9,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2007
+  },
+  {
+   "count": 321,
+   "deaths": 1,
+   "month": 10,
+   "serious": 321,
+   "weather": "맑음",
+   "year": 2007
+  },
+  {
+   "count": 45,
+   "deaths": 2,
+   "month": 10,
+   "serious": 45,
+   "weather": "흐림",
+   "year": 2007
+  },
+  {
+   "count": 31,
+   "deaths": 3,
+   "month": 10,
+   "serious": 31,
+   "weather": "비",
+   "year": 2007
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 10,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2007
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 10,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2007
+  },
+  {
+   "count": 585,
+   "deaths": 2,
+   "month": 11,
+   "serious": 585,
+   "weather": "맑음",
+   "year": 2007
+  },
+  {
+   "count": 18,
+   "deaths": 2,
+   "month": 11,
+   "serious": 18,
+   "weather": "흐림",
+   "year": 2007
+  },
+  {
+   "count": 56,
+   "deaths": 0,
+   "month": 11,
+   "serious": 56,
+   "weather": "비",
+   "year": 2007
+  },
+  {
+   "count": 1,
+   "deaths": 0,
+   "month": 11,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2007
+  },
+  {
+   "count": 9,
+   "deaths": 0,
+   "month": 11,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2007
+  },
+  {
+   "count": 742,
+   "deaths": 1,
+   "month": 12,
+   "serious": 742,
+   "weather": "맑음",
+   "year": 2007
+  },
+  {
+   "count": 44,
+   "deaths": 0,
+   "month": 12,
+   "serious": 44,
+   "weather": "흐림",
+   "year": 2007
+  },
+  {
+   "count": 26,
+   "deaths": 0,
+   "month": 12,
+   "serious": 26,
+   "weather": "비",
+   "year": 2007
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 12,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2007
+  },
+  {
+   "count": 9,
+   "deaths": 2,
+   "month": 12,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2007
+  },
+  {
+   "count": 652,
+   "deaths": 2,
+   "month": 1,
+   "serious": 652,
+   "weather": "맑음",
+   "year": 2008
+  },
+  {
+   "count": 46,
+   "deaths": 2,
+   "month": 1,
+   "serious": 46,
+   "weather": "흐림",
+   "year": 2008
+  },
+  {
+   "count": 33,
+   "deaths": 2,
+   "month": 1,
+   "serious": 33,
+   "weather": "비",
+   "year": 2008
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 1,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2008
+  },
+  {
+   "count": 7,
+   "deaths": 1,
+   "month": 1,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2008
+  },
+  {
+   "count": 347,
+   "deaths": 1,
+   "month": 2,
+   "serious": 347,
+   "weather": "맑음",
+   "year": 2008
+  },
+  {
+   "count": 40,
+   "deaths": 3,
+   "month": 2,
+   "serious": 40,
+   "weather": "흐림",
+   "year": 2008
+  },
+  {
+   "count": 26,
+   "deaths": 1,
+   "month": 2,
+   "serious": 26,
+   "weather": "비",
+   "year": 2008
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 2,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2008
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 2,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2008
+  },
+  {
+   "count": 547,
+   "deaths": 0,
+   "month": 3,
+   "serious": 547,
+   "weather": "맑음",
+   "year": 2008
+  },
+  {
+   "count": 24,
+   "deaths": 2,
+   "month": 3,
+   "serious": 24,
+   "weather": "흐림",
+   "year": 2008
+  },
+  {
+   "count": 25,
+   "deaths": 1,
+   "month": 3,
+   "serious": 25,
+   "weather": "비",
+   "year": 2008
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 3,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2008
+  },
+  {
+   "count": 8,
+   "deaths": 1,
+   "month": 3,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2008
+  },
+  {
+   "count": 385,
+   "deaths": 1,
+   "month": 4,
+   "serious": 385,
+   "weather": "맑음",
+   "year": 2008
+  },
+  {
+   "count": 29,
+   "deaths": 2,
+   "month": 4,
+   "serious": 29,
+   "weather": "흐림",
+   "year": 2008
+  },
+  {
+   "count": 51,
+   "deaths": 2,
+   "month": 4,
+   "serious": 51,
+   "weather": "비",
+   "year": 2008
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 4,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2008
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 4,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2008
+  },
+  {
+   "count": 391,
+   "deaths": 1,
+   "month": 5,
+   "serious": 391,
+   "weather": "맑음",
+   "year": 2008
+  },
+  {
+   "count": 31,
+   "deaths": 0,
+   "month": 5,
+   "serious": 31,
+   "weather": "흐림",
+   "year": 2008
+  },
+  {
+   "count": 45,
+   "deaths": 0,
+   "month": 5,
+   "serious": 45,
+   "weather": "비",
+   "year": 2008
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 5,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2008
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 5,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2008
+  },
+  {
+   "count": 364,
+   "deaths": 0,
+   "month": 6,
+   "serious": 364,
+   "weather": "맑음",
+   "year": 2008
+  },
+  {
+   "count": 36,
+   "deaths": 3,
+   "month": 6,
+   "serious": 36,
+   "weather": "흐림",
+   "year": 2008
+  },
+  {
+   "count": 35,
+   "deaths": 1,
+   "month": 6,
+   "serious": 35,
+   "weather": "비",
+   "year": 2008
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 6,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2008
+  },
+  {
+   "count": 7,
+   "deaths": 1,
+   "month": 6,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2008
+  },
+  {
+   "count": 334,
+   "deaths": 3,
+   "month": 7,
+   "serious": 334,
+   "weather": "맑음",
+   "year": 2008
+  },
+  {
+   "count": 43,
+   "deaths": 3,
+   "month": 7,
+   "serious": 43,
+   "weather": "흐림",
+   "year": 2008
+  },
+  {
+   "count": 35,
+   "deaths": 1,
+   "month": 7,
+   "serious": 35,
+   "weather": "비",
+   "year": 2008
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 7,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2008
+  },
+  {
+   "count": 6,
+   "deaths": 2,
+   "month": 7,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2008
+  },
+  {
+   "count": 476,
+   "deaths": 3,
+   "month": 8,
+   "serious": 476,
+   "weather": "맑음",
+   "year": 2008
+  },
+  {
+   "count": 31,
+   "deaths": 0,
+   "month": 8,
+   "serious": 31,
+   "weather": "흐림",
+   "year": 2008
+  },
+  {
+   "count": 36,
+   "deaths": 2,
+   "month": 8,
+   "serious": 36,
+   "weather": "비",
+   "year": 2008
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 8,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2008
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 8,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2008
+  },
+  {
+   "count": 715,
+   "deaths": 1,
+   "month": 9,
+   "serious": 715,
+   "weather": "맑음",
+   "year": 2008
+  },
+  {
+   "count": 32,
+   "deaths": 0,
+   "month": 9,
+   "serious": 32,
+   "weather": "흐림",
+   "year": 2008
+  },
+  {
+   "count": 55,
+   "deaths": 2,
+   "month": 9,
+   "serious": 55,
+   "weather": "비",
+   "year": 2008
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 9,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2008
+  },
+  {
+   "count": 6,
+   "deaths": 2,
+   "month": 9,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2008
+  },
+  {
+   "count": 284,
+   "deaths": 1,
+   "month": 10,
+   "serious": 284,
+   "weather": "맑음",
+   "year": 2008
+  },
+  {
+   "count": 16,
+   "deaths": 1,
+   "month": 10,
+   "serious": 16,
+   "weather": "흐림",
+   "year": 2008
+  },
+  {
+   "count": 46,
+   "deaths": 0,
+   "month": 10,
+   "serious": 46,
+   "weather": "비",
+   "year": 2008
+  },
+  {
+   "count": 1,
+   "deaths": 3,
+   "month": 10,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2008
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 10,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2008
+  },
+  {
+   "count": 629,
+   "deaths": 3,
+   "month": 11,
+   "serious": 629,
+   "weather": "맑음",
+   "year": 2008
+  },
+  {
+   "count": 40,
+   "deaths": 0,
+   "month": 11,
+   "serious": 40,
+   "weather": "흐림",
+   "year": 2008
+  },
+  {
+   "count": 36,
+   "deaths": 2,
+   "month": 11,
+   "serious": 36,
+   "weather": "비",
+   "year": 2008
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 11,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2008
+  },
+  {
+   "count": 7,
+   "deaths": 1,
+   "month": 11,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2008
+  },
+  {
+   "count": 633,
+   "deaths": 1,
+   "month": 12,
+   "serious": 633,
+   "weather": "맑음",
+   "year": 2008
+  },
+  {
+   "count": 35,
+   "deaths": 1,
+   "month": 12,
+   "serious": 35,
+   "weather": "흐림",
+   "year": 2008
+  },
+  {
+   "count": 63,
+   "deaths": 0,
+   "month": 12,
+   "serious": 63,
+   "weather": "비",
+   "year": 2008
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 12,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2008
+  },
+  {
+   "count": 6,
+   "deaths": 0,
+   "month": 12,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2008
+  },
+  {
+   "count": 366,
+   "deaths": 2,
+   "month": 1,
+   "serious": 366,
+   "weather": "맑음",
+   "year": 2009
+  },
+  {
+   "count": 25,
+   "deaths": 3,
+   "month": 1,
+   "serious": 25,
+   "weather": "흐림",
+   "year": 2009
+  },
+  {
+   "count": 27,
+   "deaths": 3,
+   "month": 1,
+   "serious": 27,
+   "weather": "비",
+   "year": 2009
+  },
+  {
+   "count": 2,
+   "deaths": 1,
+   "month": 1,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2009
+  },
+  {
+   "count": 9,
+   "deaths": 0,
+   "month": 1,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2009
+  },
+  {
+   "count": 309,
+   "deaths": 2,
+   "month": 2,
+   "serious": 309,
+   "weather": "맑음",
+   "year": 2009
+  },
+  {
+   "count": 31,
+   "deaths": 0,
+   "month": 2,
+   "serious": 31,
+   "weather": "흐림",
+   "year": 2009
+  },
+  {
+   "count": 26,
+   "deaths": 0,
+   "month": 2,
+   "serious": 26,
+   "weather": "비",
+   "year": 2009
+  },
+  {
+   "count": 2,
+   "deaths": 2,
+   "month": 2,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2009
+  },
+  {
+   "count": 7,
+   "deaths": 0,
+   "month": 2,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2009
+  },
+  {
+   "count": 515,
+   "deaths": 2,
+   "month": 3,
+   "serious": 515,
+   "weather": "맑음",
+   "year": 2009
+  },
+  {
+   "count": 44,
+   "deaths": 3,
+   "month": 3,
+   "serious": 44,
+   "weather": "흐림",
+   "year": 2009
+  },
+  {
+   "count": 50,
+   "deaths": 1,
+   "month": 3,
+   "serious": 50,
+   "weather": "비",
+   "year": 2009
+  },
+  {
+   "count": 2,
+   "deaths": 2,
+   "month": 3,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2009
+  },
+  {
+   "count": 8,
+   "deaths": 3,
+   "month": 3,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2009
+  },
+  {
+   "count": 519,
+   "deaths": 0,
+   "month": 4,
+   "serious": 519,
+   "weather": "맑음",
+   "year": 2009
+  },
+  {
+   "count": 28,
+   "deaths": 2,
+   "month": 4,
+   "serious": 28,
+   "weather": "흐림",
+   "year": 2009
+  },
+  {
+   "count": 61,
+   "deaths": 0,
+   "month": 4,
+   "serious": 61,
+   "weather": "비",
+   "year": 2009
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 4,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2009
+  },
+  {
+   "count": 7,
+   "deaths": 1,
+   "month": 4,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2009
+  },
+  {
+   "count": 763,
+   "deaths": 3,
+   "month": 5,
+   "serious": 763,
+   "weather": "맑음",
+   "year": 2009
+  },
+  {
+   "count": 31,
+   "deaths": 0,
+   "month": 5,
+   "serious": 31,
+   "weather": "흐림",
+   "year": 2009
+  },
+  {
+   "count": 37,
+   "deaths": 2,
+   "month": 5,
+   "serious": 37,
+   "weather": "비",
+   "year": 2009
+  },
+  {
+   "count": 2,
+   "deaths": 1,
+   "month": 5,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2009
+  },
+  {
+   "count": 6,
+   "deaths": 1,
+   "month": 5,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2009
+  },
+  {
+   "count": 566,
+   "deaths": 3,
+   "month": 6,
+   "serious": 566,
+   "weather": "맑음",
+   "year": 2009
+  },
+  {
+   "count": 49,
+   "deaths": 1,
+   "month": 6,
+   "serious": 49,
+   "weather": "흐림",
+   "year": 2009
+  },
+  {
+   "count": 55,
+   "deaths": 2,
+   "month": 6,
+   "serious": 55,
+   "weather": "비",
+   "year": 2009
+  },
+  {
+   "count": 1,
+   "deaths": 1,
+   "month": 6,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2009
+  },
+  {
+   "count": 5,
+   "deaths": 3,
+   "month": 6,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2009
+  },
+  {
+   "count": 516,
+   "deaths": 1,
+   "month": 7,
+   "serious": 516,
+   "weather": "맑음",
+   "year": 2009
+  },
+  {
+   "count": 33,
+   "deaths": 3,
+   "month": 7,
+   "serious": 33,
+   "weather": "흐림",
+   "year": 2009
+  },
+  {
+   "count": 64,
+   "deaths": 3,
+   "month": 7,
+   "serious": 64,
+   "weather": "비",
+   "year": 2009
+  },
+  {
+   "count": 1,
+   "deaths": 0,
+   "month": 7,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2009
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 7,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2009
+  },
+  {
+   "count": 383,
+   "deaths": 3,
+   "month": 8,
+   "serious": 383,
+   "weather": "맑음",
+   "year": 2009
+  },
+  {
+   "count": 31,
+   "deaths": 1,
+   "month": 8,
+   "serious": 31,
+   "weather": "흐림",
+   "year": 2009
+  },
+  {
+   "count": 61,
+   "deaths": 0,
+   "month": 8,
+   "serious": 61,
+   "weather": "비",
+   "year": 2009
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 8,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2009
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 8,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2009
+  },
+  {
+   "count": 580,
+   "deaths": 0,
+   "month": 9,
+   "serious": 580,
+   "weather": "맑음",
+   "year": 2009
+  },
+  {
+   "count": 29,
+   "deaths": 2,
+   "month": 9,
+   "serious": 29,
+   "weather": "흐림",
+   "year": 2009
+  },
+  {
+   "count": 45,
+   "deaths": 2,
+   "month": 9,
+   "serious": 45,
+   "weather": "비",
+   "year": 2009
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 9,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2009
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 9,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2009
+  },
+  {
+   "count": 464,
+   "deaths": 1,
+   "month": 10,
+   "serious": 464,
+   "weather": "맑음",
+   "year": 2009
+  },
+  {
+   "count": 30,
+   "deaths": 1,
+   "month": 10,
+   "serious": 30,
+   "weather": "흐림",
+   "year": 2009
+  },
+  {
+   "count": 37,
+   "deaths": 2,
+   "month": 10,
+   "serious": 37,
+   "weather": "비",
+   "year": 2009
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 10,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2009
+  },
+  {
+   "count": 6,
+   "deaths": 3,
+   "month": 10,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2009
+  },
+  {
+   "count": 438,
+   "deaths": 0,
+   "month": 11,
+   "serious": 438,
+   "weather": "맑음",
+   "year": 2009
+  },
+  {
+   "count": 22,
+   "deaths": 1,
+   "month": 11,
+   "serious": 22,
+   "weather": "흐림",
+   "year": 2009
+  },
+  {
+   "count": 66,
+   "deaths": 3,
+   "month": 11,
+   "serious": 66,
+   "weather": "비",
+   "year": 2009
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 11,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2009
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 11,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2009
+  },
+  {
+   "count": 359,
+   "deaths": 0,
+   "month": 12,
+   "serious": 359,
+   "weather": "맑음",
+   "year": 2009
+  },
+  {
+   "count": 42,
+   "deaths": 2,
+   "month": 12,
+   "serious": 42,
+   "weather": "흐림",
+   "year": 2009
+  },
+  {
+   "count": 51,
+   "deaths": 3,
+   "month": 12,
+   "serious": 51,
+   "weather": "비",
+   "year": 2009
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 12,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2009
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 12,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2009
+  },
+  {
+   "count": 428,
+   "deaths": 0,
+   "month": 1,
+   "serious": 428,
+   "weather": "맑음",
+   "year": 2010
+  },
+  {
+   "count": 48,
+   "deaths": 3,
+   "month": 1,
+   "serious": 48,
+   "weather": "흐림",
+   "year": 2010
+  },
+  {
+   "count": 27,
+   "deaths": 2,
+   "month": 1,
+   "serious": 27,
+   "weather": "비",
+   "year": 2010
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 1,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2010
+  },
+  {
+   "count": 8,
+   "deaths": 0,
+   "month": 1,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2010
+  },
+  {
+   "count": 727,
+   "deaths": 3,
+   "month": 2,
+   "serious": 727,
+   "weather": "맑음",
+   "year": 2010
+  },
+  {
+   "count": 24,
+   "deaths": 3,
+   "month": 2,
+   "serious": 24,
+   "weather": "흐림",
+   "year": 2010
+  },
+  {
+   "count": 24,
+   "deaths": 1,
+   "month": 2,
+   "serious": 24,
+   "weather": "비",
+   "year": 2010
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 2,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2010
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 2,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2010
+  },
+  {
+   "count": 394,
+   "deaths": 3,
+   "month": 3,
+   "serious": 394,
+   "weather": "맑음",
+   "year": 2010
+  },
+  {
+   "count": 18,
+   "deaths": 3,
+   "month": 3,
+   "serious": 18,
+   "weather": "흐림",
+   "year": 2010
+  },
+  {
+   "count": 49,
+   "deaths": 0,
+   "month": 3,
+   "serious": 49,
+   "weather": "비",
+   "year": 2010
+  },
+  {
+   "count": 1,
+   "deaths": 3,
+   "month": 3,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2010
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 3,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2010
+  },
+  {
+   "count": 615,
+   "deaths": 2,
+   "month": 4,
+   "serious": 615,
+   "weather": "맑음",
+   "year": 2010
+  },
+  {
+   "count": 20,
+   "deaths": 2,
+   "month": 4,
+   "serious": 20,
+   "weather": "흐림",
+   "year": 2010
+  },
+  {
+   "count": 67,
+   "deaths": 2,
+   "month": 4,
+   "serious": 67,
+   "weather": "비",
+   "year": 2010
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 4,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2010
+  },
+  {
+   "count": 7,
+   "deaths": 0,
+   "month": 4,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2010
+  },
+  {
+   "count": 294,
+   "deaths": 1,
+   "month": 5,
+   "serious": 294,
+   "weather": "맑음",
+   "year": 2010
+  },
+  {
+   "count": 21,
+   "deaths": 0,
+   "month": 5,
+   "serious": 21,
+   "weather": "흐림",
+   "year": 2010
+  },
+  {
+   "count": 30,
+   "deaths": 1,
+   "month": 5,
+   "serious": 30,
+   "weather": "비",
+   "year": 2010
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 5,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2010
+  },
+  {
+   "count": 7,
+   "deaths": 2,
+   "month": 5,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2010
+  },
+  {
+   "count": 748,
+   "deaths": 2,
+   "month": 6,
+   "serious": 748,
+   "weather": "맑음",
+   "year": 2010
+  },
+  {
+   "count": 26,
+   "deaths": 2,
+   "month": 6,
+   "serious": 26,
+   "weather": "흐림",
+   "year": 2010
+  },
+  {
+   "count": 58,
+   "deaths": 3,
+   "month": 6,
+   "serious": 58,
+   "weather": "비",
+   "year": 2010
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 6,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2010
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 6,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2010
+  },
+  {
+   "count": 446,
+   "deaths": 0,
+   "month": 7,
+   "serious": 446,
+   "weather": "맑음",
+   "year": 2010
+  },
+  {
+   "count": 29,
+   "deaths": 3,
+   "month": 7,
+   "serious": 29,
+   "weather": "흐림",
+   "year": 2010
+  },
+  {
+   "count": 48,
+   "deaths": 2,
+   "month": 7,
+   "serious": 48,
+   "weather": "비",
+   "year": 2010
+  },
+  {
+   "count": 1,
+   "deaths": 2,
+   "month": 7,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2010
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 7,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2010
+  },
+  {
+   "count": 682,
+   "deaths": 3,
+   "month": 8,
+   "serious": 682,
+   "weather": "맑음",
+   "year": 2010
+  },
+  {
+   "count": 48,
+   "deaths": 2,
+   "month": 8,
+   "serious": 48,
+   "weather": "흐림",
+   "year": 2010
+  },
+  {
+   "count": 37,
+   "deaths": 0,
+   "month": 8,
+   "serious": 37,
+   "weather": "비",
+   "year": 2010
+  },
+  {
+   "count": 2,
+   "deaths": 2,
+   "month": 8,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2010
+  },
+  {
+   "count": 9,
+   "deaths": 3,
+   "month": 8,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2010
+  },
+  {
+   "count": 487,
+   "deaths": 1,
+   "month": 9,
+   "serious": 487,
+   "weather": "맑음",
+   "year": 2010
+  },
+  {
+   "count": 41,
+   "deaths": 2,
+   "month": 9,
+   "serious": 41,
+   "weather": "흐림",
+   "year": 2010
+  },
+  {
+   "count": 28,
+   "deaths": 2,
+   "month": 9,
+   "serious": 28,
+   "weather": "비",
+   "year": 2010
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 9,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2010
+  },
+  {
+   "count": 7,
+   "deaths": 0,
+   "month": 9,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2010
+  },
+  {
+   "count": 698,
+   "deaths": 2,
+   "month": 10,
+   "serious": 698,
+   "weather": "맑음",
+   "year": 2010
+  },
+  {
+   "count": 32,
+   "deaths": 3,
+   "month": 10,
+   "serious": 32,
+   "weather": "흐림",
+   "year": 2010
+  },
+  {
+   "count": 45,
+   "deaths": 1,
+   "month": 10,
+   "serious": 45,
+   "weather": "비",
+   "year": 2010
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 10,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2010
+  },
+  {
+   "count": 7,
+   "deaths": 3,
+   "month": 10,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2010
+  },
+  {
+   "count": 330,
+   "deaths": 2,
+   "month": 11,
+   "serious": 330,
+   "weather": "맑음",
+   "year": 2010
+  },
+  {
+   "count": 26,
+   "deaths": 0,
+   "month": 11,
+   "serious": 26,
+   "weather": "흐림",
+   "year": 2010
+  },
+  {
+   "count": 37,
+   "deaths": 3,
+   "month": 11,
+   "serious": 37,
+   "weather": "비",
+   "year": 2010
+  },
+  {
+   "count": 2,
+   "deaths": 1,
+   "month": 11,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2010
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 11,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2010
+  },
+  {
+   "count": 387,
+   "deaths": 3,
+   "month": 12,
+   "serious": 387,
+   "weather": "맑음",
+   "year": 2010
+  },
+  {
+   "count": 41,
+   "deaths": 1,
+   "month": 12,
+   "serious": 41,
+   "weather": "흐림",
+   "year": 2010
+  },
+  {
+   "count": 42,
+   "deaths": 0,
+   "month": 12,
+   "serious": 42,
+   "weather": "비",
+   "year": 2010
+  },
+  {
+   "count": 2,
+   "deaths": 1,
+   "month": 12,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2010
+  },
+  {
+   "count": 9,
+   "deaths": 2,
+   "month": 12,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2010
+  },
+  {
+   "count": 567,
+   "deaths": 1,
+   "month": 1,
+   "serious": 567,
+   "weather": "맑음",
+   "year": 2011
+  },
+  {
+   "count": 31,
+   "deaths": 1,
+   "month": 1,
+   "serious": 31,
+   "weather": "흐림",
+   "year": 2011
+  },
+  {
+   "count": 38,
+   "deaths": 2,
+   "month": 1,
+   "serious": 38,
+   "weather": "비",
+   "year": 2011
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 1,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2011
+  },
+  {
+   "count": 7,
+   "deaths": 1,
+   "month": 1,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2011
+  },
+  {
+   "count": 284,
+   "deaths": 0,
+   "month": 2,
+   "serious": 284,
+   "weather": "맑음",
+   "year": 2011
+  },
+  {
+   "count": 20,
+   "deaths": 0,
+   "month": 2,
+   "serious": 20,
+   "weather": "흐림",
+   "year": 2011
+  },
+  {
+   "count": 60,
+   "deaths": 0,
+   "month": 2,
+   "serious": 60,
+   "weather": "비",
+   "year": 2011
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 2,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2011
+  },
+  {
+   "count": 6,
+   "deaths": 3,
+   "month": 2,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2011
+  },
+  {
+   "count": 452,
+   "deaths": 0,
+   "month": 3,
+   "serious": 452,
+   "weather": "맑음",
+   "year": 2011
+  },
+  {
+   "count": 19,
+   "deaths": 0,
+   "month": 3,
+   "serious": 19,
+   "weather": "흐림",
+   "year": 2011
+  },
+  {
+   "count": 41,
+   "deaths": 3,
+   "month": 3,
+   "serious": 41,
+   "weather": "비",
+   "year": 2011
+  },
+  {
+   "count": 1,
+   "deaths": 0,
+   "month": 3,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2011
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 3,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2011
+  },
+  {
+   "count": 706,
+   "deaths": 1,
+   "month": 4,
+   "serious": 706,
+   "weather": "맑음",
+   "year": 2011
+  },
+  {
+   "count": 29,
+   "deaths": 2,
+   "month": 4,
+   "serious": 29,
+   "weather": "흐림",
+   "year": 2011
+  },
+  {
+   "count": 30,
+   "deaths": 2,
+   "month": 4,
+   "serious": 30,
+   "weather": "비",
+   "year": 2011
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 4,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2011
+  },
+  {
+   "count": 9,
+   "deaths": 0,
+   "month": 4,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2011
+  },
+  {
+   "count": 625,
+   "deaths": 3,
+   "month": 5,
+   "serious": 625,
+   "weather": "맑음",
+   "year": 2011
+  },
+  {
+   "count": 36,
+   "deaths": 1,
+   "month": 5,
+   "serious": 36,
+   "weather": "흐림",
+   "year": 2011
+  },
+  {
+   "count": 29,
+   "deaths": 3,
+   "month": 5,
+   "serious": 29,
+   "weather": "비",
+   "year": 2011
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 5,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2011
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 5,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2011
+  },
+  {
+   "count": 611,
+   "deaths": 0,
+   "month": 6,
+   "serious": 611,
+   "weather": "맑음",
+   "year": 2011
+  },
+  {
+   "count": 38,
+   "deaths": 1,
+   "month": 6,
+   "serious": 38,
+   "weather": "흐림",
+   "year": 2011
+  },
+  {
+   "count": 62,
+   "deaths": 2,
+   "month": 6,
+   "serious": 62,
+   "weather": "비",
+   "year": 2011
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 6,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2011
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 6,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2011
+  },
+  {
+   "count": 615,
+   "deaths": 1,
+   "month": 7,
+   "serious": 615,
+   "weather": "맑음",
+   "year": 2011
+  },
+  {
+   "count": 36,
+   "deaths": 3,
+   "month": 7,
+   "serious": 36,
+   "weather": "흐림",
+   "year": 2011
+  },
+  {
+   "count": 66,
+   "deaths": 0,
+   "month": 7,
+   "serious": 66,
+   "weather": "비",
+   "year": 2011
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 7,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2011
+  },
+  {
+   "count": 9,
+   "deaths": 1,
+   "month": 7,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2011
+  },
+  {
+   "count": 700,
+   "deaths": 1,
+   "month": 8,
+   "serious": 700,
+   "weather": "맑음",
+   "year": 2011
+  },
+  {
+   "count": 43,
+   "deaths": 0,
+   "month": 8,
+   "serious": 43,
+   "weather": "흐림",
+   "year": 2011
+  },
+  {
+   "count": 67,
+   "deaths": 0,
+   "month": 8,
+   "serious": 67,
+   "weather": "비",
+   "year": 2011
+  },
+  {
+   "count": 2,
+   "deaths": 2,
+   "month": 8,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2011
+  },
+  {
+   "count": 7,
+   "deaths": 1,
+   "month": 8,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2011
+  },
+  {
+   "count": 717,
+   "deaths": 2,
+   "month": 9,
+   "serious": 717,
+   "weather": "맑음",
+   "year": 2011
+  },
+  {
+   "count": 27,
+   "deaths": 2,
+   "month": 9,
+   "serious": 27,
+   "weather": "흐림",
+   "year": 2011
+  },
+  {
+   "count": 31,
+   "deaths": 2,
+   "month": 9,
+   "serious": 31,
+   "weather": "비",
+   "year": 2011
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 9,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2011
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 9,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2011
+  },
+  {
+   "count": 533,
+   "deaths": 2,
+   "month": 10,
+   "serious": 533,
+   "weather": "맑음",
+   "year": 2011
+  },
+  {
+   "count": 45,
+   "deaths": 3,
+   "month": 10,
+   "serious": 45,
+   "weather": "흐림",
+   "year": 2011
+  },
+  {
+   "count": 32,
+   "deaths": 0,
+   "month": 10,
+   "serious": 32,
+   "weather": "비",
+   "year": 2011
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 10,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2011
+  },
+  {
+   "count": 9,
+   "deaths": 2,
+   "month": 10,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2011
+  },
+  {
+   "count": 377,
+   "deaths": 2,
+   "month": 11,
+   "serious": 377,
+   "weather": "맑음",
+   "year": 2011
+  },
+  {
+   "count": 30,
+   "deaths": 2,
+   "month": 11,
+   "serious": 30,
+   "weather": "흐림",
+   "year": 2011
+  },
+  {
+   "count": 34,
+   "deaths": 3,
+   "month": 11,
+   "serious": 34,
+   "weather": "비",
+   "year": 2011
+  },
+  {
+   "count": 1,
+   "deaths": 3,
+   "month": 11,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2011
+  },
+  {
+   "count": 7,
+   "deaths": 0,
+   "month": 11,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2011
+  },
+  {
+   "count": 653,
+   "deaths": 1,
+   "month": 12,
+   "serious": 653,
+   "weather": "맑음",
+   "year": 2011
+  },
+  {
+   "count": 19,
+   "deaths": 3,
+   "month": 12,
+   "serious": 19,
+   "weather": "흐림",
+   "year": 2011
+  },
+  {
+   "count": 56,
+   "deaths": 2,
+   "month": 12,
+   "serious": 56,
+   "weather": "비",
+   "year": 2011
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 12,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2011
+  },
+  {
+   "count": 5,
+   "deaths": 3,
+   "month": 12,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2011
+  },
+  {
+   "count": 661,
+   "deaths": 2,
+   "month": 1,
+   "serious": 661,
+   "weather": "맑음",
+   "year": 2012
+  },
+  {
+   "count": 47,
+   "deaths": 0,
+   "month": 1,
+   "serious": 47,
+   "weather": "흐림",
+   "year": 2012
+  },
+  {
+   "count": 32,
+   "deaths": 2,
+   "month": 1,
+   "serious": 32,
+   "weather": "비",
+   "year": 2012
+  },
+  {
+   "count": 2,
+   "deaths": 1,
+   "month": 1,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2012
+  },
+  {
+   "count": 7,
+   "deaths": 2,
+   "month": 1,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2012
+  },
+  {
+   "count": 324,
+   "deaths": 3,
+   "month": 2,
+   "serious": 324,
+   "weather": "맑음",
+   "year": 2012
+  },
+  {
+   "count": 35,
+   "deaths": 3,
+   "month": 2,
+   "serious": 35,
+   "weather": "흐림",
+   "year": 2012
+  },
+  {
+   "count": 23,
+   "deaths": 0,
+   "month": 2,
+   "serious": 23,
+   "weather": "비",
+   "year": 2012
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 2,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2012
+  },
+  {
+   "count": 8,
+   "deaths": 3,
+   "month": 2,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2012
+  },
+  {
+   "count": 568,
+   "deaths": 0,
+   "month": 3,
+   "serious": 568,
+   "weather": "맑음",
+   "year": 2012
+  },
+  {
+   "count": 32,
+   "deaths": 2,
+   "month": 3,
+   "serious": 32,
+   "weather": "흐림",
+   "year": 2012
+  },
+  {
+   "count": 65,
+   "deaths": 0,
+   "month": 3,
+   "serious": 65,
+   "weather": "비",
+   "year": 2012
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 3,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2012
+  },
+  {
+   "count": 8,
+   "deaths": 0,
+   "month": 3,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2012
+  },
+  {
+   "count": 485,
+   "deaths": 1,
+   "month": 4,
+   "serious": 485,
+   "weather": "맑음",
+   "year": 2012
+  },
+  {
+   "count": 24,
+   "deaths": 1,
+   "month": 4,
+   "serious": 24,
+   "weather": "흐림",
+   "year": 2012
+  },
+  {
+   "count": 61,
+   "deaths": 1,
+   "month": 4,
+   "serious": 61,
+   "weather": "비",
+   "year": 2012
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 4,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2012
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 4,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2012
+  },
+  {
+   "count": 450,
+   "deaths": 0,
+   "month": 5,
+   "serious": 450,
+   "weather": "맑음",
+   "year": 2012
+  },
+  {
+   "count": 28,
+   "deaths": 0,
+   "month": 5,
+   "serious": 28,
+   "weather": "흐림",
+   "year": 2012
+  },
+  {
+   "count": 32,
+   "deaths": 2,
+   "month": 5,
+   "serious": 32,
+   "weather": "비",
+   "year": 2012
+  },
+  {
+   "count": 2,
+   "deaths": 1,
+   "month": 5,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2012
+  },
+  {
+   "count": 6,
+   "deaths": 0,
+   "month": 5,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2012
+  },
+  {
+   "count": 406,
+   "deaths": 1,
+   "month": 6,
+   "serious": 406,
+   "weather": "맑음",
+   "year": 2012
+  },
+  {
+   "count": 21,
+   "deaths": 0,
+   "month": 6,
+   "serious": 21,
+   "weather": "흐림",
+   "year": 2012
+  },
+  {
+   "count": 29,
+   "deaths": 3,
+   "month": 6,
+   "serious": 29,
+   "weather": "비",
+   "year": 2012
+  },
+  {
+   "count": 1,
+   "deaths": 1,
+   "month": 6,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2012
+  },
+  {
+   "count": 8,
+   "deaths": 1,
+   "month": 6,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2012
+  },
+  {
+   "count": 719,
+   "deaths": 2,
+   "month": 7,
+   "serious": 719,
+   "weather": "맑음",
+   "year": 2012
+  },
+  {
+   "count": 20,
+   "deaths": 1,
+   "month": 7,
+   "serious": 20,
+   "weather": "흐림",
+   "year": 2012
+  },
+  {
+   "count": 66,
+   "deaths": 0,
+   "month": 7,
+   "serious": 66,
+   "weather": "비",
+   "year": 2012
+  },
+  {
+   "count": 2,
+   "deaths": 2,
+   "month": 7,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2012
+  },
+  {
+   "count": 9,
+   "deaths": 1,
+   "month": 7,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2012
+  },
+  {
+   "count": 419,
+   "deaths": 2,
+   "month": 8,
+   "serious": 419,
+   "weather": "맑음",
+   "year": 2012
+  },
+  {
+   "count": 35,
+   "deaths": 0,
+   "month": 8,
+   "serious": 35,
+   "weather": "흐림",
+   "year": 2012
+  },
+  {
+   "count": 27,
+   "deaths": 3,
+   "month": 8,
+   "serious": 27,
+   "weather": "비",
+   "year": 2012
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 8,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2012
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 8,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2012
+  },
+  {
+   "count": 327,
+   "deaths": 1,
+   "month": 9,
+   "serious": 327,
+   "weather": "맑음",
+   "year": 2012
+  },
+  {
+   "count": 44,
+   "deaths": 3,
+   "month": 9,
+   "serious": 44,
+   "weather": "흐림",
+   "year": 2012
+  },
+  {
+   "count": 65,
+   "deaths": 1,
+   "month": 9,
+   "serious": 65,
+   "weather": "비",
+   "year": 2012
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 9,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2012
+  },
+  {
+   "count": 7,
+   "deaths": 1,
+   "month": 9,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2012
+  },
+  {
+   "count": 658,
+   "deaths": 1,
+   "month": 10,
+   "serious": 658,
+   "weather": "맑음",
+   "year": 2012
+  },
+  {
+   "count": 22,
+   "deaths": 1,
+   "month": 10,
+   "serious": 22,
+   "weather": "흐림",
+   "year": 2012
+  },
+  {
+   "count": 67,
+   "deaths": 1,
+   "month": 10,
+   "serious": 67,
+   "weather": "비",
+   "year": 2012
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 10,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2012
+  },
+  {
+   "count": 3,
+   "deaths": 2,
+   "month": 10,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2012
+  },
+  {
+   "count": 367,
+   "deaths": 0,
+   "month": 11,
+   "serious": 367,
+   "weather": "맑음",
+   "year": 2012
+  },
+  {
+   "count": 30,
+   "deaths": 3,
+   "month": 11,
+   "serious": 30,
+   "weather": "흐림",
+   "year": 2012
+  },
+  {
+   "count": 45,
+   "deaths": 2,
+   "month": 11,
+   "serious": 45,
+   "weather": "비",
+   "year": 2012
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 11,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2012
+  },
+  {
+   "count": 6,
+   "deaths": 2,
+   "month": 11,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2012
+  },
+  {
+   "count": 557,
+   "deaths": 3,
+   "month": 12,
+   "serious": 557,
+   "weather": "맑음",
+   "year": 2012
+  },
+  {
+   "count": 26,
+   "deaths": 1,
+   "month": 12,
+   "serious": 26,
+   "weather": "흐림",
+   "year": 2012
+  },
+  {
+   "count": 65,
+   "deaths": 3,
+   "month": 12,
+   "serious": 65,
+   "weather": "비",
+   "year": 2012
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 12,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2012
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 12,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2012
+  },
+  {
+   "count": 480,
+   "deaths": 1,
+   "month": 1,
+   "serious": 480,
+   "weather": "맑음",
+   "year": 2013
+  },
+  {
+   "count": 35,
+   "deaths": 0,
+   "month": 1,
+   "serious": 35,
+   "weather": "흐림",
+   "year": 2013
+  },
+  {
+   "count": 28,
+   "deaths": 2,
+   "month": 1,
+   "serious": 28,
+   "weather": "비",
+   "year": 2013
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 1,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2013
+  },
+  {
+   "count": 7,
+   "deaths": 1,
+   "month": 1,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2013
+  },
+  {
+   "count": 636,
+   "deaths": 0,
+   "month": 2,
+   "serious": 636,
+   "weather": "맑음",
+   "year": 2013
+  },
+  {
+   "count": 44,
+   "deaths": 0,
+   "month": 2,
+   "serious": 44,
+   "weather": "흐림",
+   "year": 2013
+  },
+  {
+   "count": 52,
+   "deaths": 2,
+   "month": 2,
+   "serious": 52,
+   "weather": "비",
+   "year": 2013
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 2,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2013
+  },
+  {
+   "count": 7,
+   "deaths": 1,
+   "month": 2,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2013
+  },
+  {
+   "count": 258,
+   "deaths": 2,
+   "month": 3,
+   "serious": 258,
+   "weather": "맑음",
+   "year": 2013
+  },
+  {
+   "count": 41,
+   "deaths": 1,
+   "month": 3,
+   "serious": 41,
+   "weather": "흐림",
+   "year": 2013
+  },
+  {
+   "count": 56,
+   "deaths": 0,
+   "month": 3,
+   "serious": 56,
+   "weather": "비",
+   "year": 2013
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 3,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2013
+  },
+  {
+   "count": 7,
+   "deaths": 0,
+   "month": 3,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2013
+  },
+  {
+   "count": 713,
+   "deaths": 0,
+   "month": 4,
+   "serious": 713,
+   "weather": "맑음",
+   "year": 2013
+  },
+  {
+   "count": 16,
+   "deaths": 3,
+   "month": 4,
+   "serious": 16,
+   "weather": "흐림",
+   "year": 2013
+  },
+  {
+   "count": 23,
+   "deaths": 0,
+   "month": 4,
+   "serious": 23,
+   "weather": "비",
+   "year": 2013
+  },
+  {
+   "count": 1,
+   "deaths": 2,
+   "month": 4,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2013
+  },
+  {
+   "count": 7,
+   "deaths": 1,
+   "month": 4,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2013
+  },
+  {
+   "count": 397,
+   "deaths": 2,
+   "month": 5,
+   "serious": 397,
+   "weather": "맑음",
+   "year": 2013
+  },
+  {
+   "count": 28,
+   "deaths": 3,
+   "month": 5,
+   "serious": 28,
+   "weather": "흐림",
+   "year": 2013
+  },
+  {
+   "count": 24,
+   "deaths": 0,
+   "month": 5,
+   "serious": 24,
+   "weather": "비",
+   "year": 2013
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 5,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2013
+  },
+  {
+   "count": 8,
+   "deaths": 3,
+   "month": 5,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2013
+  },
+  {
+   "count": 350,
+   "deaths": 3,
+   "month": 6,
+   "serious": 350,
+   "weather": "맑음",
+   "year": 2013
+  },
+  {
+   "count": 22,
+   "deaths": 0,
+   "month": 6,
+   "serious": 22,
+   "weather": "흐림",
+   "year": 2013
+  },
+  {
+   "count": 35,
+   "deaths": 1,
+   "month": 6,
+   "serious": 35,
+   "weather": "비",
+   "year": 2013
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 6,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2013
+  },
+  {
+   "count": 6,
+   "deaths": 3,
+   "month": 6,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2013
+  },
+  {
+   "count": 526,
+   "deaths": 3,
+   "month": 7,
+   "serious": 526,
+   "weather": "맑음",
+   "year": 2013
+  },
+  {
+   "count": 26,
+   "deaths": 2,
+   "month": 7,
+   "serious": 26,
+   "weather": "흐림",
+   "year": 2013
+  },
+  {
+   "count": 48,
+   "deaths": 1,
+   "month": 7,
+   "serious": 48,
+   "weather": "비",
+   "year": 2013
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 7,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2013
+  },
+  {
+   "count": 8,
+   "deaths": 0,
+   "month": 7,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2013
+  },
+  {
+   "count": 407,
+   "deaths": 0,
+   "month": 8,
+   "serious": 407,
+   "weather": "맑음",
+   "year": 2013
+  },
+  {
+   "count": 46,
+   "deaths": 1,
+   "month": 8,
+   "serious": 46,
+   "weather": "흐림",
+   "year": 2013
+  },
+  {
+   "count": 51,
+   "deaths": 1,
+   "month": 8,
+   "serious": 51,
+   "weather": "비",
+   "year": 2013
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 8,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2013
+  },
+  {
+   "count": 7,
+   "deaths": 0,
+   "month": 8,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2013
+  },
+  {
+   "count": 672,
+   "deaths": 1,
+   "month": 9,
+   "serious": 672,
+   "weather": "맑음",
+   "year": 2013
+  },
+  {
+   "count": 36,
+   "deaths": 0,
+   "month": 9,
+   "serious": 36,
+   "weather": "흐림",
+   "year": 2013
+  },
+  {
+   "count": 67,
+   "deaths": 2,
+   "month": 9,
+   "serious": 67,
+   "weather": "비",
+   "year": 2013
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 9,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2013
+  },
+  {
+   "count": 7,
+   "deaths": 1,
+   "month": 9,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2013
+  },
+  {
+   "count": 658,
+   "deaths": 1,
+   "month": 10,
+   "serious": 658,
+   "weather": "맑음",
+   "year": 2013
+  },
+  {
+   "count": 27,
+   "deaths": 0,
+   "month": 10,
+   "serious": 27,
+   "weather": "흐림",
+   "year": 2013
+  },
+  {
+   "count": 32,
+   "deaths": 0,
+   "month": 10,
+   "serious": 32,
+   "weather": "비",
+   "year": 2013
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 10,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2013
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 10,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2013
+  },
+  {
+   "count": 730,
+   "deaths": 3,
+   "month": 11,
+   "serious": 730,
+   "weather": "맑음",
+   "year": 2013
+  },
+  {
+   "count": 25,
+   "deaths": 2,
+   "month": 11,
+   "serious": 25,
+   "weather": "흐림",
+   "year": 2013
+  },
+  {
+   "count": 24,
+   "deaths": 0,
+   "month": 11,
+   "serious": 24,
+   "weather": "비",
+   "year": 2013
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 11,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2013
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 11,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2013
+  },
+  {
+   "count": 762,
+   "deaths": 1,
+   "month": 12,
+   "serious": 762,
+   "weather": "맑음",
+   "year": 2013
+  },
+  {
+   "count": 42,
+   "deaths": 2,
+   "month": 12,
+   "serious": 42,
+   "weather": "흐림",
+   "year": 2013
+  },
+  {
+   "count": 65,
+   "deaths": 0,
+   "month": 12,
+   "serious": 65,
+   "weather": "비",
+   "year": 2013
+  },
+  {
+   "count": 2,
+   "deaths": 1,
+   "month": 12,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2013
+  },
+  {
+   "count": 8,
+   "deaths": 1,
+   "month": 12,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2013
+  },
+  {
+   "count": 635,
+   "deaths": 2,
+   "month": 1,
+   "serious": 635,
+   "weather": "맑음",
+   "year": 2014
+  },
+  {
+   "count": 35,
+   "deaths": 3,
+   "month": 1,
+   "serious": 35,
+   "weather": "흐림",
+   "year": 2014
+  },
+  {
+   "count": 53,
+   "deaths": 2,
+   "month": 1,
+   "serious": 53,
+   "weather": "비",
+   "year": 2014
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 1,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2014
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 1,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2014
+  },
+  {
+   "count": 651,
+   "deaths": 3,
+   "month": 2,
+   "serious": 651,
+   "weather": "맑음",
+   "year": 2014
+  },
+  {
+   "count": 20,
+   "deaths": 2,
+   "month": 2,
+   "serious": 20,
+   "weather": "흐림",
+   "year": 2014
+  },
+  {
+   "count": 50,
+   "deaths": 0,
+   "month": 2,
+   "serious": 50,
+   "weather": "비",
+   "year": 2014
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 2,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2014
+  },
+  {
+   "count": 8,
+   "deaths": 3,
+   "month": 2,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2014
+  },
+  {
+   "count": 710,
+   "deaths": 0,
+   "month": 3,
+   "serious": 710,
+   "weather": "맑음",
+   "year": 2014
+  },
+  {
+   "count": 36,
+   "deaths": 2,
+   "month": 3,
+   "serious": 36,
+   "weather": "흐림",
+   "year": 2014
+  },
+  {
+   "count": 29,
+   "deaths": 3,
+   "month": 3,
+   "serious": 29,
+   "weather": "비",
+   "year": 2014
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 3,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2014
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 3,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2014
+  },
+  {
+   "count": 661,
+   "deaths": 0,
+   "month": 4,
+   "serious": 661,
+   "weather": "맑음",
+   "year": 2014
+  },
+  {
+   "count": 49,
+   "deaths": 1,
+   "month": 4,
+   "serious": 49,
+   "weather": "흐림",
+   "year": 2014
+  },
+  {
+   "count": 65,
+   "deaths": 3,
+   "month": 4,
+   "serious": 65,
+   "weather": "비",
+   "year": 2014
+  },
+  {
+   "count": 1,
+   "deaths": 1,
+   "month": 4,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2014
+  },
+  {
+   "count": 9,
+   "deaths": 2,
+   "month": 4,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2014
+  },
+  {
+   "count": 683,
+   "deaths": 3,
+   "month": 5,
+   "serious": 683,
+   "weather": "맑음",
+   "year": 2014
+  },
+  {
+   "count": 48,
+   "deaths": 2,
+   "month": 5,
+   "serious": 48,
+   "weather": "흐림",
+   "year": 2014
+  },
+  {
+   "count": 40,
+   "deaths": 3,
+   "month": 5,
+   "serious": 40,
+   "weather": "비",
+   "year": 2014
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 5,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2014
+  },
+  {
+   "count": 7,
+   "deaths": 3,
+   "month": 5,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2014
+  },
+  {
+   "count": 528,
+   "deaths": 3,
+   "month": 6,
+   "serious": 528,
+   "weather": "맑음",
+   "year": 2014
+  },
+  {
+   "count": 26,
+   "deaths": 3,
+   "month": 6,
+   "serious": 26,
+   "weather": "흐림",
+   "year": 2014
+  },
+  {
+   "count": 64,
+   "deaths": 2,
+   "month": 6,
+   "serious": 64,
+   "weather": "비",
+   "year": 2014
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 6,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2014
+  },
+  {
+   "count": 6,
+   "deaths": 3,
+   "month": 6,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2014
+  },
+  {
+   "count": 316,
+   "deaths": 3,
+   "month": 7,
+   "serious": 316,
+   "weather": "맑음",
+   "year": 2014
+  },
+  {
+   "count": 37,
+   "deaths": 0,
+   "month": 7,
+   "serious": 37,
+   "weather": "흐림",
+   "year": 2014
+  },
+  {
+   "count": 36,
+   "deaths": 0,
+   "month": 7,
+   "serious": 36,
+   "weather": "비",
+   "year": 2014
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 7,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2014
+  },
+  {
+   "count": 6,
+   "deaths": 3,
+   "month": 7,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2014
+  },
+  {
+   "count": 318,
+   "deaths": 1,
+   "month": 8,
+   "serious": 318,
+   "weather": "맑음",
+   "year": 2014
+  },
+  {
+   "count": 38,
+   "deaths": 2,
+   "month": 8,
+   "serious": 38,
+   "weather": "흐림",
+   "year": 2014
+  },
+  {
+   "count": 24,
+   "deaths": 1,
+   "month": 8,
+   "serious": 24,
+   "weather": "비",
+   "year": 2014
+  },
+  {
+   "count": 2,
+   "deaths": 2,
+   "month": 8,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2014
+  },
+  {
+   "count": 8,
+   "deaths": 3,
+   "month": 8,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2014
+  },
+  {
+   "count": 307,
+   "deaths": 0,
+   "month": 9,
+   "serious": 307,
+   "weather": "맑음",
+   "year": 2014
+  },
+  {
+   "count": 27,
+   "deaths": 2,
+   "month": 9,
+   "serious": 27,
+   "weather": "흐림",
+   "year": 2014
+  },
+  {
+   "count": 47,
+   "deaths": 0,
+   "month": 9,
+   "serious": 47,
+   "weather": "비",
+   "year": 2014
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 9,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2014
+  },
+  {
+   "count": 6,
+   "deaths": 1,
+   "month": 9,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2014
+  },
+  {
+   "count": 351,
+   "deaths": 3,
+   "month": 10,
+   "serious": 351,
+   "weather": "맑음",
+   "year": 2014
+  },
+  {
+   "count": 26,
+   "deaths": 3,
+   "month": 10,
+   "serious": 26,
+   "weather": "흐림",
+   "year": 2014
+  },
+  {
+   "count": 65,
+   "deaths": 2,
+   "month": 10,
+   "serious": 65,
+   "weather": "비",
+   "year": 2014
+  },
+  {
+   "count": 3,
+   "deaths": 2,
+   "month": 10,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2014
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 10,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2014
+  },
+  {
+   "count": 455,
+   "deaths": 0,
+   "month": 11,
+   "serious": 455,
+   "weather": "맑음",
+   "year": 2014
+  },
+  {
+   "count": 18,
+   "deaths": 0,
+   "month": 11,
+   "serious": 18,
+   "weather": "흐림",
+   "year": 2014
+  },
+  {
+   "count": 65,
+   "deaths": 3,
+   "month": 11,
+   "serious": 65,
+   "weather": "비",
+   "year": 2014
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 11,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2014
+  },
+  {
+   "count": 7,
+   "deaths": 3,
+   "month": 11,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2014
+  },
+  {
+   "count": 715,
+   "deaths": 1,
+   "month": 12,
+   "serious": 715,
+   "weather": "맑음",
+   "year": 2014
+  },
+  {
+   "count": 21,
+   "deaths": 0,
+   "month": 12,
+   "serious": 21,
+   "weather": "흐림",
+   "year": 2014
+  },
+  {
+   "count": 34,
+   "deaths": 0,
+   "month": 12,
+   "serious": 34,
+   "weather": "비",
+   "year": 2014
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 12,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2014
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 12,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2014
+  },
+  {
+   "count": 383,
+   "deaths": 2,
+   "month": 1,
+   "serious": 383,
+   "weather": "맑음",
+   "year": 2015
+  },
+  {
+   "count": 19,
+   "deaths": 0,
+   "month": 1,
+   "serious": 19,
+   "weather": "흐림",
+   "year": 2015
+  },
+  {
+   "count": 59,
+   "deaths": 3,
+   "month": 1,
+   "serious": 59,
+   "weather": "비",
+   "year": 2015
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 1,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2015
+  },
+  {
+   "count": 9,
+   "deaths": 3,
+   "month": 1,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2015
+  },
+  {
+   "count": 269,
+   "deaths": 3,
+   "month": 2,
+   "serious": 269,
+   "weather": "맑음",
+   "year": 2015
+  },
+  {
+   "count": 48,
+   "deaths": 2,
+   "month": 2,
+   "serious": 48,
+   "weather": "흐림",
+   "year": 2015
+  },
+  {
+   "count": 54,
+   "deaths": 1,
+   "month": 2,
+   "serious": 54,
+   "weather": "비",
+   "year": 2015
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 2,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2015
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 2,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2015
+  },
+  {
+   "count": 598,
+   "deaths": 3,
+   "month": 3,
+   "serious": 598,
+   "weather": "맑음",
+   "year": 2015
+  },
+  {
+   "count": 29,
+   "deaths": 3,
+   "month": 3,
+   "serious": 29,
+   "weather": "흐림",
+   "year": 2015
+  },
+  {
+   "count": 30,
+   "deaths": 2,
+   "month": 3,
+   "serious": 30,
+   "weather": "비",
+   "year": 2015
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 3,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2015
+  },
+  {
+   "count": 8,
+   "deaths": 3,
+   "month": 3,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2015
+  },
+  {
+   "count": 664,
+   "deaths": 2,
+   "month": 4,
+   "serious": 664,
+   "weather": "맑음",
+   "year": 2015
+  },
+  {
+   "count": 24,
+   "deaths": 1,
+   "month": 4,
+   "serious": 24,
+   "weather": "흐림",
+   "year": 2015
+  },
+  {
+   "count": 63,
+   "deaths": 2,
+   "month": 4,
+   "serious": 63,
+   "weather": "비",
+   "year": 2015
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 4,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2015
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 4,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2015
+  },
+  {
+   "count": 621,
+   "deaths": 1,
+   "month": 5,
+   "serious": 621,
+   "weather": "맑음",
+   "year": 2015
+  },
+  {
+   "count": 23,
+   "deaths": 0,
+   "month": 5,
+   "serious": 23,
+   "weather": "흐림",
+   "year": 2015
+  },
+  {
+   "count": 29,
+   "deaths": 0,
+   "month": 5,
+   "serious": 29,
+   "weather": "비",
+   "year": 2015
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 5,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2015
+  },
+  {
+   "count": 8,
+   "deaths": 0,
+   "month": 5,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2015
+  },
+  {
+   "count": 561,
+   "deaths": 2,
+   "month": 6,
+   "serious": 561,
+   "weather": "맑음",
+   "year": 2015
+  },
+  {
+   "count": 34,
+   "deaths": 2,
+   "month": 6,
+   "serious": 34,
+   "weather": "흐림",
+   "year": 2015
+  },
+  {
+   "count": 65,
+   "deaths": 1,
+   "month": 6,
+   "serious": 65,
+   "weather": "비",
+   "year": 2015
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 6,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2015
+  },
+  {
+   "count": 6,
+   "deaths": 1,
+   "month": 6,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2015
+  },
+  {
+   "count": 671,
+   "deaths": 1,
+   "month": 7,
+   "serious": 671,
+   "weather": "맑음",
+   "year": 2015
+  },
+  {
+   "count": 45,
+   "deaths": 3,
+   "month": 7,
+   "serious": 45,
+   "weather": "흐림",
+   "year": 2015
+  },
+  {
+   "count": 43,
+   "deaths": 2,
+   "month": 7,
+   "serious": 43,
+   "weather": "비",
+   "year": 2015
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 7,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2015
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 7,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2015
+  },
+  {
+   "count": 702,
+   "deaths": 3,
+   "month": 8,
+   "serious": 702,
+   "weather": "맑음",
+   "year": 2015
+  },
+  {
+   "count": 22,
+   "deaths": 0,
+   "month": 8,
+   "serious": 22,
+   "weather": "흐림",
+   "year": 2015
+  },
+  {
+   "count": 50,
+   "deaths": 3,
+   "month": 8,
+   "serious": 50,
+   "weather": "비",
+   "year": 2015
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 8,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2015
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 8,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2015
+  },
+  {
+   "count": 679,
+   "deaths": 3,
+   "month": 9,
+   "serious": 679,
+   "weather": "맑음",
+   "year": 2015
+  },
+  {
+   "count": 38,
+   "deaths": 3,
+   "month": 9,
+   "serious": 38,
+   "weather": "흐림",
+   "year": 2015
+  },
+  {
+   "count": 30,
+   "deaths": 3,
+   "month": 9,
+   "serious": 30,
+   "weather": "비",
+   "year": 2015
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 9,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2015
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 9,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2015
+  },
+  {
+   "count": 310,
+   "deaths": 2,
+   "month": 10,
+   "serious": 310,
+   "weather": "맑음",
+   "year": 2015
+  },
+  {
+   "count": 44,
+   "deaths": 0,
+   "month": 10,
+   "serious": 44,
+   "weather": "흐림",
+   "year": 2015
+  },
+  {
+   "count": 45,
+   "deaths": 1,
+   "month": 10,
+   "serious": 45,
+   "weather": "비",
+   "year": 2015
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 10,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2015
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 10,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2015
+  },
+  {
+   "count": 474,
+   "deaths": 2,
+   "month": 11,
+   "serious": 474,
+   "weather": "맑음",
+   "year": 2015
+  },
+  {
+   "count": 38,
+   "deaths": 0,
+   "month": 11,
+   "serious": 38,
+   "weather": "흐림",
+   "year": 2015
+  },
+  {
+   "count": 32,
+   "deaths": 3,
+   "month": 11,
+   "serious": 32,
+   "weather": "비",
+   "year": 2015
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 11,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2015
+  },
+  {
+   "count": 9,
+   "deaths": 1,
+   "month": 11,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2015
+  },
+  {
+   "count": 691,
+   "deaths": 1,
+   "month": 12,
+   "serious": 691,
+   "weather": "맑음",
+   "year": 2015
+  },
+  {
+   "count": 32,
+   "deaths": 0,
+   "month": 12,
+   "serious": 32,
+   "weather": "흐림",
+   "year": 2015
+  },
+  {
+   "count": 65,
+   "deaths": 0,
+   "month": 12,
+   "serious": 65,
+   "weather": "비",
+   "year": 2015
+  },
+  {
+   "count": 1,
+   "deaths": 1,
+   "month": 12,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2015
+  },
+  {
+   "count": 8,
+   "deaths": 0,
+   "month": 12,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2015
+  },
+  {
+   "count": 318,
+   "deaths": 0,
+   "month": 1,
+   "serious": 318,
+   "weather": "맑음",
+   "year": 2016
+  },
+  {
+   "count": 39,
+   "deaths": 2,
+   "month": 1,
+   "serious": 39,
+   "weather": "흐림",
+   "year": 2016
+  },
+  {
+   "count": 40,
+   "deaths": 1,
+   "month": 1,
+   "serious": 40,
+   "weather": "비",
+   "year": 2016
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 1,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2016
+  },
+  {
+   "count": 9,
+   "deaths": 3,
+   "month": 1,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2016
+  },
+  {
+   "count": 763,
+   "deaths": 2,
+   "month": 2,
+   "serious": 763,
+   "weather": "맑음",
+   "year": 2016
+  },
+  {
+   "count": 28,
+   "deaths": 1,
+   "month": 2,
+   "serious": 28,
+   "weather": "흐림",
+   "year": 2016
+  },
+  {
+   "count": 35,
+   "deaths": 0,
+   "month": 2,
+   "serious": 35,
+   "weather": "비",
+   "year": 2016
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 2,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2016
+  },
+  {
+   "count": 6,
+   "deaths": 0,
+   "month": 2,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2016
+  },
+  {
+   "count": 408,
+   "deaths": 1,
+   "month": 3,
+   "serious": 408,
+   "weather": "맑음",
+   "year": 2016
+  },
+  {
+   "count": 18,
+   "deaths": 3,
+   "month": 3,
+   "serious": 18,
+   "weather": "흐림",
+   "year": 2016
+  },
+  {
+   "count": 54,
+   "deaths": 0,
+   "month": 3,
+   "serious": 54,
+   "weather": "비",
+   "year": 2016
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 3,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2016
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 3,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2016
+  },
+  {
+   "count": 292,
+   "deaths": 1,
+   "month": 4,
+   "serious": 292,
+   "weather": "맑음",
+   "year": 2016
+  },
+  {
+   "count": 24,
+   "deaths": 0,
+   "month": 4,
+   "serious": 24,
+   "weather": "흐림",
+   "year": 2016
+  },
+  {
+   "count": 27,
+   "deaths": 3,
+   "month": 4,
+   "serious": 27,
+   "weather": "비",
+   "year": 2016
+  },
+  {
+   "count": 2,
+   "deaths": 2,
+   "month": 4,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2016
+  },
+  {
+   "count": 9,
+   "deaths": 0,
+   "month": 4,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2016
+  },
+  {
+   "count": 675,
+   "deaths": 1,
+   "month": 5,
+   "serious": 675,
+   "weather": "맑음",
+   "year": 2016
+  },
+  {
+   "count": 36,
+   "deaths": 1,
+   "month": 5,
+   "serious": 36,
+   "weather": "흐림",
+   "year": 2016
+  },
+  {
+   "count": 51,
+   "deaths": 0,
+   "month": 5,
+   "serious": 51,
+   "weather": "비",
+   "year": 2016
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 5,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2016
+  },
+  {
+   "count": 8,
+   "deaths": 3,
+   "month": 5,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2016
+  },
+  {
+   "count": 450,
+   "deaths": 1,
+   "month": 6,
+   "serious": 450,
+   "weather": "맑음",
+   "year": 2016
+  },
+  {
+   "count": 20,
+   "deaths": 2,
+   "month": 6,
+   "serious": 20,
+   "weather": "흐림",
+   "year": 2016
+  },
+  {
+   "count": 66,
+   "deaths": 0,
+   "month": 6,
+   "serious": 66,
+   "weather": "비",
+   "year": 2016
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 6,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2016
+  },
+  {
+   "count": 7,
+   "deaths": 0,
+   "month": 6,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2016
+  },
+  {
+   "count": 342,
+   "deaths": 2,
+   "month": 7,
+   "serious": 342,
+   "weather": "맑음",
+   "year": 2016
+  },
+  {
+   "count": 44,
+   "deaths": 1,
+   "month": 7,
+   "serious": 44,
+   "weather": "흐림",
+   "year": 2016
+  },
+  {
+   "count": 58,
+   "deaths": 2,
+   "month": 7,
+   "serious": 58,
+   "weather": "비",
+   "year": 2016
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 7,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2016
+  },
+  {
+   "count": 8,
+   "deaths": 2,
+   "month": 7,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2016
+  },
+  {
+   "count": 306,
+   "deaths": 3,
+   "month": 8,
+   "serious": 306,
+   "weather": "맑음",
+   "year": 2016
+  },
+  {
+   "count": 46,
+   "deaths": 3,
+   "month": 8,
+   "serious": 46,
+   "weather": "흐림",
+   "year": 2016
+  },
+  {
+   "count": 39,
+   "deaths": 1,
+   "month": 8,
+   "serious": 39,
+   "weather": "비",
+   "year": 2016
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 8,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2016
+  },
+  {
+   "count": 5,
+   "deaths": 3,
+   "month": 8,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2016
+  },
+  {
+   "count": 382,
+   "deaths": 1,
+   "month": 9,
+   "serious": 382,
+   "weather": "맑음",
+   "year": 2016
+  },
+  {
+   "count": 48,
+   "deaths": 1,
+   "month": 9,
+   "serious": 48,
+   "weather": "흐림",
+   "year": 2016
+  },
+  {
+   "count": 50,
+   "deaths": 3,
+   "month": 9,
+   "serious": 50,
+   "weather": "비",
+   "year": 2016
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 9,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2016
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 9,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2016
+  },
+  {
+   "count": 497,
+   "deaths": 0,
+   "month": 10,
+   "serious": 497,
+   "weather": "맑음",
+   "year": 2016
+  },
+  {
+   "count": 44,
+   "deaths": 0,
+   "month": 10,
+   "serious": 44,
+   "weather": "흐림",
+   "year": 2016
+  },
+  {
+   "count": 45,
+   "deaths": 1,
+   "month": 10,
+   "serious": 45,
+   "weather": "비",
+   "year": 2016
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 10,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2016
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 10,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2016
+  },
+  {
+   "count": 423,
+   "deaths": 3,
+   "month": 11,
+   "serious": 423,
+   "weather": "맑음",
+   "year": 2016
+  },
+  {
+   "count": 20,
+   "deaths": 0,
+   "month": 11,
+   "serious": 20,
+   "weather": "흐림",
+   "year": 2016
+  },
+  {
+   "count": 46,
+   "deaths": 3,
+   "month": 11,
+   "serious": 46,
+   "weather": "비",
+   "year": 2016
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 11,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2016
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 11,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2016
+  },
+  {
+   "count": 488,
+   "deaths": 1,
+   "month": 12,
+   "serious": 488,
+   "weather": "맑음",
+   "year": 2016
+  },
+  {
+   "count": 23,
+   "deaths": 1,
+   "month": 12,
+   "serious": 23,
+   "weather": "흐림",
+   "year": 2016
+  },
+  {
+   "count": 57,
+   "deaths": 1,
+   "month": 12,
+   "serious": 57,
+   "weather": "비",
+   "year": 2016
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 12,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2016
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 12,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2016
+  },
+  {
+   "count": 701,
+   "deaths": 2,
+   "month": 1,
+   "serious": 701,
+   "weather": "맑음",
+   "year": 2017
+  },
+  {
+   "count": 24,
+   "deaths": 1,
+   "month": 1,
+   "serious": 24,
+   "weather": "흐림",
+   "year": 2017
+  },
+  {
+   "count": 43,
+   "deaths": 1,
+   "month": 1,
+   "serious": 43,
+   "weather": "비",
+   "year": 2017
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 1,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2017
+  },
+  {
+   "count": 9,
+   "deaths": 2,
+   "month": 1,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2017
+  },
+  {
+   "count": 352,
+   "deaths": 0,
+   "month": 2,
+   "serious": 352,
+   "weather": "맑음",
+   "year": 2017
+  },
+  {
+   "count": 27,
+   "deaths": 2,
+   "month": 2,
+   "serious": 27,
+   "weather": "흐림",
+   "year": 2017
+  },
+  {
+   "count": 66,
+   "deaths": 3,
+   "month": 2,
+   "serious": 66,
+   "weather": "비",
+   "year": 2017
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 2,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2017
+  },
+  {
+   "count": 9,
+   "deaths": 2,
+   "month": 2,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2017
+  },
+  {
+   "count": 555,
+   "deaths": 0,
+   "month": 3,
+   "serious": 555,
+   "weather": "맑음",
+   "year": 2017
+  },
+  {
+   "count": 37,
+   "deaths": 2,
+   "month": 3,
+   "serious": 37,
+   "weather": "흐림",
+   "year": 2017
+  },
+  {
+   "count": 39,
+   "deaths": 1,
+   "month": 3,
+   "serious": 39,
+   "weather": "비",
+   "year": 2017
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 3,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2017
+  },
+  {
+   "count": 7,
+   "deaths": 2,
+   "month": 3,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2017
+  },
+  {
+   "count": 390,
+   "deaths": 1,
+   "month": 4,
+   "serious": 390,
+   "weather": "맑음",
+   "year": 2017
+  },
+  {
+   "count": 23,
+   "deaths": 0,
+   "month": 4,
+   "serious": 23,
+   "weather": "흐림",
+   "year": 2017
+  },
+  {
+   "count": 57,
+   "deaths": 2,
+   "month": 4,
+   "serious": 57,
+   "weather": "비",
+   "year": 2017
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 4,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2017
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 4,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2017
+  },
+  {
+   "count": 559,
+   "deaths": 2,
+   "month": 5,
+   "serious": 559,
+   "weather": "맑음",
+   "year": 2017
+  },
+  {
+   "count": 43,
+   "deaths": 0,
+   "month": 5,
+   "serious": 43,
+   "weather": "흐림",
+   "year": 2017
+  },
+  {
+   "count": 45,
+   "deaths": 3,
+   "month": 5,
+   "serious": 45,
+   "weather": "비",
+   "year": 2017
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 5,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2017
+  },
+  {
+   "count": 8,
+   "deaths": 1,
+   "month": 5,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2017
+  },
+  {
+   "count": 534,
+   "deaths": 1,
+   "month": 6,
+   "serious": 534,
+   "weather": "맑음",
+   "year": 2017
+  },
+  {
+   "count": 16,
+   "deaths": 1,
+   "month": 6,
+   "serious": 16,
+   "weather": "흐림",
+   "year": 2017
+  },
+  {
+   "count": 22,
+   "deaths": 3,
+   "month": 6,
+   "serious": 22,
+   "weather": "비",
+   "year": 2017
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 6,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2017
+  },
+  {
+   "count": 8,
+   "deaths": 3,
+   "month": 6,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2017
+  },
+  {
+   "count": 614,
+   "deaths": 2,
+   "month": 7,
+   "serious": 614,
+   "weather": "맑음",
+   "year": 2017
+  },
+  {
+   "count": 31,
+   "deaths": 3,
+   "month": 7,
+   "serious": 31,
+   "weather": "흐림",
+   "year": 2017
+  },
+  {
+   "count": 51,
+   "deaths": 1,
+   "month": 7,
+   "serious": 51,
+   "weather": "비",
+   "year": 2017
+  },
+  {
+   "count": 2,
+   "deaths": 2,
+   "month": 7,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2017
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 7,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2017
+  },
+  {
+   "count": 611,
+   "deaths": 3,
+   "month": 8,
+   "serious": 611,
+   "weather": "맑음",
+   "year": 2017
+  },
+  {
+   "count": 17,
+   "deaths": 1,
+   "month": 8,
+   "serious": 17,
+   "weather": "흐림",
+   "year": 2017
+  },
+  {
+   "count": 26,
+   "deaths": 2,
+   "month": 8,
+   "serious": 26,
+   "weather": "비",
+   "year": 2017
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 8,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2017
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 8,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2017
+  },
+  {
+   "count": 592,
+   "deaths": 2,
+   "month": 9,
+   "serious": 592,
+   "weather": "맑음",
+   "year": 2017
+  },
+  {
+   "count": 16,
+   "deaths": 1,
+   "month": 9,
+   "serious": 16,
+   "weather": "흐림",
+   "year": 2017
+  },
+  {
+   "count": 41,
+   "deaths": 2,
+   "month": 9,
+   "serious": 41,
+   "weather": "비",
+   "year": 2017
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 9,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2017
+  },
+  {
+   "count": 9,
+   "deaths": 1,
+   "month": 9,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2017
+  },
+  {
+   "count": 731,
+   "deaths": 0,
+   "month": 10,
+   "serious": 731,
+   "weather": "맑음",
+   "year": 2017
+  },
+  {
+   "count": 23,
+   "deaths": 1,
+   "month": 10,
+   "serious": 23,
+   "weather": "흐림",
+   "year": 2017
+  },
+  {
+   "count": 61,
+   "deaths": 2,
+   "month": 10,
+   "serious": 61,
+   "weather": "비",
+   "year": 2017
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 10,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2017
+  },
+  {
+   "count": 7,
+   "deaths": 3,
+   "month": 10,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2017
+  },
+  {
+   "count": 540,
+   "deaths": 2,
+   "month": 11,
+   "serious": 540,
+   "weather": "맑음",
+   "year": 2017
+  },
+  {
+   "count": 47,
+   "deaths": 1,
+   "month": 11,
+   "serious": 47,
+   "weather": "흐림",
+   "year": 2017
+  },
+  {
+   "count": 39,
+   "deaths": 2,
+   "month": 11,
+   "serious": 39,
+   "weather": "비",
+   "year": 2017
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 11,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2017
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 11,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2017
+  },
+  {
+   "count": 428,
+   "deaths": 3,
+   "month": 12,
+   "serious": 428,
+   "weather": "맑음",
+   "year": 2017
+  },
+  {
+   "count": 39,
+   "deaths": 0,
+   "month": 12,
+   "serious": 39,
+   "weather": "흐림",
+   "year": 2017
+  },
+  {
+   "count": 38,
+   "deaths": 3,
+   "month": 12,
+   "serious": 38,
+   "weather": "비",
+   "year": 2017
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 12,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2017
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 12,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2017
+  },
+  {
+   "count": 604,
+   "deaths": 0,
+   "month": 1,
+   "serious": 604,
+   "weather": "맑음",
+   "year": 2018
+  },
+  {
+   "count": 35,
+   "deaths": 0,
+   "month": 1,
+   "serious": 35,
+   "weather": "흐림",
+   "year": 2018
+  },
+  {
+   "count": 42,
+   "deaths": 3,
+   "month": 1,
+   "serious": 42,
+   "weather": "비",
+   "year": 2018
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 1,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2018
+  },
+  {
+   "count": 5,
+   "deaths": 3,
+   "month": 1,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2018
+  },
+  {
+   "count": 336,
+   "deaths": 0,
+   "month": 2,
+   "serious": 336,
+   "weather": "맑음",
+   "year": 2018
+  },
+  {
+   "count": 18,
+   "deaths": 1,
+   "month": 2,
+   "serious": 18,
+   "weather": "흐림",
+   "year": 2018
+  },
+  {
+   "count": 67,
+   "deaths": 1,
+   "month": 2,
+   "serious": 67,
+   "weather": "비",
+   "year": 2018
+  },
+  {
+   "count": 2,
+   "deaths": 1,
+   "month": 2,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2018
+  },
+  {
+   "count": 8,
+   "deaths": 0,
+   "month": 2,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2018
+  },
+  {
+   "count": 417,
+   "deaths": 3,
+   "month": 3,
+   "serious": 417,
+   "weather": "맑음",
+   "year": 2018
+  },
+  {
+   "count": 29,
+   "deaths": 2,
+   "month": 3,
+   "serious": 29,
+   "weather": "흐림",
+   "year": 2018
+  },
+  {
+   "count": 59,
+   "deaths": 0,
+   "month": 3,
+   "serious": 59,
+   "weather": "비",
+   "year": 2018
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 3,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2018
+  },
+  {
+   "count": 8,
+   "deaths": 1,
+   "month": 3,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2018
+  },
+  {
+   "count": 531,
+   "deaths": 1,
+   "month": 4,
+   "serious": 531,
+   "weather": "맑음",
+   "year": 2018
+  },
+  {
+   "count": 29,
+   "deaths": 0,
+   "month": 4,
+   "serious": 29,
+   "weather": "흐림",
+   "year": 2018
+  },
+  {
+   "count": 40,
+   "deaths": 2,
+   "month": 4,
+   "serious": 40,
+   "weather": "비",
+   "year": 2018
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 4,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2018
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 4,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2018
+  },
+  {
+   "count": 710,
+   "deaths": 2,
+   "month": 5,
+   "serious": 710,
+   "weather": "맑음",
+   "year": 2018
+  },
+  {
+   "count": 23,
+   "deaths": 1,
+   "month": 5,
+   "serious": 23,
+   "weather": "흐림",
+   "year": 2018
+  },
+  {
+   "count": 46,
+   "deaths": 3,
+   "month": 5,
+   "serious": 46,
+   "weather": "비",
+   "year": 2018
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 5,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2018
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 5,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2018
+  },
+  {
+   "count": 372,
+   "deaths": 0,
+   "month": 6,
+   "serious": 372,
+   "weather": "맑음",
+   "year": 2018
+  },
+  {
+   "count": 42,
+   "deaths": 3,
+   "month": 6,
+   "serious": 42,
+   "weather": "흐림",
+   "year": 2018
+  },
+  {
+   "count": 32,
+   "deaths": 3,
+   "month": 6,
+   "serious": 32,
+   "weather": "비",
+   "year": 2018
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 6,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2018
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 6,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2018
+  },
+  {
+   "count": 693,
+   "deaths": 1,
+   "month": 7,
+   "serious": 693,
+   "weather": "맑음",
+   "year": 2018
+  },
+  {
+   "count": 39,
+   "deaths": 1,
+   "month": 7,
+   "serious": 39,
+   "weather": "흐림",
+   "year": 2018
+  },
+  {
+   "count": 59,
+   "deaths": 2,
+   "month": 7,
+   "serious": 59,
+   "weather": "비",
+   "year": 2018
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 7,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2018
+  },
+  {
+   "count": 8,
+   "deaths": 0,
+   "month": 7,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2018
+  },
+  {
+   "count": 615,
+   "deaths": 1,
+   "month": 8,
+   "serious": 615,
+   "weather": "맑음",
+   "year": 2018
+  },
+  {
+   "count": 38,
+   "deaths": 3,
+   "month": 8,
+   "serious": 38,
+   "weather": "흐림",
+   "year": 2018
+  },
+  {
+   "count": 54,
+   "deaths": 3,
+   "month": 8,
+   "serious": 54,
+   "weather": "비",
+   "year": 2018
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 8,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2018
+  },
+  {
+   "count": 8,
+   "deaths": 1,
+   "month": 8,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2018
+  },
+  {
+   "count": 487,
+   "deaths": 2,
+   "month": 9,
+   "serious": 487,
+   "weather": "맑음",
+   "year": 2018
+  },
+  {
+   "count": 20,
+   "deaths": 0,
+   "month": 9,
+   "serious": 20,
+   "weather": "흐림",
+   "year": 2018
+  },
+  {
+   "count": 41,
+   "deaths": 3,
+   "month": 9,
+   "serious": 41,
+   "weather": "비",
+   "year": 2018
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 9,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2018
+  },
+  {
+   "count": 5,
+   "deaths": 3,
+   "month": 9,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2018
+  },
+  {
+   "count": 606,
+   "deaths": 0,
+   "month": 10,
+   "serious": 606,
+   "weather": "맑음",
+   "year": 2018
+  },
+  {
+   "count": 34,
+   "deaths": 1,
+   "month": 10,
+   "serious": 34,
+   "weather": "흐림",
+   "year": 2018
+  },
+  {
+   "count": 39,
+   "deaths": 0,
+   "month": 10,
+   "serious": 39,
+   "weather": "비",
+   "year": 2018
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 10,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2018
+  },
+  {
+   "count": 8,
+   "deaths": 1,
+   "month": 10,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2018
+  },
+  {
+   "count": 727,
+   "deaths": 0,
+   "month": 11,
+   "serious": 727,
+   "weather": "맑음",
+   "year": 2018
+  },
+  {
+   "count": 49,
+   "deaths": 2,
+   "month": 11,
+   "serious": 49,
+   "weather": "흐림",
+   "year": 2018
+  },
+  {
+   "count": 27,
+   "deaths": 1,
+   "month": 11,
+   "serious": 27,
+   "weather": "비",
+   "year": 2018
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 11,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2018
+  },
+  {
+   "count": 7,
+   "deaths": 2,
+   "month": 11,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2018
+  },
+  {
+   "count": 319,
+   "deaths": 3,
+   "month": 12,
+   "serious": 319,
+   "weather": "맑음",
+   "year": 2018
+  },
+  {
+   "count": 43,
+   "deaths": 0,
+   "month": 12,
+   "serious": 43,
+   "weather": "흐림",
+   "year": 2018
+  },
+  {
+   "count": 54,
+   "deaths": 0,
+   "month": 12,
+   "serious": 54,
+   "weather": "비",
+   "year": 2018
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 12,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2018
+  },
+  {
+   "count": 8,
+   "deaths": 2,
+   "month": 12,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2018
+  },
+  {
+   "count": 606,
+   "deaths": 2,
+   "month": 1,
+   "serious": 606,
+   "weather": "맑음",
+   "year": 2019
+  },
+  {
+   "count": 23,
+   "deaths": 3,
+   "month": 1,
+   "serious": 23,
+   "weather": "흐림",
+   "year": 2019
+  },
+  {
+   "count": 59,
+   "deaths": 3,
+   "month": 1,
+   "serious": 59,
+   "weather": "비",
+   "year": 2019
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 1,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2019
+  },
+  {
+   "count": 9,
+   "deaths": 1,
+   "month": 1,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2019
+  },
+  {
+   "count": 619,
+   "deaths": 3,
+   "month": 2,
+   "serious": 619,
+   "weather": "맑음",
+   "year": 2019
+  },
+  {
+   "count": 48,
+   "deaths": 0,
+   "month": 2,
+   "serious": 48,
+   "weather": "흐림",
+   "year": 2019
+  },
+  {
+   "count": 55,
+   "deaths": 3,
+   "month": 2,
+   "serious": 55,
+   "weather": "비",
+   "year": 2019
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 2,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2019
+  },
+  {
+   "count": 9,
+   "deaths": 2,
+   "month": 2,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2019
+  },
+  {
+   "count": 568,
+   "deaths": 2,
+   "month": 3,
+   "serious": 568,
+   "weather": "맑음",
+   "year": 2019
+  },
+  {
+   "count": 46,
+   "deaths": 2,
+   "month": 3,
+   "serious": 46,
+   "weather": "흐림",
+   "year": 2019
+  },
+  {
+   "count": 43,
+   "deaths": 1,
+   "month": 3,
+   "serious": 43,
+   "weather": "비",
+   "year": 2019
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 3,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2019
+  },
+  {
+   "count": 6,
+   "deaths": 3,
+   "month": 3,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2019
+  },
+  {
+   "count": 385,
+   "deaths": 1,
+   "month": 4,
+   "serious": 385,
+   "weather": "맑음",
+   "year": 2019
+  },
+  {
+   "count": 27,
+   "deaths": 3,
+   "month": 4,
+   "serious": 27,
+   "weather": "흐림",
+   "year": 2019
+  },
+  {
+   "count": 27,
+   "deaths": 1,
+   "month": 4,
+   "serious": 27,
+   "weather": "비",
+   "year": 2019
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 4,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2019
+  },
+  {
+   "count": 8,
+   "deaths": 1,
+   "month": 4,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2019
+  },
+  {
+   "count": 563,
+   "deaths": 0,
+   "month": 5,
+   "serious": 563,
+   "weather": "맑음",
+   "year": 2019
+  },
+  {
+   "count": 36,
+   "deaths": 2,
+   "month": 5,
+   "serious": 36,
+   "weather": "흐림",
+   "year": 2019
+  },
+  {
+   "count": 55,
+   "deaths": 2,
+   "month": 5,
+   "serious": 55,
+   "weather": "비",
+   "year": 2019
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 5,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2019
+  },
+  {
+   "count": 9,
+   "deaths": 1,
+   "month": 5,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2019
+  },
+  {
+   "count": 515,
+   "deaths": 2,
+   "month": 6,
+   "serious": 515,
+   "weather": "맑음",
+   "year": 2019
+  },
+  {
+   "count": 45,
+   "deaths": 0,
+   "month": 6,
+   "serious": 45,
+   "weather": "흐림",
+   "year": 2019
+  },
+  {
+   "count": 62,
+   "deaths": 3,
+   "month": 6,
+   "serious": 62,
+   "weather": "비",
+   "year": 2019
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 6,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2019
+  },
+  {
+   "count": 9,
+   "deaths": 3,
+   "month": 6,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2019
+  },
+  {
+   "count": 341,
+   "deaths": 1,
+   "month": 7,
+   "serious": 341,
+   "weather": "맑음",
+   "year": 2019
+  },
+  {
+   "count": 47,
+   "deaths": 3,
+   "month": 7,
+   "serious": 47,
+   "weather": "흐림",
+   "year": 2019
+  },
+  {
+   "count": 50,
+   "deaths": 0,
+   "month": 7,
+   "serious": 50,
+   "weather": "비",
+   "year": 2019
+  },
+  {
+   "count": 3,
+   "deaths": 2,
+   "month": 7,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2019
+  },
+  {
+   "count": 6,
+   "deaths": 0,
+   "month": 7,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2019
+  },
+  {
+   "count": 545,
+   "deaths": 2,
+   "month": 8,
+   "serious": 545,
+   "weather": "맑음",
+   "year": 2019
+  },
+  {
+   "count": 17,
+   "deaths": 0,
+   "month": 8,
+   "serious": 17,
+   "weather": "흐림",
+   "year": 2019
+  },
+  {
+   "count": 65,
+   "deaths": 1,
+   "month": 8,
+   "serious": 65,
+   "weather": "비",
+   "year": 2019
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 8,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2019
+  },
+  {
+   "count": 6,
+   "deaths": 2,
+   "month": 8,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2019
+  },
+  {
+   "count": 454,
+   "deaths": 0,
+   "month": 9,
+   "serious": 454,
+   "weather": "맑음",
+   "year": 2019
+  },
+  {
+   "count": 43,
+   "deaths": 2,
+   "month": 9,
+   "serious": 43,
+   "weather": "흐림",
+   "year": 2019
+  },
+  {
+   "count": 60,
+   "deaths": 2,
+   "month": 9,
+   "serious": 60,
+   "weather": "비",
+   "year": 2019
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 9,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2019
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 9,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2019
+  },
+  {
+   "count": 696,
+   "deaths": 2,
+   "month": 10,
+   "serious": 696,
+   "weather": "맑음",
+   "year": 2019
+  },
+  {
+   "count": 19,
+   "deaths": 2,
+   "month": 10,
+   "serious": 19,
+   "weather": "흐림",
+   "year": 2019
+  },
+  {
+   "count": 51,
+   "deaths": 2,
+   "month": 10,
+   "serious": 51,
+   "weather": "비",
+   "year": 2019
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 10,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2019
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 10,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2019
+  },
+  {
+   "count": 717,
+   "deaths": 2,
+   "month": 11,
+   "serious": 717,
+   "weather": "맑음",
+   "year": 2019
+  },
+  {
+   "count": 48,
+   "deaths": 3,
+   "month": 11,
+   "serious": 48,
+   "weather": "흐림",
+   "year": 2019
+  },
+  {
+   "count": 30,
+   "deaths": 0,
+   "month": 11,
+   "serious": 30,
+   "weather": "비",
+   "year": 2019
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 11,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2019
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 11,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2019
+  },
+  {
+   "count": 706,
+   "deaths": 3,
+   "month": 12,
+   "serious": 706,
+   "weather": "맑음",
+   "year": 2019
+  },
+  {
+   "count": 40,
+   "deaths": 0,
+   "month": 12,
+   "serious": 40,
+   "weather": "흐림",
+   "year": 2019
+  },
+  {
+   "count": 60,
+   "deaths": 1,
+   "month": 12,
+   "serious": 60,
+   "weather": "비",
+   "year": 2019
+  },
+  {
+   "count": 1,
+   "deaths": 2,
+   "month": 12,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2019
+  },
+  {
+   "count": 6,
+   "deaths": 1,
+   "month": 12,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2019
+  },
+  {
+   "count": 325,
+   "deaths": 0,
+   "month": 1,
+   "serious": 325,
+   "weather": "맑음",
+   "year": 2020
+  },
+  {
+   "count": 22,
+   "deaths": 3,
+   "month": 1,
+   "serious": 22,
+   "weather": "흐림",
+   "year": 2020
+  },
+  {
+   "count": 52,
+   "deaths": 3,
+   "month": 1,
+   "serious": 52,
+   "weather": "비",
+   "year": 2020
+  },
+  {
+   "count": 1,
+   "deaths": 2,
+   "month": 1,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2020
+  },
+  {
+   "count": 7,
+   "deaths": 3,
+   "month": 1,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2020
+  },
+  {
+   "count": 674,
+   "deaths": 3,
+   "month": 2,
+   "serious": 674,
+   "weather": "맑음",
+   "year": 2020
+  },
+  {
+   "count": 36,
+   "deaths": 2,
+   "month": 2,
+   "serious": 36,
+   "weather": "흐림",
+   "year": 2020
+  },
+  {
+   "count": 51,
+   "deaths": 2,
+   "month": 2,
+   "serious": 51,
+   "weather": "비",
+   "year": 2020
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 2,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2020
+  },
+  {
+   "count": 7,
+   "deaths": 2,
+   "month": 2,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2020
+  },
+  {
+   "count": 749,
+   "deaths": 0,
+   "month": 3,
+   "serious": 749,
+   "weather": "맑음",
+   "year": 2020
+  },
+  {
+   "count": 42,
+   "deaths": 2,
+   "month": 3,
+   "serious": 42,
+   "weather": "흐림",
+   "year": 2020
+  },
+  {
+   "count": 54,
+   "deaths": 1,
+   "month": 3,
+   "serious": 54,
+   "weather": "비",
+   "year": 2020
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 3,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2020
+  },
+  {
+   "count": 6,
+   "deaths": 3,
+   "month": 3,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2020
+  },
+  {
+   "count": 387,
+   "deaths": 1,
+   "month": 4,
+   "serious": 387,
+   "weather": "맑음",
+   "year": 2020
+  },
+  {
+   "count": 47,
+   "deaths": 0,
+   "month": 4,
+   "serious": 47,
+   "weather": "흐림",
+   "year": 2020
+  },
+  {
+   "count": 22,
+   "deaths": 0,
+   "month": 4,
+   "serious": 22,
+   "weather": "비",
+   "year": 2020
+  },
+  {
+   "count": 3,
+   "deaths": 2,
+   "month": 4,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2020
+  },
+  {
+   "count": 6,
+   "deaths": 0,
+   "month": 4,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2020
+  },
+  {
+   "count": 628,
+   "deaths": 2,
+   "month": 5,
+   "serious": 628,
+   "weather": "맑음",
+   "year": 2020
+  },
+  {
+   "count": 18,
+   "deaths": 0,
+   "month": 5,
+   "serious": 18,
+   "weather": "흐림",
+   "year": 2020
+  },
+  {
+   "count": 62,
+   "deaths": 1,
+   "month": 5,
+   "serious": 62,
+   "weather": "비",
+   "year": 2020
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 5,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2020
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 5,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2020
+  },
+  {
+   "count": 472,
+   "deaths": 2,
+   "month": 6,
+   "serious": 472,
+   "weather": "맑음",
+   "year": 2020
+  },
+  {
+   "count": 49,
+   "deaths": 1,
+   "month": 6,
+   "serious": 49,
+   "weather": "흐림",
+   "year": 2020
+  },
+  {
+   "count": 50,
+   "deaths": 2,
+   "month": 6,
+   "serious": 50,
+   "weather": "비",
+   "year": 2020
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 6,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2020
+  },
+  {
+   "count": 7,
+   "deaths": 0,
+   "month": 6,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2020
+  },
+  {
+   "count": 689,
+   "deaths": 1,
+   "month": 7,
+   "serious": 689,
+   "weather": "맑음",
+   "year": 2020
+  },
+  {
+   "count": 31,
+   "deaths": 3,
+   "month": 7,
+   "serious": 31,
+   "weather": "흐림",
+   "year": 2020
+  },
+  {
+   "count": 52,
+   "deaths": 3,
+   "month": 7,
+   "serious": 52,
+   "weather": "비",
+   "year": 2020
+  },
+  {
+   "count": 3,
+   "deaths": 2,
+   "month": 7,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2020
+  },
+  {
+   "count": 6,
+   "deaths": 1,
+   "month": 7,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2020
+  },
+  {
+   "count": 295,
+   "deaths": 3,
+   "month": 8,
+   "serious": 295,
+   "weather": "맑음",
+   "year": 2020
+  },
+  {
+   "count": 36,
+   "deaths": 2,
+   "month": 8,
+   "serious": 36,
+   "weather": "흐림",
+   "year": 2020
+  },
+  {
+   "count": 40,
+   "deaths": 3,
+   "month": 8,
+   "serious": 40,
+   "weather": "비",
+   "year": 2020
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 8,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2020
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 8,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2020
+  },
+  {
+   "count": 415,
+   "deaths": 1,
+   "month": 9,
+   "serious": 415,
+   "weather": "맑음",
+   "year": 2020
+  },
+  {
+   "count": 25,
+   "deaths": 1,
+   "month": 9,
+   "serious": 25,
+   "weather": "흐림",
+   "year": 2020
+  },
+  {
+   "count": 52,
+   "deaths": 3,
+   "month": 9,
+   "serious": 52,
+   "weather": "비",
+   "year": 2020
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 9,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2020
+  },
+  {
+   "count": 7,
+   "deaths": 2,
+   "month": 9,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2020
+  },
+  {
+   "count": 767,
+   "deaths": 1,
+   "month": 10,
+   "serious": 767,
+   "weather": "맑음",
+   "year": 2020
+  },
+  {
+   "count": 22,
+   "deaths": 3,
+   "month": 10,
+   "serious": 22,
+   "weather": "흐림",
+   "year": 2020
+  },
+  {
+   "count": 40,
+   "deaths": 3,
+   "month": 10,
+   "serious": 40,
+   "weather": "비",
+   "year": 2020
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 10,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2020
+  },
+  {
+   "count": 9,
+   "deaths": 1,
+   "month": 10,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2020
+  },
+  {
+   "count": 719,
+   "deaths": 0,
+   "month": 11,
+   "serious": 719,
+   "weather": "맑음",
+   "year": 2020
+  },
+  {
+   "count": 39,
+   "deaths": 2,
+   "month": 11,
+   "serious": 39,
+   "weather": "흐림",
+   "year": 2020
+  },
+  {
+   "count": 25,
+   "deaths": 0,
+   "month": 11,
+   "serious": 25,
+   "weather": "비",
+   "year": 2020
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 11,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2020
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 11,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2020
+  },
+  {
+   "count": 522,
+   "deaths": 0,
+   "month": 12,
+   "serious": 522,
+   "weather": "맑음",
+   "year": 2020
+  },
+  {
+   "count": 29,
+   "deaths": 2,
+   "month": 12,
+   "serious": 29,
+   "weather": "흐림",
+   "year": 2020
+  },
+  {
+   "count": 46,
+   "deaths": 1,
+   "month": 12,
+   "serious": 46,
+   "weather": "비",
+   "year": 2020
+  },
+  {
+   "count": 5,
+   "deaths": 3,
+   "month": 12,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2020
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 12,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2020
+  },
+  {
+   "count": 520,
+   "deaths": 0,
+   "month": 1,
+   "serious": 520,
+   "weather": "맑음",
+   "year": 2021
+  },
+  {
+   "count": 32,
+   "deaths": 0,
+   "month": 1,
+   "serious": 32,
+   "weather": "흐림",
+   "year": 2021
+  },
+  {
+   "count": 51,
+   "deaths": 3,
+   "month": 1,
+   "serious": 51,
+   "weather": "비",
+   "year": 2021
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 1,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2021
+  },
+  {
+   "count": 9,
+   "deaths": 1,
+   "month": 1,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2021
+  },
+  {
+   "count": 486,
+   "deaths": 3,
+   "month": 2,
+   "serious": 486,
+   "weather": "맑음",
+   "year": 2021
+  },
+  {
+   "count": 25,
+   "deaths": 0,
+   "month": 2,
+   "serious": 25,
+   "weather": "흐림",
+   "year": 2021
+  },
+  {
+   "count": 53,
+   "deaths": 1,
+   "month": 2,
+   "serious": 53,
+   "weather": "비",
+   "year": 2021
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 2,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2021
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 2,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2021
+  },
+  {
+   "count": 727,
+   "deaths": 3,
+   "month": 3,
+   "serious": 727,
+   "weather": "맑음",
+   "year": 2021
+  },
+  {
+   "count": 49,
+   "deaths": 3,
+   "month": 3,
+   "serious": 49,
+   "weather": "흐림",
+   "year": 2021
+  },
+  {
+   "count": 28,
+   "deaths": 3,
+   "month": 3,
+   "serious": 28,
+   "weather": "비",
+   "year": 2021
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 3,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2021
+  },
+  {
+   "count": 6,
+   "deaths": 2,
+   "month": 3,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2021
+  },
+  {
+   "count": 284,
+   "deaths": 0,
+   "month": 4,
+   "serious": 284,
+   "weather": "맑음",
+   "year": 2021
+  },
+  {
+   "count": 35,
+   "deaths": 2,
+   "month": 4,
+   "serious": 35,
+   "weather": "흐림",
+   "year": 2021
+  },
+  {
+   "count": 28,
+   "deaths": 1,
+   "month": 4,
+   "serious": 28,
+   "weather": "비",
+   "year": 2021
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 4,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2021
+  },
+  {
+   "count": 6,
+   "deaths": 2,
+   "month": 4,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2021
+  },
+  {
+   "count": 628,
+   "deaths": 0,
+   "month": 5,
+   "serious": 628,
+   "weather": "맑음",
+   "year": 2021
+  },
+  {
+   "count": 27,
+   "deaths": 1,
+   "month": 5,
+   "serious": 27,
+   "weather": "흐림",
+   "year": 2021
+  },
+  {
+   "count": 40,
+   "deaths": 0,
+   "month": 5,
+   "serious": 40,
+   "weather": "비",
+   "year": 2021
+  },
+  {
+   "count": 1,
+   "deaths": 2,
+   "month": 5,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2021
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 5,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2021
+  },
+  {
+   "count": 342,
+   "deaths": 0,
+   "month": 6,
+   "serious": 342,
+   "weather": "맑음",
+   "year": 2021
+  },
+  {
+   "count": 30,
+   "deaths": 3,
+   "month": 6,
+   "serious": 30,
+   "weather": "흐림",
+   "year": 2021
+  },
+  {
+   "count": 40,
+   "deaths": 1,
+   "month": 6,
+   "serious": 40,
+   "weather": "비",
+   "year": 2021
+  },
+  {
+   "count": 2,
+   "deaths": 1,
+   "month": 6,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2021
+  },
+  {
+   "count": 9,
+   "deaths": 3,
+   "month": 6,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2021
+  },
+  {
+   "count": 316,
+   "deaths": 2,
+   "month": 7,
+   "serious": 316,
+   "weather": "맑음",
+   "year": 2021
+  },
+  {
+   "count": 28,
+   "deaths": 3,
+   "month": 7,
+   "serious": 28,
+   "weather": "흐림",
+   "year": 2021
+  },
+  {
+   "count": 24,
+   "deaths": 3,
+   "month": 7,
+   "serious": 24,
+   "weather": "비",
+   "year": 2021
+  },
+  {
+   "count": 5,
+   "deaths": 3,
+   "month": 7,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2021
+  },
+  {
+   "count": 7,
+   "deaths": 3,
+   "month": 7,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2021
+  },
+  {
+   "count": 299,
+   "deaths": 1,
+   "month": 8,
+   "serious": 299,
+   "weather": "맑음",
+   "year": 2021
+  },
+  {
+   "count": 47,
+   "deaths": 1,
+   "month": 8,
+   "serious": 47,
+   "weather": "흐림",
+   "year": 2021
+  },
+  {
+   "count": 50,
+   "deaths": 1,
+   "month": 8,
+   "serious": 50,
+   "weather": "비",
+   "year": 2021
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 8,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2021
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 8,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2021
+  },
+  {
+   "count": 594,
+   "deaths": 1,
+   "month": 9,
+   "serious": 594,
+   "weather": "맑음",
+   "year": 2021
+  },
+  {
+   "count": 35,
+   "deaths": 3,
+   "month": 9,
+   "serious": 35,
+   "weather": "흐림",
+   "year": 2021
+  },
+  {
+   "count": 37,
+   "deaths": 3,
+   "month": 9,
+   "serious": 37,
+   "weather": "비",
+   "year": 2021
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 9,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2021
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 9,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2021
+  },
+  {
+   "count": 736,
+   "deaths": 2,
+   "month": 10,
+   "serious": 736,
+   "weather": "맑음",
+   "year": 2021
+  },
+  {
+   "count": 20,
+   "deaths": 1,
+   "month": 10,
+   "serious": 20,
+   "weather": "흐림",
+   "year": 2021
+  },
+  {
+   "count": 34,
+   "deaths": 1,
+   "month": 10,
+   "serious": 34,
+   "weather": "비",
+   "year": 2021
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 10,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2021
+  },
+  {
+   "count": 8,
+   "deaths": 1,
+   "month": 10,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2021
+  },
+  {
+   "count": 724,
+   "deaths": 1,
+   "month": 11,
+   "serious": 724,
+   "weather": "맑음",
+   "year": 2021
+  },
+  {
+   "count": 18,
+   "deaths": 3,
+   "month": 11,
+   "serious": 18,
+   "weather": "흐림",
+   "year": 2021
+  },
+  {
+   "count": 31,
+   "deaths": 2,
+   "month": 11,
+   "serious": 31,
+   "weather": "비",
+   "year": 2021
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 11,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2021
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 11,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2021
+  },
+  {
+   "count": 503,
+   "deaths": 2,
+   "month": 12,
+   "serious": 503,
+   "weather": "맑음",
+   "year": 2021
+  },
+  {
+   "count": 44,
+   "deaths": 0,
+   "month": 12,
+   "serious": 44,
+   "weather": "흐림",
+   "year": 2021
+  },
+  {
+   "count": 26,
+   "deaths": 2,
+   "month": 12,
+   "serious": 26,
+   "weather": "비",
+   "year": 2021
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 12,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2021
+  },
+  {
+   "count": 6,
+   "deaths": 0,
+   "month": 12,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2021
+  },
+  {
+   "count": 504,
+   "deaths": 3,
+   "month": 1,
+   "serious": 504,
+   "weather": "맑음",
+   "year": 2022
+  },
+  {
+   "count": 41,
+   "deaths": 0,
+   "month": 1,
+   "serious": 41,
+   "weather": "흐림",
+   "year": 2022
+  },
+  {
+   "count": 33,
+   "deaths": 0,
+   "month": 1,
+   "serious": 33,
+   "weather": "비",
+   "year": 2022
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 1,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2022
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 1,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2022
+  },
+  {
+   "count": 760,
+   "deaths": 2,
+   "month": 2,
+   "serious": 760,
+   "weather": "맑음",
+   "year": 2022
+  },
+  {
+   "count": 28,
+   "deaths": 1,
+   "month": 2,
+   "serious": 28,
+   "weather": "흐림",
+   "year": 2022
+  },
+  {
+   "count": 24,
+   "deaths": 3,
+   "month": 2,
+   "serious": 24,
+   "weather": "비",
+   "year": 2022
+  },
+  {
+   "count": 2,
+   "deaths": 2,
+   "month": 2,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2022
+  },
+  {
+   "count": 8,
+   "deaths": 2,
+   "month": 2,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2022
+  },
+  {
+   "count": 655,
+   "deaths": 2,
+   "month": 3,
+   "serious": 655,
+   "weather": "맑음",
+   "year": 2022
+  },
+  {
+   "count": 44,
+   "deaths": 2,
+   "month": 3,
+   "serious": 44,
+   "weather": "흐림",
+   "year": 2022
+  },
+  {
+   "count": 24,
+   "deaths": 0,
+   "month": 3,
+   "serious": 24,
+   "weather": "비",
+   "year": 2022
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 3,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2022
+  },
+  {
+   "count": 8,
+   "deaths": 0,
+   "month": 3,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2022
+  },
+  {
+   "count": 376,
+   "deaths": 0,
+   "month": 4,
+   "serious": 376,
+   "weather": "맑음",
+   "year": 2022
+  },
+  {
+   "count": 39,
+   "deaths": 2,
+   "month": 4,
+   "serious": 39,
+   "weather": "흐림",
+   "year": 2022
+  },
+  {
+   "count": 46,
+   "deaths": 0,
+   "month": 4,
+   "serious": 46,
+   "weather": "비",
+   "year": 2022
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 4,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2022
+  },
+  {
+   "count": 8,
+   "deaths": 1,
+   "month": 4,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2022
+  },
+  {
+   "count": 512,
+   "deaths": 3,
+   "month": 5,
+   "serious": 512,
+   "weather": "맑음",
+   "year": 2022
+  },
+  {
+   "count": 44,
+   "deaths": 3,
+   "month": 5,
+   "serious": 44,
+   "weather": "흐림",
+   "year": 2022
+  },
+  {
+   "count": 47,
+   "deaths": 1,
+   "month": 5,
+   "serious": 47,
+   "weather": "비",
+   "year": 2022
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 5,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2022
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 5,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2022
+  },
+  {
+   "count": 692,
+   "deaths": 1,
+   "month": 6,
+   "serious": 692,
+   "weather": "맑음",
+   "year": 2022
+  },
+  {
+   "count": 30,
+   "deaths": 3,
+   "month": 6,
+   "serious": 30,
+   "weather": "흐림",
+   "year": 2022
+  },
+  {
+   "count": 42,
+   "deaths": 0,
+   "month": 6,
+   "serious": 42,
+   "weather": "비",
+   "year": 2022
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 6,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2022
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 6,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2022
+  },
+  {
+   "count": 521,
+   "deaths": 0,
+   "month": 7,
+   "serious": 521,
+   "weather": "맑음",
+   "year": 2022
+  },
+  {
+   "count": 19,
+   "deaths": 2,
+   "month": 7,
+   "serious": 19,
+   "weather": "흐림",
+   "year": 2022
+  },
+  {
+   "count": 24,
+   "deaths": 3,
+   "month": 7,
+   "serious": 24,
+   "weather": "비",
+   "year": 2022
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 7,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2022
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 7,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2022
+  },
+  {
+   "count": 556,
+   "deaths": 1,
+   "month": 8,
+   "serious": 556,
+   "weather": "맑음",
+   "year": 2022
+  },
+  {
+   "count": 47,
+   "deaths": 2,
+   "month": 8,
+   "serious": 47,
+   "weather": "흐림",
+   "year": 2022
+  },
+  {
+   "count": 28,
+   "deaths": 1,
+   "month": 8,
+   "serious": 28,
+   "weather": "비",
+   "year": 2022
+  },
+  {
+   "count": 2,
+   "deaths": 2,
+   "month": 8,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2022
+  },
+  {
+   "count": 7,
+   "deaths": 3,
+   "month": 8,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2022
+  },
+  {
+   "count": 601,
+   "deaths": 0,
+   "month": 9,
+   "serious": 601,
+   "weather": "맑음",
+   "year": 2022
+  },
+  {
+   "count": 40,
+   "deaths": 2,
+   "month": 9,
+   "serious": 40,
+   "weather": "흐림",
+   "year": 2022
+  },
+  {
+   "count": 60,
+   "deaths": 3,
+   "month": 9,
+   "serious": 60,
+   "weather": "비",
+   "year": 2022
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 9,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2022
+  },
+  {
+   "count": 6,
+   "deaths": 2,
+   "month": 9,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2022
+  },
+  {
+   "count": 540,
+   "deaths": 0,
+   "month": 10,
+   "serious": 540,
+   "weather": "맑음",
+   "year": 2022
+  },
+  {
+   "count": 37,
+   "deaths": 2,
+   "month": 10,
+   "serious": 37,
+   "weather": "흐림",
+   "year": 2022
+  },
+  {
+   "count": 26,
+   "deaths": 0,
+   "month": 10,
+   "serious": 26,
+   "weather": "비",
+   "year": 2022
+  },
+  {
+   "count": 2,
+   "deaths": 2,
+   "month": 10,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2022
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 10,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2022
+  },
+  {
+   "count": 487,
+   "deaths": 2,
+   "month": 11,
+   "serious": 487,
+   "weather": "맑음",
+   "year": 2022
+  },
+  {
+   "count": 29,
+   "deaths": 3,
+   "month": 11,
+   "serious": 29,
+   "weather": "흐림",
+   "year": 2022
+  },
+  {
+   "count": 45,
+   "deaths": 3,
+   "month": 11,
+   "serious": 45,
+   "weather": "비",
+   "year": 2022
+  },
+  {
+   "count": 2,
+   "deaths": 1,
+   "month": 11,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2022
+  },
+  {
+   "count": 6,
+   "deaths": 3,
+   "month": 11,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2022
+  },
+  {
+   "count": 572,
+   "deaths": 1,
+   "month": 12,
+   "serious": 572,
+   "weather": "맑음",
+   "year": 2022
+  },
+  {
+   "count": 28,
+   "deaths": 1,
+   "month": 12,
+   "serious": 28,
+   "weather": "흐림",
+   "year": 2022
+  },
+  {
+   "count": 62,
+   "deaths": 2,
+   "month": 12,
+   "serious": 62,
+   "weather": "비",
+   "year": 2022
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 12,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2022
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 12,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2022
+  },
+  {
+   "count": 328,
+   "deaths": 3,
+   "month": 1,
+   "serious": 328,
+   "weather": "맑음",
+   "year": 2023
+  },
+  {
+   "count": 47,
+   "deaths": 2,
+   "month": 1,
+   "serious": 47,
+   "weather": "흐림",
+   "year": 2023
+  },
+  {
+   "count": 56,
+   "deaths": 0,
+   "month": 1,
+   "serious": 56,
+   "weather": "비",
+   "year": 2023
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 1,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2023
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 1,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2023
+  },
+  {
+   "count": 761,
+   "deaths": 0,
+   "month": 2,
+   "serious": 761,
+   "weather": "맑음",
+   "year": 2023
+  },
+  {
+   "count": 42,
+   "deaths": 2,
+   "month": 2,
+   "serious": 42,
+   "weather": "흐림",
+   "year": 2023
+  },
+  {
+   "count": 25,
+   "deaths": 2,
+   "month": 2,
+   "serious": 25,
+   "weather": "비",
+   "year": 2023
+  },
+  {
+   "count": 1,
+   "deaths": 1,
+   "month": 2,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2023
+  },
+  {
+   "count": 9,
+   "deaths": 2,
+   "month": 2,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2023
+  },
+  {
+   "count": 652,
+   "deaths": 0,
+   "month": 3,
+   "serious": 652,
+   "weather": "맑음",
+   "year": 2023
+  },
+  {
+   "count": 19,
+   "deaths": 3,
+   "month": 3,
+   "serious": 19,
+   "weather": "흐림",
+   "year": 2023
+  },
+  {
+   "count": 40,
+   "deaths": 3,
+   "month": 3,
+   "serious": 40,
+   "weather": "비",
+   "year": 2023
+  },
+  {
+   "count": 5,
+   "deaths": 3,
+   "month": 3,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2023
+  },
+  {
+   "count": 8,
+   "deaths": 1,
+   "month": 3,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2023
+  },
+  {
+   "count": 340,
+   "deaths": 1,
+   "month": 4,
+   "serious": 340,
+   "weather": "맑음",
+   "year": 2023
+  },
+  {
+   "count": 39,
+   "deaths": 3,
+   "month": 4,
+   "serious": 39,
+   "weather": "흐림",
+   "year": 2023
+  },
+  {
+   "count": 28,
+   "deaths": 1,
+   "month": 4,
+   "serious": 28,
+   "weather": "비",
+   "year": 2023
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 4,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2023
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 4,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2023
+  },
+  {
+   "count": 757,
+   "deaths": 1,
+   "month": 5,
+   "serious": 757,
+   "weather": "맑음",
+   "year": 2023
+  },
+  {
+   "count": 29,
+   "deaths": 1,
+   "month": 5,
+   "serious": 29,
+   "weather": "흐림",
+   "year": 2023
+  },
+  {
+   "count": 28,
+   "deaths": 2,
+   "month": 5,
+   "serious": 28,
+   "weather": "비",
+   "year": 2023
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 5,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2023
+  },
+  {
+   "count": 8,
+   "deaths": 2,
+   "month": 5,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2023
+  },
+  {
+   "count": 266,
+   "deaths": 1,
+   "month": 6,
+   "serious": 266,
+   "weather": "맑음",
+   "year": 2023
+  },
+  {
+   "count": 23,
+   "deaths": 1,
+   "month": 6,
+   "serious": 23,
+   "weather": "흐림",
+   "year": 2023
+  },
+  {
+   "count": 62,
+   "deaths": 1,
+   "month": 6,
+   "serious": 62,
+   "weather": "비",
+   "year": 2023
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 6,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2023
+  },
+  {
+   "count": 7,
+   "deaths": 3,
+   "month": 6,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2023
+  },
+  {
+   "count": 561,
+   "deaths": 2,
+   "month": 7,
+   "serious": 561,
+   "weather": "맑음",
+   "year": 2023
+  },
+  {
+   "count": 44,
+   "deaths": 1,
+   "month": 7,
+   "serious": 44,
+   "weather": "흐림",
+   "year": 2023
+  },
+  {
+   "count": 30,
+   "deaths": 3,
+   "month": 7,
+   "serious": 30,
+   "weather": "비",
+   "year": 2023
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 7,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2023
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 7,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2023
+  },
+  {
+   "count": 704,
+   "deaths": 0,
+   "month": 8,
+   "serious": 704,
+   "weather": "맑음",
+   "year": 2023
+  },
+  {
+   "count": 29,
+   "deaths": 1,
+   "month": 8,
+   "serious": 29,
+   "weather": "흐림",
+   "year": 2023
+  },
+  {
+   "count": 54,
+   "deaths": 3,
+   "month": 8,
+   "serious": 54,
+   "weather": "비",
+   "year": 2023
+  },
+  {
+   "count": 1,
+   "deaths": 0,
+   "month": 8,
+   "serious": 1,
+   "weather": "눈",
+   "year": 2023
+  },
+  {
+   "count": 4,
+   "deaths": 0,
+   "month": 8,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2023
+  },
+  {
+   "count": 557,
+   "deaths": 0,
+   "month": 9,
+   "serious": 557,
+   "weather": "맑음",
+   "year": 2023
+  },
+  {
+   "count": 40,
+   "deaths": 3,
+   "month": 9,
+   "serious": 40,
+   "weather": "흐림",
+   "year": 2023
+  },
+  {
+   "count": 58,
+   "deaths": 0,
+   "month": 9,
+   "serious": 58,
+   "weather": "비",
+   "year": 2023
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 9,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2023
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 9,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2023
+  },
+  {
+   "count": 645,
+   "deaths": 3,
+   "month": 10,
+   "serious": 645,
+   "weather": "맑음",
+   "year": 2023
+  },
+  {
+   "count": 40,
+   "deaths": 0,
+   "month": 10,
+   "serious": 40,
+   "weather": "흐림",
+   "year": 2023
+  },
+  {
+   "count": 28,
+   "deaths": 2,
+   "month": 10,
+   "serious": 28,
+   "weather": "비",
+   "year": 2023
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 10,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2023
+  },
+  {
+   "count": 8,
+   "deaths": 3,
+   "month": 10,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2023
+  },
+  {
+   "count": 497,
+   "deaths": 1,
+   "month": 11,
+   "serious": 497,
+   "weather": "맑음",
+   "year": 2023
+  },
+  {
+   "count": 19,
+   "deaths": 0,
+   "month": 11,
+   "serious": 19,
+   "weather": "흐림",
+   "year": 2023
+  },
+  {
+   "count": 63,
+   "deaths": 1,
+   "month": 11,
+   "serious": 63,
+   "weather": "비",
+   "year": 2023
+  },
+  {
+   "count": 2,
+   "deaths": 1,
+   "month": 11,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2023
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 11,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2023
+  },
+  {
+   "count": 421,
+   "deaths": 0,
+   "month": 12,
+   "serious": 421,
+   "weather": "맑음",
+   "year": 2023
+  },
+  {
+   "count": 19,
+   "deaths": 3,
+   "month": 12,
+   "serious": 19,
+   "weather": "흐림",
+   "year": 2023
+  },
+  {
+   "count": 27,
+   "deaths": 3,
+   "month": 12,
+   "serious": 27,
+   "weather": "비",
+   "year": 2023
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 12,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2023
+  },
+  {
+   "count": 8,
+   "deaths": 1,
+   "month": 12,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2023
+  },
+  {
+   "count": 412,
+   "deaths": 1,
+   "month": 1,
+   "serious": 412,
+   "weather": "맑음",
+   "year": 2024
+  },
+  {
+   "count": 30,
+   "deaths": 0,
+   "month": 1,
+   "serious": 30,
+   "weather": "흐림",
+   "year": 2024
+  },
+  {
+   "count": 45,
+   "deaths": 3,
+   "month": 1,
+   "serious": 45,
+   "weather": "비",
+   "year": 2024
+  },
+  {
+   "count": 3,
+   "deaths": 2,
+   "month": 1,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2024
+  },
+  {
+   "count": 6,
+   "deaths": 2,
+   "month": 1,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2024
+  },
+  {
+   "count": 371,
+   "deaths": 0,
+   "month": 2,
+   "serious": 371,
+   "weather": "맑음",
+   "year": 2024
+  },
+  {
+   "count": 30,
+   "deaths": 1,
+   "month": 2,
+   "serious": 30,
+   "weather": "흐림",
+   "year": 2024
+  },
+  {
+   "count": 57,
+   "deaths": 0,
+   "month": 2,
+   "serious": 57,
+   "weather": "비",
+   "year": 2024
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 2,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2024
+  },
+  {
+   "count": 7,
+   "deaths": 0,
+   "month": 2,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2024
+  },
+  {
+   "count": 482,
+   "deaths": 3,
+   "month": 3,
+   "serious": 482,
+   "weather": "맑음",
+   "year": 2024
+  },
+  {
+   "count": 48,
+   "deaths": 3,
+   "month": 3,
+   "serious": 48,
+   "weather": "흐림",
+   "year": 2024
+  },
+  {
+   "count": 48,
+   "deaths": 0,
+   "month": 3,
+   "serious": 48,
+   "weather": "비",
+   "year": 2024
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 3,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2024
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 3,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2024
+  },
+  {
+   "count": 379,
+   "deaths": 1,
+   "month": 4,
+   "serious": 379,
+   "weather": "맑음",
+   "year": 2024
+  },
+  {
+   "count": 28,
+   "deaths": 3,
+   "month": 4,
+   "serious": 28,
+   "weather": "흐림",
+   "year": 2024
+  },
+  {
+   "count": 48,
+   "deaths": 1,
+   "month": 4,
+   "serious": 48,
+   "weather": "비",
+   "year": 2024
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 4,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2024
+  },
+  {
+   "count": 5,
+   "deaths": 1,
+   "month": 4,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2024
+  },
+  {
+   "count": 750,
+   "deaths": 1,
+   "month": 5,
+   "serious": 750,
+   "weather": "맑음",
+   "year": 2024
+  },
+  {
+   "count": 20,
+   "deaths": 2,
+   "month": 5,
+   "serious": 20,
+   "weather": "흐림",
+   "year": 2024
+  },
+  {
+   "count": 22,
+   "deaths": 3,
+   "month": 5,
+   "serious": 22,
+   "weather": "비",
+   "year": 2024
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 5,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2024
+  },
+  {
+   "count": 7,
+   "deaths": 1,
+   "month": 5,
+   "serious": 7,
+   "weather": "기타",
+   "year": 2024
+  },
+  {
+   "count": 635,
+   "deaths": 2,
+   "month": 6,
+   "serious": 635,
+   "weather": "맑음",
+   "year": 2024
+  },
+  {
+   "count": 33,
+   "deaths": 2,
+   "month": 6,
+   "serious": 33,
+   "weather": "흐림",
+   "year": 2024
+  },
+  {
+   "count": 53,
+   "deaths": 2,
+   "month": 6,
+   "serious": 53,
+   "weather": "비",
+   "year": 2024
+  },
+  {
+   "count": 3,
+   "deaths": 3,
+   "month": 6,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2024
+  },
+  {
+   "count": 8,
+   "deaths": 3,
+   "month": 6,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2024
+  },
+  {
+   "count": 684,
+   "deaths": 1,
+   "month": 7,
+   "serious": 684,
+   "weather": "맑음",
+   "year": 2024
+  },
+  {
+   "count": 47,
+   "deaths": 0,
+   "month": 7,
+   "serious": 47,
+   "weather": "흐림",
+   "year": 2024
+  },
+  {
+   "count": 52,
+   "deaths": 3,
+   "month": 7,
+   "serious": 52,
+   "weather": "비",
+   "year": 2024
+  },
+  {
+   "count": 2,
+   "deaths": 2,
+   "month": 7,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2024
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 7,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2024
+  },
+  {
+   "count": 551,
+   "deaths": 2,
+   "month": 8,
+   "serious": 551,
+   "weather": "맑음",
+   "year": 2024
+  },
+  {
+   "count": 42,
+   "deaths": 3,
+   "month": 8,
+   "serious": 42,
+   "weather": "흐림",
+   "year": 2024
+  },
+  {
+   "count": 22,
+   "deaths": 3,
+   "month": 8,
+   "serious": 22,
+   "weather": "비",
+   "year": 2024
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 8,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2024
+  },
+  {
+   "count": 9,
+   "deaths": 3,
+   "month": 8,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2024
+  },
+  {
+   "count": 429,
+   "deaths": 2,
+   "month": 9,
+   "serious": 429,
+   "weather": "맑음",
+   "year": 2024
+  },
+  {
+   "count": 17,
+   "deaths": 2,
+   "month": 9,
+   "serious": 17,
+   "weather": "흐림",
+   "year": 2024
+  },
+  {
+   "count": 31,
+   "deaths": 2,
+   "month": 9,
+   "serious": 31,
+   "weather": "비",
+   "year": 2024
+  },
+  {
+   "count": 2,
+   "deaths": 1,
+   "month": 9,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2024
+  },
+  {
+   "count": 9,
+   "deaths": 1,
+   "month": 9,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2024
+  },
+  {
+   "count": 543,
+   "deaths": 1,
+   "month": 10,
+   "serious": 543,
+   "weather": "맑음",
+   "year": 2024
+  },
+  {
+   "count": 31,
+   "deaths": 0,
+   "month": 10,
+   "serious": 31,
+   "weather": "흐림",
+   "year": 2024
+  },
+  {
+   "count": 56,
+   "deaths": 1,
+   "month": 10,
+   "serious": 56,
+   "weather": "비",
+   "year": 2024
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 10,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2024
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 10,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2024
+  },
+  {
+   "count": 608,
+   "deaths": 0,
+   "month": 11,
+   "serious": 608,
+   "weather": "맑음",
+   "year": 2024
+  },
+  {
+   "count": 46,
+   "deaths": 0,
+   "month": 11,
+   "serious": 46,
+   "weather": "흐림",
+   "year": 2024
+  },
+  {
+   "count": 58,
+   "deaths": 0,
+   "month": 11,
+   "serious": 58,
+   "weather": "비",
+   "year": 2024
+  },
+  {
+   "count": 2,
+   "deaths": 0,
+   "month": 11,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2024
+  },
+  {
+   "count": 9,
+   "deaths": 3,
+   "month": 11,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2024
+  },
+  {
+   "count": 325,
+   "deaths": 2,
+   "month": 12,
+   "serious": 325,
+   "weather": "맑음",
+   "year": 2024
+  },
+  {
+   "count": 28,
+   "deaths": 1,
+   "month": 12,
+   "serious": 28,
+   "weather": "흐림",
+   "year": 2024
+  },
+  {
+   "count": 36,
+   "deaths": 3,
+   "month": 12,
+   "serious": 36,
+   "weather": "비",
+   "year": 2024
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 12,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2024
+  },
+  {
+   "count": 9,
+   "deaths": 3,
+   "month": 12,
+   "serious": 9,
+   "weather": "기타",
+   "year": 2024
+  },
+  {
+   "count": 330,
+   "deaths": 0,
+   "month": 1,
+   "serious": 330,
+   "weather": "맑음",
+   "year": 2025
+  },
+  {
+   "count": 36,
+   "deaths": 0,
+   "month": 1,
+   "serious": 36,
+   "weather": "흐림",
+   "year": 2025
+  },
+  {
+   "count": 56,
+   "deaths": 1,
+   "month": 1,
+   "serious": 56,
+   "weather": "비",
+   "year": 2025
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 1,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2025
+  },
+  {
+   "count": 5,
+   "deaths": 2,
+   "month": 1,
+   "serious": 5,
+   "weather": "기타",
+   "year": 2025
+  },
+  {
+   "count": 598,
+   "deaths": 0,
+   "month": 2,
+   "serious": 598,
+   "weather": "맑음",
+   "year": 2025
+  },
+  {
+   "count": 24,
+   "deaths": 3,
+   "month": 2,
+   "serious": 24,
+   "weather": "흐림",
+   "year": 2025
+  },
+  {
+   "count": 49,
+   "deaths": 3,
+   "month": 2,
+   "serious": 49,
+   "weather": "비",
+   "year": 2025
+  },
+  {
+   "count": 3,
+   "deaths": 2,
+   "month": 2,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2025
+  },
+  {
+   "count": 3,
+   "deaths": 2,
+   "month": 2,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2025
+  },
+  {
+   "count": 671,
+   "deaths": 1,
+   "month": 3,
+   "serious": 671,
+   "weather": "맑음",
+   "year": 2025
+  },
+  {
+   "count": 39,
+   "deaths": 3,
+   "month": 3,
+   "serious": 39,
+   "weather": "흐림",
+   "year": 2025
+  },
+  {
+   "count": 43,
+   "deaths": 2,
+   "month": 3,
+   "serious": 43,
+   "weather": "비",
+   "year": 2025
+  },
+  {
+   "count": 5,
+   "deaths": 0,
+   "month": 3,
+   "serious": 5,
+   "weather": "눈",
+   "year": 2025
+  },
+  {
+   "count": 8,
+   "deaths": 0,
+   "month": 3,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2025
+  },
+  {
+   "count": 278,
+   "deaths": 3,
+   "month": 4,
+   "serious": 278,
+   "weather": "맑음",
+   "year": 2025
+  },
+  {
+   "count": 33,
+   "deaths": 1,
+   "month": 4,
+   "serious": 33,
+   "weather": "흐림",
+   "year": 2025
+  },
+  {
+   "count": 29,
+   "deaths": 1,
+   "month": 4,
+   "serious": 29,
+   "weather": "비",
+   "year": 2025
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 4,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2025
+  },
+  {
+   "count": 3,
+   "deaths": 2,
+   "month": 4,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2025
+  },
+  {
+   "count": 472,
+   "deaths": 1,
+   "month": 5,
+   "serious": 472,
+   "weather": "맑음",
+   "year": 2025
+  },
+  {
+   "count": 37,
+   "deaths": 3,
+   "month": 5,
+   "serious": 37,
+   "weather": "흐림",
+   "year": 2025
+  },
+  {
+   "count": 29,
+   "deaths": 2,
+   "month": 5,
+   "serious": 29,
+   "weather": "비",
+   "year": 2025
+  },
+  {
+   "count": 3,
+   "deaths": 2,
+   "month": 5,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2025
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 5,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2025
+  },
+  {
+   "count": 529,
+   "deaths": 2,
+   "month": 6,
+   "serious": 529,
+   "weather": "맑음",
+   "year": 2025
+  },
+  {
+   "count": 26,
+   "deaths": 0,
+   "month": 6,
+   "serious": 26,
+   "weather": "흐림",
+   "year": 2025
+  },
+  {
+   "count": 37,
+   "deaths": 3,
+   "month": 6,
+   "serious": 37,
+   "weather": "비",
+   "year": 2025
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 6,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2025
+  },
+  {
+   "count": 3,
+   "deaths": 0,
+   "month": 6,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2025
+  },
+  {
+   "count": 762,
+   "deaths": 0,
+   "month": 7,
+   "serious": 762,
+   "weather": "맑음",
+   "year": 2025
+  },
+  {
+   "count": 42,
+   "deaths": 3,
+   "month": 7,
+   "serious": 42,
+   "weather": "흐림",
+   "year": 2025
+  },
+  {
+   "count": 34,
+   "deaths": 3,
+   "month": 7,
+   "serious": 34,
+   "weather": "비",
+   "year": 2025
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 7,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2025
+  },
+  {
+   "count": 4,
+   "deaths": 2,
+   "month": 7,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2025
+  },
+  {
+   "count": 376,
+   "deaths": 1,
+   "month": 8,
+   "serious": 376,
+   "weather": "맑음",
+   "year": 2025
+  },
+  {
+   "count": 43,
+   "deaths": 3,
+   "month": 8,
+   "serious": 43,
+   "weather": "흐림",
+   "year": 2025
+  },
+  {
+   "count": 39,
+   "deaths": 2,
+   "month": 8,
+   "serious": 39,
+   "weather": "비",
+   "year": 2025
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 8,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2025
+  },
+  {
+   "count": 3,
+   "deaths": 2,
+   "month": 8,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2025
+  },
+  {
+   "count": 343,
+   "deaths": 2,
+   "month": 9,
+   "serious": 343,
+   "weather": "맑음",
+   "year": 2025
+  },
+  {
+   "count": 30,
+   "deaths": 2,
+   "month": 9,
+   "serious": 30,
+   "weather": "흐림",
+   "year": 2025
+  },
+  {
+   "count": 47,
+   "deaths": 2,
+   "month": 9,
+   "serious": 47,
+   "weather": "비",
+   "year": 2025
+  },
+  {
+   "count": 4,
+   "deaths": 3,
+   "month": 9,
+   "serious": 4,
+   "weather": "눈",
+   "year": 2025
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 9,
+   "serious": 3,
+   "weather": "기타",
+   "year": 2025
+  },
+  {
+   "count": 323,
+   "deaths": 2,
+   "month": 10,
+   "serious": 323,
+   "weather": "맑음",
+   "year": 2025
+  },
+  {
+   "count": 48,
+   "deaths": 1,
+   "month": 10,
+   "serious": 48,
+   "weather": "흐림",
+   "year": 2025
+  },
+  {
+   "count": 32,
+   "deaths": 2,
+   "month": 10,
+   "serious": 32,
+   "weather": "비",
+   "year": 2025
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 10,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2025
+  },
+  {
+   "count": 8,
+   "deaths": 2,
+   "month": 10,
+   "serious": 8,
+   "weather": "기타",
+   "year": 2025
+  },
+  {
+   "count": 515,
+   "deaths": 2,
+   "month": 11,
+   "serious": 515,
+   "weather": "맑음",
+   "year": 2025
+  },
+  {
+   "count": 17,
+   "deaths": 3,
+   "month": 11,
+   "serious": 17,
+   "weather": "흐림",
+   "year": 2025
+  },
+  {
+   "count": 27,
+   "deaths": 1,
+   "month": 11,
+   "serious": 27,
+   "weather": "비",
+   "year": 2025
+  },
+  {
+   "count": 2,
+   "deaths": 3,
+   "month": 11,
+   "serious": 2,
+   "weather": "눈",
+   "year": 2025
+  },
+  {
+   "count": 4,
+   "deaths": 1,
+   "month": 11,
+   "serious": 4,
+   "weather": "기타",
+   "year": 2025
+  },
+  {
+   "count": 690,
+   "deaths": 0,
+   "month": 12,
+   "serious": 690,
+   "weather": "맑음",
+   "year": 2025
+  },
+  {
+   "count": 34,
+   "deaths": 0,
+   "month": 12,
+   "serious": 34,
+   "weather": "흐림",
+   "year": 2025
+  },
+  {
+   "count": 64,
+   "deaths": 1,
+   "month": 12,
+   "serious": 64,
+   "weather": "비",
+   "year": 2025
+  },
+  {
+   "count": 3,
+   "deaths": 1,
+   "month": 12,
+   "serious": 3,
+   "weather": "눈",
+   "year": 2025
+  },
+  {
+   "count": 6,
+   "deaths": 1,
+   "month": 12,
+   "serious": 6,
+   "weather": "기타",
+   "year": 2025
+  }
+ ],
+ "surface_by_severity": [
+  {
+   "content": "중상사고",
+   "count": 1768,
+   "surface": "건조"
+  },
+  {
+   "content": "사망사고",
+   "count": 647,
+   "surface": "건조"
+  },
+  {
+   "content": "중상사고",
+   "count": 3013,
+   "surface": "젖음/습기"
+  },
+  {
+   "content": "사망사고",
+   "count": 2003,
+   "surface": "젖음/습기"
+  },
+  {
+   "content": "중상사고",
+   "count": 1426,
+   "surface": "서리/결빙"
+  },
+  {
+   "content": "사망사고",
+   "count": 1442,
+   "surface": "서리/결빙"
+  },
+  {
+   "content": "중상사고",
+   "count": 1009,
+   "surface": "적설"
+  },
+  {
+   "content": "사망사고",
+   "count": 532,
+   "surface": "적설"
+  },
+  {
+   "content": "중상사고",
+   "count": 3794,
+   "surface": "해빙"
+  },
+  {
+   "content": "사망사고",
+   "count": 4531,
+   "surface": "해빙"
+  },
+  {
+   "content": "중상사고",
+   "count": 3560,
+   "surface": "침수"
+  },
+  {
+   "content": "사망사고",
+   "count": 34,
+   "surface": "침수"
+  },
+  {
+   "content": "중상사고",
+   "count": 173,
+   "surface": "기타"
+  },
+  {
+   "content": "사망사고",
+   "count": 860,
+   "surface": "기타"
+  }
+ ],
+ "weather_by_severity": [
+  {
+   "content": "중상사고",
+   "count": 4297,
+   "weather": "맑음"
+  },
+  {
+   "content": "사망사고",
+   "count": 3044,
+   "weather": "맑음"
+  },
+  {
+   "content": "중상사고",
+   "count": 2855,
+   "weather": "흐림"
+  },
+  {
+   "content": "사망사고",
+   "count": 1367,
+   "weather": "흐림"
+  },
+  {
+   "content": "중상사고",
+   "count": 1563,
+   "weather": "비"
+  },
+  {
+   "content": "사망사고",
+   "count": 1926,
+   "weather": "비"
+  },
+  {
+   "content": "중상사고",
+   "count": 3257,
+   "weather": "눈"
+  },
+  {
+   "content": "사망사고",
+   "count": 2079,
+   "weather": "눈"
+  },
+  {
+   "content": "중상사고",
+   "count": 2402,
+   "weather": "기타"
+  },
+  {
+   "content": "사망사고",
+   "count": 715,
+   "weather": "기타"
+  }
+ ]
+}

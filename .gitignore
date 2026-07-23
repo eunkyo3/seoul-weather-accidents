@@ -1,0 +1,22 @@
+# dependencies / build
+node_modules/
+web/.next/
+web/out/
+web/next-env.d.ts
+
+# pipeline artifacts (재생성 가능 — docker compose가 생성)
+pipeline/output/
+web/public/data/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OMC operational state
+.omc/state/
+.omc/logs/
+.omc/handoffs/
+.omc/artifacts/
+
+# misc
+.DS_Store
+Thumbs.db
