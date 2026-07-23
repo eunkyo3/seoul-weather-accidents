@@ -46,9 +46,13 @@ export default function TrendPage() {
       grid.set(k, (grid.get(k) ?? 0) + r.count);
     }
     const months = Array.from({ length: 12 }, (_, i) => i + 1);
+    // 겨울이 포함되면 계절-연도 순서(3→…→12→1→2)로 배열해 겨울이 12→1→2로 읽히게 한다.
+    // 겨울 미포함(기본 포함)이면 1→12 유지.
+    const SEASON_YEAR = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 2];
+    const base = f.seasons.includes("겨울") ? SEASON_YEAR : months;
     const activeMonths = f.seasons.length
-      ? months.filter((m) => seasonPass(monthSeason(m), f.seasons))
-      : months;
+      ? base.filter((m) => seasonPass(monthSeason(m), f.seasons))
+      : base;
 
     const series = years.map((y, idx) => ({
       name: String(y),
