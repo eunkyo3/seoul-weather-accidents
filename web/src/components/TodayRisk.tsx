@@ -56,13 +56,14 @@ export function TodayRisk() {
   const apiWeather = api.s === "ok" ? api.weather : null;
   const effective: WeatherKey = manual ?? apiWeather ?? "clear";
 
+  // 노출 보정 대표비(repr) — 위젯 정본 지표(SCHEMAS §3.4)
   const ratio = useMemo(() => {
     if (exposure.status !== "ready") return null;
     const row = exposure.data.by_calendar_month.find((r) => r.month === month);
     if (!row) return null;
     if (effective === "clear") return 1;
-    if (effective === "rain") return row.rain_ratio;
-    return row.snow_ratio; // 관측 없으면 null
+    if (effective === "rain") return row.rain_repr;
+    return row.snow_repr; // 관측 없으면 null
   }, [exposure, month, effective]);
 
   const wc = WEATHER_COLORS[mode];
@@ -150,8 +151,8 @@ export function TodayRisk() {
       </div>
 
       <p className="mt-3 border-t border-border pt-2.5 text-[10.5px] leading-relaxed text-muted">
-        ※ 과거 통계 조회이며 예측이 아닙니다. 배율은 {month}월 노출 보정 사고율(사고 건수 ÷ 해당 날씨 일수)의 맑음군
-        대비 값입니다. 상관 관계이며 인과가 아닙니다.
+        ※ 과거 통계 조회이며 예측이 아닙니다. 배율은 {month}월 노출 보정 대표비(그 날씨의 사고 점유율 ÷ 일수 점유율)로,
+        1.0보다 크면 맑은 날보다 사고가 과대표집됨을 뜻합니다. 상관 관계이며 인과가 아닙니다.
       </p>
     </Card>
   );

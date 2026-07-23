@@ -1,0 +1,10 @@
+__pycache__/
+_profile_cache/
+fixtures/
+output/
+profile_report.md
+SCHEMAS.md
+test_build.py
+make_fixtures.py
+profile_data.py
+fetch_weather.py

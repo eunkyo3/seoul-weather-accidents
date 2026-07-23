@@ -1,0 +1,9 @@
+node_modules/
+.next/
+public/data/
+npm-debug.log*
+.git/
+.gitignore
+README.md
+AGENTS.md
+CLAUDE.md

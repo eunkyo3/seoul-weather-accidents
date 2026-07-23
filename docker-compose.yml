@@ -1,0 +1,23 @@
+services:
+  pipeline:
+    build:
+      context: ./pipeline
+    volumes:
+      - ./data:/app/data:ro
+      - dashboard-data:/out
+    restart: "no"
+
+  web:
+    build:
+      context: ./web
+    depends_on:
+      pipeline:
+        condition: service_completed_successfully
+    ports:
+      - "3000:3000"
+    volumes:
+      - dashboard-data:/app/public/data:ro
+    restart: unless-stopped
+
+volumes:
+  dashboard-data:

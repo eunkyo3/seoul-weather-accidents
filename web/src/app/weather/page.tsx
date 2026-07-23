@@ -223,7 +223,7 @@ export default function WeatherPage() {
       <PageHeader
         eyebrow="기상 분석"
         title="맑은 날 vs 비·눈 오는 날"
-        subtitle="절대 건수만 보면 맑은 날 사고가 압도적입니다. 하지만 날씨별 일수로 나눈 하루당 사고율로 보정하면 이야기가 달라집니다."
+        subtitle="절대 건수만 보면 맑은 날 사고가 압도적입니다. 날씨별 일수로 노출 보정한 대표비(사고 점유율 ÷ 일수 점유율)로 봐야 공정하게 비교됩니다."
       />
       <HypothesisBanner id="H2" fallbackTitle="비·눈 오는 날은 맑은 날보다 하루당 사고율이 높다" />
       <FilterBar />
@@ -237,12 +237,12 @@ export default function WeatherPage() {
         </Card>
         <Card>
           <SectionTitle
-            title="노출 보정 하루당 사고율"
-            hint="사고 건수 ÷ 해당 날씨 일수. 막대 위는 맑음군 대비 배율"
-            right={rates ? <Badge tone="accent">비 {mult(rates.rain.ratio)}</Badge> : undefined}
+            title="노출 보정 대표비"
+            hint="사고 점유율 ÷ 일수 점유율. 1.0보다 크면 그 날씨에 사고가 과대표집(더 위험)"
+            right={rates ? <Badge tone="accent">비 {mult(rates.rain.repr)}</Badge> : undefined}
           />
           <DataState state={exposure} height={330}>
-            {() => rateOption && <EChart option={rateOption} height={330} notMerge aria-label="노출 보정 하루당 사고율" />}
+            {() => rateOption && <EChart option={rateOption} height={330} notMerge aria-label="노출 보정 대표비" />}
           </DataState>
         </Card>
         <Card className="lg:col-span-2">
@@ -254,6 +254,15 @@ export default function WeatherPage() {
           </DataState>
         </Card>
       </div>
+
+      <p className="mt-4 rounded-xl border border-border bg-surface-2/60 px-4 py-3 text-[11px] leading-relaxed text-muted">
+        ※ 노출 보정 각주 — 맑음군 사고율의 분모는{" "}
+        <span className="font-medium text-secondary">max(1, 월 일수 − 강수일수 − 눈일수)</span> 근사입니다. 실측에서
+        눈일수가 강수일수의 부분집합이 아니어서(관측 25개월 위반) 강수·눈 일수를 모두 차감하는 합집합 정의를 채택했습니다.
+        비·눈이 같은 날 겹치면 이중 차감될 수 있어 맑음군 사고율이 다소 높게(=비·눈 배율이 다소 낮게, 보수적으로) 추정됩니다.
+        강수일수(일강수 ≥0.1mm)와 눈일수(눈 현상 관측)는 관측 기준이 다릅니다. 월 단위 해상도이며 흐림·맑음을 구분하지
+        못하는 근사입니다. 상관 관계이며 인과가 아닙니다.
+      </p>
     </div>
   );
 }

@@ -27,21 +27,30 @@ export default function OverviewPage() {
   const rateOption = useMemo<EChartsCoreOption | null>(() => {
     if (exposure.status !== "ready") return null;
     const p = exposure.data.pooled;
+    const c = CHROME[mode];
     const wc = WEATHER_COLORS[mode];
-    const rates = { clear: p.clear_rate, rain: p.rain_rate, snow: p.snow_rate };
-    const ratios = { clear: 1, rain: p.rain_ratio, snow: p.snow_ratio };
+    const repr = { clear: 1, rain: p.rain_repr, snow: p.snow_repr };
+    const rate = { clear: p.clear_rate, rain: p.rain_rate, snow: p.snow_rate };
     return {
       ...baseOption(mode),
       tooltip: {
         ...(baseOption(mode).tooltip as object),
         trigger: "axis",
         axisPointer: { type: "shadow" },
-        valueFormatter: (v: number) => `${dec(v, 2)} 건/일`,
+        formatter: (params: Array<{ dataIndex: number }>) => {
+          const g = GROUPS[params[0].dataIndex];
+          return `${g.label}<br/>노출 보정 대표비 <b>${mult(repr[g.key])}</b><br/><span style="color:${c.muted}">하루당 사고율 ${dec(rate[g.key], 2)} 건/일</span>`;
+        },
       },
       legend: { show: false },
       grid: { left: 8, right: 20, top: 24, bottom: 8, containLabel: true },
       xAxis: { type: "category", data: GROUPS.map((g) => g.label), ...catAxis(mode) },
-      yAxis: { type: "value", ...valAxis(mode) },
+      yAxis: {
+        type: "value",
+        ...valAxis(mode),
+        name: "대표비 (맑음군=1.0)",
+        nameTextStyle: { color: c.muted, fontSize: 10 },
+      },
       series: [
         {
           type: "bar",
@@ -50,18 +59,25 @@ export default function OverviewPage() {
             borderRadius: [6, 6, 0, 0],
             color: (pp: { dataIndex: number }) => wc[GROUPS[pp.dataIndex].key],
           },
+          markLine: {
+            symbol: "none",
+            silent: true,
+            lineStyle: { color: c.muted, type: "dashed", width: 1 },
+            label: { formatter: "1.0", color: c.muted, fontSize: 10, position: "insideEndTop" },
+            data: [{ yAxis: 1 }],
+          },
           label: {
             show: true,
             position: "top",
             fontSize: 12,
             fontWeight: "bold",
-            color: CHROME[mode].textPrimary,
+            color: c.textPrimary,
             formatter: (pp: { dataIndex: number }) => {
               const g = GROUPS[pp.dataIndex];
-              return g.key === "clear" ? "1.0배" : mult(ratios[g.key]);
+              return g.key === "clear" ? "1.0배" : mult(repr[g.key]);
             },
           },
-          data: GROUPS.map((g) => rates[g.key]),
+          data: GROUPS.map((g) => repr[g.key]),
         },
       ],
     };
@@ -89,9 +105,9 @@ export default function OverviewPage() {
         <DataState state={exposure} height={104}>
           {(e) => (
             <Kpi
-              label="비 올 때 하루당 사고"
-              value={mult(e.pooled.rain_ratio)}
-              unit="맑은 날 대비"
+              label="비 올 때 사고 위험"
+              value={mult(e.pooled.rain_repr)}
+              unit="노출 보정 · 맑은 날 대비"
               tone="rain"
             />
           )}
@@ -106,7 +122,7 @@ export default function OverviewPage() {
       {/* 하이라이트 + 가설 요약 */}
       <section className="mt-3 grid gap-3 lg:grid-cols-[1fr_1.1fr]">
         <Card>
-          <SectionTitle title="기상별 하루당 사고율" hint="노출 보정 — 맑음군 대비 배율(막대 위)" />
+          <SectionTitle title="기상별 노출 보정 대표비" hint="사고 점유율 ÷ 일수 점유율 · 1.0보다 크면 더 위험" />
           <DataState state={exposure} height={260}>
             {() => rateOption && <EChart option={rateOption} height={260} notMerge aria-label="기상별 하루당 사고율" />}
           </DataState>
