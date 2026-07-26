@@ -107,7 +107,7 @@ export default function OverviewPage() {
             <Kpi
               label="비 오는 날 심각사고"
               value={mult(e.pooled.rain_repr, 2)}
-              unit={e.pooled.rain_repr < 1 ? "일수 대비 · 예상과 반대" : "일수 대비 · 맑은 날 기준"}
+              unit={e.pooled.rain_repr < 1 ? "일수 대비 · 예상과 반대(분모 민감)" : "일수 대비 · 맑은 날 기준"}
               tone="rain"
             />
           )}

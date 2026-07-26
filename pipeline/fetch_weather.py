@@ -7,14 +7,23 @@ One request per source endpoint (3 requests total; 강수일수+강수량 share 
 
 All three are the pages' own AJAX endpoints and return **UTF-8 JSON** (the CSV *download* endpoints
 downloadGrnd*.do return an ERROR page without an interactive session and are NOT used).
+
+추가 1요청 — 시간 노출 민감도 분석용(강수 '계속시간'):
+  - Open-Meteo historical archive(키·로그인 불필요, ERA5 재분석): 일별 precipitation_hours/snowfall_sum
+    → 월별 강수시간 집계(data/weather/rain_hours.csv). KMA 무로그인 AJAX에는 강수계속시간 통계가
+    없어 재분석 자료로 대체하며 출처를 병기한다. 눈/비 분리는 snowfall_sum>0인 날의 강수시간을
+    눈 시간으로 귀속하는 일 단위 근사(혼합일은 눈 우선 = 비 시간 보수적).
+
 Saves RAW JSON responses + tidy CSVs to data/weather/ so build/시연 need no network.
 
-Run: python -X utf8 pipeline/fetch_weather.py
+Run: python -X utf8 pipeline/fetch_weather.py            (전체 4요청)
+     python -X utf8 pipeline/fetch_weather.py --hours-only  (강수시간만 재수집)
 """
 import http.cookiejar
 import json
 import os
 import socket
+import sys
 import urllib.parse
 import urllib.request
 
@@ -28,6 +37,8 @@ SNOW_URL = "https://data.kma.go.kr/climate/snw/selectSnwChartAjax.do"
 SNOW_PAGE = "https://data.kma.go.kr/climate/snw/selectSnwChart.do"
 TEMP_URL = "https://data.kma.go.kr/stcs/grnd/grndTaAjaxList.do"
 TEMP_PAGE = "https://data.kma.go.kr/stcs/grnd/grndTaList.do"
+HOURS_URL = "https://archive-api.open-meteo.com/v1/archive"  # Open-Meteo ERA5 (CC-BY 4.0)
+SEOUL_LAT, SEOUL_LON = "37.5714", "126.9658"  # 서울 기상관측소(108, 송월동) 인근
 
 
 def make_opener():
@@ -128,17 +139,49 @@ def fetch_temp(op):
     return rows
 
 
+def fetch_precip_hours():
+    """Open-Meteo ERA5 일별 강수시간 → 월별 시간 노출 CSV (민감도 분석용, 1 GET 요청)."""
+    q = urllib.parse.urlencode({
+        "latitude": SEOUL_LAT, "longitude": SEOUL_LON,
+        "start_date": f"{START_YEAR}-01-01", "end_date": f"{END_YEAR}-12-31",
+        "daily": "precipitation_hours,snowfall_sum,precipitation_sum",
+        "timezone": "Asia/Seoul"})
+    with urllib.request.urlopen(f"{HOURS_URL}?{q}") as r:
+        txt = r.read().decode("utf-8")
+    save_raw("rain_hours.raw.json", txt)
+    d = json.loads(txt)["daily"]
+    agg = {}
+    for date, ph, snow in zip(d["time"], d["precipitation_hours"], d["snowfall_sum"]):
+        ym = date[:7]
+        a = agg.setdefault(ym, [0.0, 0.0, 0.0])  # [precip_h, rain_h, snow_h]
+        ph = ph or 0.0
+        a[0] += ph
+        if (snow or 0) > 0:
+            a[2] += ph  # 눈 관측일의 강수시간은 눈 시간으로(혼합일 눈 우선 근사)
+        else:
+            a[1] += ph
+    rows = [(ym, round(v[0], 1), round(v[1], 1), round(v[2], 1)) for ym, v in sorted(agg.items())]
+    write_csv("rain_hours.csv", ["ym", "precip_hours", "rain_hours", "snow_hours"], rows)
+    return rows
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
-    op = make_opener()
-    rain = fetch_rain(op)
-    snow = fetch_snow(op)
-    temp = fetch_temp(op)
-    print(f"rain_days.csv   months={len(rain)}  first={rain[0]}  last={rain[-1]}")
-    print(f"snow_days.csv   months={len(snow)}  first={snow[0]}  last={snow[-1]}")
-    print(f"temperature.csv months={len(temp)} first={temp[0]} last={temp[-1]}")
+    results = []
+    if "--hours-only" not in sys.argv:
+        op = make_opener()
+        rain = fetch_rain(op)
+        snow = fetch_snow(op)
+        temp = fetch_temp(op)
+        print(f"rain_days.csv   months={len(rain)}  first={rain[0]}  last={rain[-1]}")
+        print(f"snow_days.csv   months={len(snow)}  first={snow[0]}  last={snow[-1]}")
+        print(f"temperature.csv months={len(temp)} first={temp[0]} last={temp[-1]}")
+        results += [("rain", rain), ("snow", snow), ("temp", temp)]
+    hours = fetch_precip_hours()
+    print(f"rain_hours.csv  months={len(hours)}  first={hours[0]}  last={hours[-1]}")
+    results.append(("hours", hours))
     # coverage check
-    for name, rows in (("rain", rain), ("snow", snow), ("temp", temp)):
+    for name, rows in results:
         yms = {r[0] for r in rows}
         expected = {f"{y}-{m:02d}" for y in range(2007, 2026) for m in range(1, 13)}
         missing = sorted(expected - yms)

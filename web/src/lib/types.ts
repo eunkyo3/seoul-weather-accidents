@@ -97,6 +97,10 @@ export interface ExposureMonthly {
   clear_rate: number;
   rain_ratio: number;
   snow_ratio: number | null;
+  /** v1.1 추가 — ERA5 월별 강수시간(민감도 분석용), 구 산출물 하위호환 위해 optional */
+  precip_hours?: number;
+  rain_hours?: number;
+  snow_hours?: number;
 }
 export interface ExposurePooled {
   rain_rate: number;
@@ -128,10 +132,40 @@ export interface ExposureCalMonth {
   rain_repr: number;
   snow_repr: number | null;
 }
+/** 연도별 대표비(일 기반 + 시간 기반) — 추이·추세 민감도 (v1.1 추가) */
+export interface ExposureByYear {
+  year: number;
+  rain_acc: number;
+  snow_acc: number;
+  clear_acc: number;
+  rain_repr: number | null;
+  snow_repr: number | null;
+  rain_repr_time: number | null;
+  snow_repr_time: number | null;
+}
+/** 시간 기반 분모 민감도(ERA5 강수시간) — H2 판정은 일 기반 유지, 크기 민감도 정량화 (v1.1 추가) */
+export interface TimeExposure {
+  source: string;
+  split_note: string;
+  rain_hours_total: number;
+  snow_hours_total: number;
+  precip_hours_total: number;
+  total_hours: number;
+  rain_hours_share: number;
+  rain_days_share: number;
+  rain_acc_share: number;
+  rain_repr_time: number;
+  snow_repr_time: number;
+  wet_repr_time: number;
+  caveat: string;
+}
 export interface ExposureData {
   monthly: ExposureMonthly[];
   pooled: ExposurePooled;
   by_calendar_month: ExposureCalMonth[];
+  /** v1.1 추가 필드 — 구 산출물과의 하위호환 위해 optional */
+  by_year?: ExposureByYear[];
+  time_exposure?: TimeExposure;
   definitions: Record<string, string>;
   snow_subset_verified: boolean;
 }
@@ -180,6 +214,15 @@ export interface HypothesisEvidence {
   value: number;
   unit: string | null;
 }
+/** 결정적 통계 검정 결과 (v1.1 추가) — p_value 0.0은 1e-6 미만 언더플로("p < 0.001" 표기) */
+export interface HypothesisStats {
+  test: string;
+  statistic: number;
+  df: number | null;
+  p_value: number;
+  repr_ci95?: [number, number];
+  note: string;
+}
 export interface Hypothesis {
   id: HypothesisId;
   title: string;
@@ -189,6 +232,8 @@ export interface Hypothesis {
   thresholds: { supported_min: number; partial_min: number };
   verdict: Verdict;
   evidence: HypothesisEvidence[];
+  /** v1.1 추가 — 구 산출물 하위호환 위해 optional */
+  stats?: HypothesisStats;
   caveat: string;
 }
 export interface HypothesesData {

@@ -74,6 +74,24 @@ export function HypothesisBanner({ id, fallbackTitle }: { id: HypothesisId; fall
               <span className="font-semibold text-secondary tnum">{fmt(e.value, e.unit)}</span>
             </span>
           ))}
+          {result.stats && (
+            <span
+              className="inline-flex items-baseline gap-1 rounded-md bg-surface-2 px-2 py-0.5 text-[11px]"
+              title={`${result.stats.test} — ${result.stats.note}`}
+            >
+              <span className="text-muted">검정</span>
+              <span className="font-semibold text-secondary tnum">
+                {result.stats.df != null ? "χ²" : "z"} {dec(result.stats.statistic, 1)}
+                {result.stats.df != null ? ` (df=${result.stats.df})` : ""} ·{" "}
+                {result.stats.p_value === 0 ? "p < 0.001" : `p = ${result.stats.p_value}`}
+              </span>
+              {result.stats.repr_ci95 && (
+                <span className="text-muted tnum">
+                  CI95 [{dec(result.stats.repr_ci95[0], 3)}, {dec(result.stats.repr_ci95[1], 3)}]
+                </span>
+              )}
+            </span>
+          )}
           {result.caveat && (
             <span className="ml-auto max-w-full text-[11px] leading-snug text-muted">
               {result.caveat}

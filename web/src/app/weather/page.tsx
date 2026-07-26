@@ -173,6 +173,66 @@ export default function WeatherPage() {
     };
   }, [rates, mode, wc]);
 
+  // 분모 민감도(P0-1·P2): 연도별 비 대표비 — 일 기반(강수일수) vs 시간 기반(ERA5 강수시간).
+  // 같은 엔티티(비)의 두 분모 정의라 동일 hue + 실선/점선·심볼로 구분(색 단독 의존 회피).
+  const yearlyOption = useMemo<EChartsCoreOption | null>(() => {
+    if (exposure.status !== "ready" || !exposure.data.by_year) return null;
+    const rows = exposure.data.by_year.filter((r) => inYear(r.year, f.yearRange));
+    if (!rows.length) return null;
+    const c = CHROME[mode];
+    return {
+      ...baseOption(mode),
+      tooltip: {
+        ...(baseOption(mode).tooltip as object),
+        trigger: "axis",
+        valueFormatter: (v: number | null) => (v == null ? "—" : mult(v)),
+      },
+      legend: {
+        ...(baseOption(mode).legend as object),
+        data: ["일 기반(강수일수)", "시간 기반(ERA5 강수시간)"],
+        top: 0,
+        right: 0,
+      },
+      grid: { left: 8, right: 16, top: 32, bottom: 8, containLabel: true },
+      xAxis: { type: "category", data: rows.map((r) => String(r.year)), ...catAxis(mode) },
+      yAxis: {
+        type: "value",
+        ...valAxis(mode),
+        name: "비 대표비",
+        nameTextStyle: { color: c.muted, fontSize: 10 },
+      },
+      series: [
+        {
+          name: "일 기반(강수일수)",
+          type: "line",
+          symbol: "circle",
+          symbolSize: 5,
+          lineStyle: { width: 2, color: wc.rain },
+          itemStyle: { color: wc.rain },
+          data: rows.map((r) => r.rain_repr),
+        },
+        {
+          name: "시간 기반(ERA5 강수시간)",
+          type: "line",
+          symbol: "diamond",
+          symbolSize: 6,
+          lineStyle: { width: 2, color: wc.rain, type: "dashed" },
+          itemStyle: { color: wc.rain },
+          data: rows.map((r) => r.rain_repr_time),
+          markLine: {
+            symbol: "none",
+            silent: true,
+            lineStyle: { color: c.muted, type: "dashed", width: 1 },
+            label: { formatter: "1.0 (비례 기준)", color: c.muted, fontSize: 10, position: "insideEndTop" },
+            data: [{ yAxis: 1 }],
+          },
+        },
+      ],
+    };
+  }, [exposure, f.yearRange, mode, wc]);
+
+  const te = exposure.status === "ready" ? exposure.data.time_exposure : undefined;
+
   const surfaceOption = useMemo<EChartsCoreOption | null>(() => {
     if (weather.status !== "ready") return null;
     const sev = SEVERITY_COLORS[mode];
@@ -261,6 +321,41 @@ export default function WeatherPage() {
           )}
         </Card>
         <Card className="lg:col-span-2">
+          <SectionTitle
+            title="분모 민감도 — 연도별 비 대표비"
+            hint="같은 분자(비 사고 점유율)를 두 분모로 나눔: 강수'일수'(판정 정본) vs ERA5 강수'시간'(민감도)"
+            right={te ? <Badge tone="warning">일 {mult(exposure.status === "ready" ? exposure.data.pooled.rain_repr : 0)} → 시간 {mult(te.rain_repr_time)}</Badge> : undefined}
+          />
+          <DataState state={exposure} height={280}>
+            {() =>
+              yearlyOption && (
+                <EChart option={yearlyOption} height={280} notMerge aria-label="연도별 비 대표비 — 일 기반 vs 시간 기반" />
+              )
+            }
+          </DataState>
+          {te && exposure.status === "ready" && (
+            <div className="mt-2 space-y-1 border-t border-border pt-2.5 text-[11px] leading-relaxed text-muted">
+              <p>
+                <span className="font-semibold text-secondary">왜 두 개인가:</span> 사고의 기상 라벨은{" "}
+                <span className="text-primary">사고가 난 &lsquo;순간&rsquo;</span>의 날씨인데, 분모인 강수
+                &lsquo;일수&rsquo;는 0.1mm만 와도 하루 전체를 셉니다. 강수일 점유율{" "}
+                <b className="text-primary tnum">{(te.rain_days_share * 100).toFixed(1)}%</b> vs 실제 강수시간 점유율{" "}
+                <b className="text-primary tnum">{(te.rain_hours_share * 100).toFixed(1)}%</b> — 분모를 시간으로 바꾸면
+                대표비가 <b className="text-primary tnum">{mult(exposure.data.pooled.rain_repr)}</b> →{" "}
+                <b className="text-primary tnum">{mult(te.rain_repr_time)}</b>로 약{" "}
+                <b className="text-primary tnum">{(te.rain_repr_time / exposure.data.pooled.rain_repr).toFixed(1)}배</b>{" "}
+                커집니다. 그래도 1 미만 = 강수 시간에도 심각사고는 노출 대비 적게 발생(방향 유지).
+              </p>
+              <p>
+                남은 격차는 통행량 감소·서행 등으로 추정되지만 월 단위 데이터로는 분리할 수 없습니다 —{" "}
+                <span className="font-medium text-secondary">분모 정의가 지표 크기를 좌우하므로, 크기보다 방향과
+                민감도를 함께 읽어야 합니다.</span>{" "}
+                (강수시간: Open-Meteo ERA5 재분석 · 일 단위 눈/비 분리 근사 · CC-BY 4.0)
+              </p>
+            </div>
+          )}
+        </Card>
+        <Card className="lg:col-span-2">
           <SectionTitle title="노면상태 × 심각도" hint="노면 상태별 중상·사망 사고 (누적 막대)" />
           <DataState state={weather} height={300}>
             {() =>
@@ -276,7 +371,8 @@ export default function WeatherPage() {
         눈일수가 강수일수의 부분집합이 아니어서(관측 25개월 위반) 강수·눈 일수를 모두 차감하는 합집합 정의를 채택했습니다.
         비·눈이 같은 날 겹치면 이중 차감될 수 있어 맑음군 사고율이 다소 높게(=비·눈 배율이 다소 낮게, 보수적으로) 추정됩니다.
         강수일수(일강수 ≥0.1mm)와 눈일수(눈 현상 관측)는 관측 기준이 다릅니다. 월 단위 해상도이며 흐림·맑음을 구분하지
-        못하는 근사입니다. 상관 관계이며 인과가 아닙니다.
+        못하는 근사입니다. 상관 관계이며 인과가 아닙니다. 분모를 강수 &lsquo;시간&rsquo;으로 바꾼 민감도 분석은 위
+        &lsquo;분모 민감도&rsquo; 카드와 데이터 소개 페이지를 참조하세요.
       </p>
     </div>
   );

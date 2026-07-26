@@ -142,6 +142,42 @@ def test_exposure_accident_totals_match():
     assert p["rain_repr"] is not None and p["snow_repr"] is not None
 
 
+def test_exposure_time_sensitivity():
+    # P2: 시간 기반 분모 민감도 — ERA5 강수시간. 2007-2025 = 6,940일 × 24h 고정
+    e = load("exposure")
+    te = e["time_exposure"]
+    assert te["total_hours"] == 6940 * 24
+    assert 0 < te["rain_hours_total"] <= te["precip_hours_total"] < te["total_hours"]
+    p = e["pooled"]
+    expect = (p["rain_acc_total"] / p["total_acc"]) / (te["rain_hours_total"] / te["total_hours"])
+    assert te["rain_repr_time"] == pytest.approx(expect, rel=1e-2)
+    # 시간 기반 대표비는 일 기반보다 커야 함(분모 축소) — 방향(<1)은 유지 실측
+    assert te["rain_repr_time"] > p["rain_repr"]
+    # monthly 행에도 시간 필드 존재
+    assert all("precip_hours" in r and "rain_hours" in r for r in e["monthly"])
+
+
+def test_exposure_by_year():
+    by = load("exposure")["by_year"]
+    assert [r["year"] for r in by] == list(range(2007, 2026))
+    for r in by:
+        assert r["rain_acc"] >= 0 and r["rain_repr"] is not None
+        assert "rain_repr_time" in r and "snow_repr" in r
+
+
+def test_hypotheses_stats_present():
+    # P1: 결정적 통계 검정 — 각 가설에 stats(검정명·통계량·p) 존재, 대규모 표본이라 p<0.001
+    for x in load("hypotheses")["hypotheses"]:
+        s = x["stats"]
+        assert s["test"] and s["statistic"] is not None
+        assert s["p_value"] < 0.001
+    h2 = next(x for x in load("hypotheses")["hypotheses"] if x["id"] == "H2")
+    lo, hi = h2["stats"]["repr_ci95"]
+    assert lo < h2["metric_value"] < hi  # CI가 점추정 포함
+    labels = [e["label"] for e in h2["evidence"]]
+    assert any("시간 기반" in la for la in labels)  # 민감도 증거 병기
+
+
 # ---------- facts ----------
 def test_facts_columns_aligned_and_budget():
     f = load("facts")

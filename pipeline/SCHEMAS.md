@@ -1,6 +1,7 @@
 # SCHEMAS.md — 대시보드 JSON 데이터 계약 (FROZEN, Phase 0-3)
 
 - 동결: 2026-07-24 (worker-pipeline). 이 문서는 **파이프라인 산출(`pipeline/output/*.json`)과 web 소비의 계약**이다.
+- **v1.1 (2026-07-27) 하위호환 추가 필드**: exposure `monthly.{precip_hours,rain_hours,snow_hours}` · `by_year` · `time_exposure` · `definitions.repr_time`, hypotheses `stats`, meta `cleaning_notes.hours_source`. 기존 필드 삭제·타입 변경 없음(§3.4·§3.7·§6 참조). 판정 지표·임계값은 동결 유지.
 - 소비처: `web/public/data/*.json` (개발 시 복사 / 시연 시 compose 볼륨 오버레이).
 - 목(mock) 픽스처: `pipeline/fixtures/*.json` (동일 스키마, 가짜 데이터 — worker-web 병렬 착수용).
 - 변경 시 worker-pipeline + worker-web 양측 합의 필요. **필드 추가는 하위호환(무시 가능), 필드 삭제/타입 변경은 파괴적**.
@@ -115,10 +116,28 @@ WEATHER_GROUP: 맑음군 = {맑음,흐림,기타}, 비, 눈
                   "clear_rate":"맑음군({맑음,흐림,기타}) 사고건수 ÷ max(1, 월일수 − 강수일수 − 눈일수)",
                   "ratio":"각 사고율 ÷ 맑음군 사고율 (per-day, 라벨 편향)",
                   "repr":"노출 보정 대표비 = 조건 사고 점유율 ÷ 조건 일수 점유율 (>1 과대표집=더 위험)",
+                  "repr_time":"시간 기반 대표비 = 조건 사고 점유율 ÷ 조건 '시간' 점유율 (분모 민감도용, v1.1)",
                   "caveat":"월단위·카테고리 근사, 상관(인과 아님)"},
-  "snow_subset_verified": false   // 실측: 눈일수 ⊄ 강수일수 (25개월 위반) → union 정의(강수·눈 모두 차감). profile §7
+  "snow_subset_verified": false,  // 실측: 눈일수 ⊄ 강수일수 (25개월 위반) → union 정의(강수·눈 모두 차감). profile §7
+
+  // ---- v1.1 추가 (하위호환·additive — 구 소비자는 무시 가능) ----
+  // monthly 행에 ERA5 월별 강수시간 3필드 추가: "precip_hours":<1자리>, "rain_hours":<1자리>, "snow_hours":<1자리>
+  "by_year": [ {"year":<int>, "rain_acc":<int>,"snow_acc":<int>,"clear_acc":<int>,
+      "rain_repr":<3|null>,"snow_repr":<3|null>,          // 일 기반 연도별 대표비 (추이 차트)
+      "rain_repr_time":<3|null>,"snow_repr_time":<3|null> // 시간 기반 (민감도)
+  } ],  // 19행, 정렬키: year
+  "time_exposure": {              // 분모 민감도(P2): 분모 강수'일수'→'시간' 전환 시 대표비 변화 정량화
+    "source":<string>, "split_note":<string>,             // Open-Meteo ERA5 재분석, CC-BY 4.0; 눈/비 일 단위 분리 근사
+    "rain_hours_total":<1>,"snow_hours_total":<1>,"precip_hours_total":<1>,"total_hours":<int>,  // 166,560 = 6,940일×24
+    "rain_hours_share":<4>,"rain_days_share":<4>,"rain_acc_share":<4>,
+    "rain_repr_time":<3>,"snow_repr_time":<3>,"wet_repr_time":<3>,
+    "caveat":<string>             // 판정은 동결된 일 기반 유지 — 실측: 비 0.246(일)→0.641(시간), 방향(<1) 유지
+  }
 }
 ```
+- **시간 해상도 불일치(v1.1 명문화)**: 분자(사고 라벨)는 사고 '순간' 기상, 일 기반 분모는 '0.1mm 이상 일수' —
+  강수일 점유율 30.5% vs 실제 강수시간 점유율 11.7%(ERA5)로 일 기반 대표비는 구조적 하향 편향.
+  `time_exposure`가 이를 정량화(민감도 분석). 데이터: `data/weather/rain_hours.csv` (`fetch_weather.py --hours-only` 재현).
 - **⚠️ 지표 2종 구분**: `rain_ratio`(per-day 배율)는 맑음이 지배 라벨(85%)이라 clear_rate가 구조적으로 과대 → 편향(참고·기술 표시용). **H2 판정·"×N배" 헤드라인은 노출 보정 `rain_repr`/`snow_repr`(대표비) 사용** — 일수로 정규화되어 방어 가능. 상세 profile_report §5·§7.
 - **오늘의 위험도 위젯**: Open-Meteo로 현재 날씨→{맑음군/비/눈} 매핑 후, `by_calendar_month[현재월]`의 `rain_repr`(비) 또는 `snow_repr`(눈)를 "과거 통계상 오늘 같은 날씨 사고 위험 ×N배"로 표기. 맑음군이면 1.0 기준. **"예측" 문구 금지, "과거 통계 조회"**.
 
@@ -167,6 +186,12 @@ WEATHER_GROUP: 맑음군 = {맑음,흐림,기타}, 비, 눈
       "thresholds": {"supported_min":<number>,"partial_min":<number>},  // v≥supported_min→supported; partial_min≤v<supported_min→partial; v<partial_min→rejected
       "verdict":"supported|partial|rejected",
       "evidence": [ {"label":<string>,"value":<number>,"unit":<string|null>} ],
+      "stats": {                                        // v1.1 추가(additive) — 결정적 통계 검정(scipy 미사용, 순수 수치)
+        "test":<string>, "statistic":<number>, "df":<int|null>,
+        "p_value":<number>,                             // 1e-6 미만은 0.0 언더플로 → 표시층에서 "p < 0.001"
+        "repr_ci95":[<3>,<3>]?,                         // H2만: Wilson CI(사고점유율)÷일수점유율 조건부 CI
+        "note":<string>                                 // n=22만 대표본 — 유의성은 자명, 임계값은 효과크기 기준
+      },
       "caveat":<string>
     }
     // H1,H2,H3,H4 — 정렬키: id
@@ -175,10 +200,11 @@ WEATHER_GROUP: 맑음군 = {맑음,흐림,기타}, 비, 눈
 ```
 판정 지표·임계값(profile_report.md §6 확정):
 - **H1** metric=계절 건수 최대/최소 비율; supported_min=1.30, partial_min=1.12. → 실측 **1.183 = partial**
-- **H2** metric=노출 보정 대표비 max(비 repr, 눈 repr); supported_min=1.20, partial_min=0.90. → 실측 **0.246 = rejected** (강수·적설일 심각사고 과소표집; per-day 배율 아님)
-- **H3** metric=구별 비-사고비율 최대/최소 비율; supported_min=1.50, partial_min=1.20. → 실측 **1.404 = partial** (종로 0.087 / 성동 0.062)
-- **H4** metric=축 하위그룹 비-사고비율 최대/최소 배율의 최댓값(표본 ≥1000); supported_min=1.50, partial_min=1.20. → 실측 **3.132 = supported** (차종: 승용 0.081 / 자전거 0.026)
+- **H2** metric=노출 보정 대표비 max(비 repr, 눈 repr); supported_min=1.20, partial_min=0.90. → 실측 **0.246 = rejected** (일 기반 정의 기준. v1.1 해석 갱신: 분자·분모 시간 해상도 불일치로 구조적 하향 — 시간 기반 민감도 0.641, 방향 <1 유지. 통행량 감소 효과와 분리 불가; profile §8)
+- **H3** metric=구별 비-사고비율 최대/최소 비율; supported_min=1.50, partial_min=1.20. → 실측 **1.404 = partial** (종로 0.087 / 성동 0.062; 구별 노출 보정 없음 명시)
+- **H4** metric=축 하위그룹 비-사고비율 최대/최소 배율의 최댓값(표본 ≥1000); supported_min=1.50, partial_min=1.20. → 실측 **3.132 = supported** (차종: 승용 0.081 / 자전거 0.026. v1.1 해석 갱신: 위험 '증폭'이 아닌 우천 시 통행 구성 변화(노출 감소)를 주로 반영 가능 — '날씨에 따른 사고 구성 변화'로 해석)
 - verdict는 파이프라인이 metric_value와 thresholds로 **결정적 계산**(수동 금지). pytest로 재실행 동일성 검증.
+- v1.1: 각 가설에 결정적 통계 검정(`stats`) 병기 — H1 chi² 적합도(계절 일수 비례 기대치), H2 이항 z + 대표비 Wilson CI, H3 2×25 동질성 chi², H4 2×k 동질성 chi²(최대 축). 전부 p < 0.001(n=223,290) — **임계값은 유의성이 아닌 효과크기 경계**임을 명시.
 
 ## 4. 산출 경로
 
